@@ -1,0 +1,31 @@
+2021/05/30 13:07:52.567 Info   Starting JoyToKey v6.6
+2021/05/30 13:07:52.567 Info   ExeFile = C:\Program Files (x86)\JoyToKey\JoyToKey.exe
+2021/05/30 13:07:52.567 Info   Args = C:\Program Files (x86)\JoyToKey\JoyToKey.exe
+2021/05/30 13:07:52.567 Info   DataDirectory = C:\Users\pedro\Documents\JoyToKey\
+2021/05/30 13:07:52.567 Info   Profile = 
+2021/05/30 13:07:52.567 Info   IniFile = C:\Users\pedro\Documents\JoyToKey\JoyToKey.ini
+2021/05/30 13:07:52.568 Info   Loading ini file: C:\Users\pedro\Documents\JoyToKey\JoyToKey.ini (AppInfo.cpp#240)
+2021/05/30 13:07:52.568 Info   LicenseKey "" is not valid
+2021/05/30 13:07:52.770 Info   Loading XInput1_3.dll (Joystick.cpp#153)
+2021/05/30 13:07:52.771 Info   Initialized XInput (Joystick.cpp#171)
+2021/05/30 13:07:52.779 Info   Initialized DirectInput (Joystick.cpp#184)
+2021/05/30 13:07:52.779 Info   Loading hid.dll (JoystickHID.h#58)
+2021/05/30 13:07:52.780 Info   Initialized HID (Joystick.cpp#193)
+2021/05/30 13:07:52.780 Info   ConfigDir=C:\Users\pedro\Documents\JoyToKey\*.cfg (ConfigFileManager.cpp#43)
+2021/05/30 13:07:52.791 Info   Failed to find AppLink.dat (AppLink\AppLinkManager.cpp#32)
+2021/05/30 13:07:52.819 Info   TimerInit: Initializing timer with x1 speed mode (interval = 16 msec)
+2021/05/30 13:07:53.608 Info   Detected a DI joystick: Generic   USB  Joystick  , Generic   USB  Joystick  , 00060079, {2721CB20-B4F7-11EB-8003-444553540000}
+2021/05/30 13:07:53.608 Info   numAxis = 5
+2021/05/30 13:07:53.608 Info   numPOVs = 1
+2021/05/30 13:07:53.608 Info   numButtons = 12
+2021/05/30 13:07:53.608 Info   EnumDeviceObject: Axis offset=0 type=502 name=Rotação Z
+2021/05/30 13:07:53.608 Info   EnumDeviceObject: Axis offset=4 type=202 name=Eixo Z
+2021/05/30 13:07:53.608 Info   EnumDeviceObject: Axis offset=8 type=602 name=Eixo Z
+2021/05/30 13:07:53.608 Info   EnumDeviceObject: Axis offset=12 type=102 name=Eixo Y
+2021/05/30 13:07:53.608 Info   EnumDeviceObject: Axis offset=16 type=2 name=Eixo X
+2021/05/30 13:07:53.609 Info   DetectJoysticks: Detected 1 DI joystick(s)
+2021/05/30 13:07:53.615 Info   Joystick #1: Generic   USB  Joystick
+2021/05/30 13:07:53.615 Info   1 joystick(s) are detected (Joystick.cpp#272)
+30/05/2021 18:37:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#340)
+30/05/2021 18:37:14 Error  Acesso negado.
+ (Utils\Utils.cpp#341)
