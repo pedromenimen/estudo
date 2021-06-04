@@ -9,15 +9,15 @@ body {
     background-size: cover;
     background: url(assets/pixelart.gif) center center no-repeat fixed;
 }
-body div{  
-    padding: 0 1vw;
+div{  
+    padding: 1vw;
     border: solid 2px;
     border-radius: 20px;
     background-color: rgb(196, 196, 196);
     font-size: 2vw;
     margin: 10px 0;
 }
-body div h1{
+div h1{
     text-align: center;
     margin: 10px 0;
 }
@@ -25,4 +25,8 @@ table, td, th{
     border: solid black 1px;
     border-collapse: collapse;
     padding: 1vw;
+}
+details > summary {
+    cursor: pointer;
+    list-style: none;
 }
