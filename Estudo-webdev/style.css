@@ -7,12 +7,22 @@ body {
     font-family: monospace;
     font-weight: bold;
     background-size: cover;
-    background: url(assets/pixelart.gif)
+    background: url(assets/pixelart.gif) center center no-repeat fixed;
 }
 body div{  
     padding: 0 1vw;
     border: solid 2px;
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgb(196, 196, 196);
     font-size: 2vw;
+    margin: 10px 0;
+}
+body div h1{
+    text-align: center;
+    margin: 10px 0;
+}
+table, td, th{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 1vw;
 }
