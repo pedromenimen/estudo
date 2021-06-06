@@ -71,11 +71,11 @@
                         </tr>
                         <tr>
                             <td>cd</td>
-                            <td>Muda de diretório e.g.: cd ~/Downloads, se move pra pasta Downloads.</td>
+                            <td>Muda de diretório e.g.: cd ~/Downloads, se move pra pasta Downloads. Famoso teleporte editado.</td>
                         </tr>
                         <tr>
                             <td>pwd</td>
-                            <td>Mostra em que diretório está.</td>
+                            <td>Mostra o diretório atual.</td>
                         </tr>
                         <tr>
                             <td rowspan="4">ls</td>
@@ -137,19 +137,196 @@
                         </tr>
                         <tr>
                             <td>echo</td>
-                            <td>Repete uma frase qualquer que seja especificada, ainda não vi utilidade nesse comando mas eu sou noob.</td>
+                            <td>Repete uma frase ou palavra qualquer que seja especificada, se depois da frase ou palavra for digitado sinal de maior que(>) e um arquivo, o comando cria o arquivo com a frase dentro.</td>
                         </tr>
                         <tr>
                             <td>cat</td>
-                            <td>Imprime o conteúdo de um arquivo na saída padrão, como no echo, e também como o echo ele pode imprimir conteúdo em outro arquivo</td>
+                            <td>Imprime o conteúdo de um arquivo na saída padrão, como no echo, e também como o echo ele pode imprimir conteúdo em outro arquivo.</td>
+                        </tr>
+                        <tr>
+                            <td>tail</td>
+                            <td>Imprime as últimas linhas de um arquivo, tipo tail -n 5 qualquercoisa.txt imprime as últimas 5 linhas de um arquivo</td>
                         </tr>
                     </table>
                     <p>O . e o .. tem funções interessantes. O ponto final indica o diretório atual e pode ser digitado para economizar texto, e.g., cp text.txt ./text4.txt, o arquivo sera copiado para a mesma pasta com outro nome. O mesmo vale para cp text3.txt .., o arquivo vai para a pasta pai. Para renomear um arquivo basta mover um arquivo com outro nome, e.g.:mv text.txt text66.txt</p>
                 </div>
             </details>
+            <details>
+                <summary>
+                    <div>
+                        <h1>O que deu pra estudar no dia 05/06/2021</h1>
+                    </div>
+                </summary>
+                <div>
+                    <p>Hoje deu pra ver uns comandos dentro do vi. O vi é um editor de texto de trocentos anos atrás, na época que não tinha interfaces dahoras, mas ainda estudam isso hoje por algum motivo. Existem 3 modos dentro do vi, o modo de comando, o modo de linha de comando e o modo de inserção. O vi já entra em modo de comando e ao apertar : ele entra em modo de linha de comando. Para sair do modo linha de comando basta apagar o :. Para entrar no modo inserção basta apertar i no modo de comando, e para sair basta apertar esc. Porém ao entrar no modo inserção as setas não fazem sua função nem a tecla backspace, então é necessário sair do vi para resolver isso. É necessário criar um arquivo chamado .vimrc e entrar no modo inserção, depois digitar set nocompatible, depois dar uma quebra de linha, e continuar escrevendo set backspace=2. Agora é sair do modo inserção, salvar e sair do modo vi e as setas e o backspace estarão funcionando como deveriam no modo inserção.</p>
+                    <p> Alguns comandos básicos úteis da linha de comando estarão listados abaixo bem como suas respectivas funções.</p>
+                    <table>
+                        <tr>
+                            <th>Comando</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>:q</td>
+                            <td>Sai do editor vi.</td>
+                        </tr>
+                        <tr>
+                            <td>:q!</td>
+                            <td>Sai do editor sem salvar.</td>
+                        </tr>
+                        <tr>
+                            <td>:w</td>
+                            <td>Salva mudanças feitas no vi.</td>
+                        </tr>
+                        <tr>
+                            <td>:wq</td>
+                            <td>Salva e sai do vi.</td>
+                        </tr>
+                        <tr>
+                            <td>:u</td>
+                            <td>Desfaz a última mudança.</td>
+                        </tr>
+                        <tr>
+                            <td>:help</td>
+                            <td>é tipo o man mas pra comandos do modo de comando, ou algo assim.</td>
+                        </tr>
+                    </table>
+                    <p>Abaixo há outra tabela com comandos do modo de linha de comando, alguns são meio desnecessários mas algum dia deve ser útil.</p>
+                    <table>
+                        <tr>
+                            <th>Comando</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>i</td>
+                            <td>Entra no modo inserção</td>
+                        </tr>
+                        <tr>
+                            <td>a</td>
+                            <td>~Entra no modo inserção mas os caracteres digitados aparecem depois daquele retângulo branco piscando. Honestamente já me acostumei com as letras saindo do lado esquerdo então entrar sempre com o i.</td>
+                        </tr>
+                        <tr>
+                            <td>o</td>
+                            <td>Insere uma nova linha abaixo de onde o retângulo branco piscando estiver(vou chamar de cursor pq pqp) e entra no modo inserção.</td>
+                        </tr>
+                        <tr>
+                            <td>O</td>
+                            <td>Insere uma nova linha acima de onde estiver o cursor e entra no modo inserção.</td>
+                        </tr>
+                        <tr>
+                            <td>h(não tenho certeza se é h ou H, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
+                            <td>Move o cursor pra a esquerda.</td>
+                        </tr>
+                        <tr>
+                            <td>j(não tenho certeza se é j ou J, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
+                            <td>Move o cursor pra baixo.</td>
+                        </tr>
+                        <tr>
+                            <td>k(não tenho certeza se é k ou K, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
+                            <td>Move o cursor pra cima.</td>
+                        </tr>
+                        <tr>
+                            <td>l(não tenho certeza se é l ou L, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
+                            <td>Move o cursor pra direita.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">w</td>
+                            <td>Move o cursor para a primeira letra da prócima palavra.</td>
+                        </tr>
+                        <tr>
+                            <td>2w move o cursor para a primeira letra da segunda palavra a partir da atual, e isso vale para todos os números, 3w avança 3 palavras, 4w avança 4 palavras, etc.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">b</td>
+                            <td>Move o cursor para a primeira letra da palavra atual, ou da palavra anterior caso esteja num espaço vazio.</td>
+                        </tr>
+                        <tr>
+                            <td>2b move o cursor 2 palavras pra trás e isso vale para todos os números, 3b volta 3 palavras, 4b volta 4 palavras , etc.</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>Move o cursor para o começo da linha atual.</td>
+                        </tr>
+                        <tr>
+                            <td>$</td>
+                            <td>Move o cursor para o fim da linha atual.</td>
+                        </tr>
+                        <tr>
+                            <td>gg</td>
+                            <td>Move o cursor para o início do arquivo.</td>
+                        </tr>
+                        <tr>
+                            <td>G</td>
+                            <td>Move o cursor para a primeira letra da última linha.</td>
+                        </tr>
+                        <tr>
+                            <td>G$</td>
+                            <td>Move o cursor para a última letra da última linha, o fim do arquivo.</td>
+                        </tr>
+                        <tr>
+                            <td>x(não tenho certeza se é x ou X, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</span></td>
+                            <td>Apaga o caractere onde o cursor estiver.</td>
+                        </tr>
+                        <tr>
+                            <td>db</td>
+                            <td>Apaga todo o conteúdo entre o cursor e a primeira letra da palavra anterior.</td>
+                        </tr>
+                        <tr>
+                            <td>dw</td>
+                            <td>Apaga todo o conteúdo entre o caractere onde o cursor estiver e a primeira letra da próxima palavra.</td>
+                        </tr>
+                        <tr>
+                            <td>d0<span style="color:red">(Conferir quando estiver no ubuntu tb)</span></td>
+                            <td>Apaga todo o conteúdo entre o cursor e o primeiro caractere da linha atual.</td>
+                        </tr>
+                        <tr>
+                            <td>d$<span style="color:red">(Conferir quandoestiver no ubuntu tb)</span></td>
+                            <td>Apaga todo o conteúdo entre o caractere onde o cursor estiver e o último caractere da linha atual.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">dd</td>
+                            <td>Apaga(na verdade recorta, mas no fim é quase a mesma coisa) a linha toda onde o cursor estiver.</td>
+                        </tr>
+                        <tr>
+                            <td>3dd apaga as próximas 3 linhas inteiras, e funfa com 4dd 5dd do msm jeito.</td>
+                        </tr>
+                        <tr>
+                            <td>yy</td>
+                            <td>Copia uma linha inteira.</td>
+                        </tr>
+                        <tr>
+                            <td>p</td>
+                            <td>Cola o que estiver copiado(ou recortado) na linha de baixo, que se move pra baixo dando lugar ao que for colado.</td>
+                        </tr>
+                        <tr>
+                            <td>P</td>
+                            <td>Cola o que estiver copiado(ou recortado) na linha atual, que se move pra baixo dando lugar ao que for colado.</td>
+                        </tr>
+                        <tr>
+                            <td>V</td>
+                            <td>Entra no modo visual destacando a linha atual, e ao mover com as setas seleciona a linha inteira de baixo ou a de cima, depende da seta teclada. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
+                        </tr>
+                        <tr>
+                            <td>v</td>
+                            <td>Entra no modo visual só que seleciona caractere por caractere a partir do cursor. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
+                        </tr>
+                        <tr>
+                            <td>ctrl+v</td>
+                            <td>Entra no modo visual em bloco, que é tipo aquele modo do vscode quando vc seleciona o texto com o scroll do mouse. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
+                        </tr>
+                        <tr>
+                            <td>1v</td>
+                            <td>Seleciona com o mesmo formato da última seleção feita em qualquer um dos modos visuais e volta ao modo visual.</td>
+                        </tr>
+                        <tr>
+                            <td>gv</td>
+                            <td>Seleciona a mesma seleção feita em algum modo visual e volta ao modo visual.</td>
+                        </tr>
+                    </table>
+                </div>
+            </details>
             
-            <audio controls>
-                <source src="/estudo/Estudo-webdev/assets/Everybody's Circulation.mp3">
+            <audio autoplay>
+                <source src="">
               </audio>
     </body>
 </html>
