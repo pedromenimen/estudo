@@ -29,10 +29,10 @@ table, td, th{
 details > summary {
     cursor: pointer;
     list-style: none;
-}
+}/*
 audio{
     position: absolute;
     top: 35px;
     opacity: 0%;
     z-index: -1;
-}
+}*/
