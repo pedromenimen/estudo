@@ -741,113 +741,155 @@
                 <div><h1>Vai dá uma revisada em switch vai, ninguém usa mas vc sabe melhor que ninguém que existe gente diferente por aí.</h1></div>
                 <p>Ae carai 2 dias seguidos, isso quer dizer que voltei a anotar o que aprendi com mais frequência. Mas é pq nessa sprint não tem atividade valendo nota e parece ser mais tranquila, se não for tão tranquila não escrevo aqui nos próximos dias hsauhsuasuah.</p>
                 <p>A aula sobre métodos de string mostra vários métodos além de uma página no mdn falando sobre strings e tipos de strings, algum outro dia dou foco nisso. Hoje o foco é nos métodos, e se algum deles falhar por isso eu volto e leio mais o primeiro link, e fazer isso se mostrou bem efetivo nas outras sprints(bateu a dúvida? volta e lê tudo de novo, pq vc polou algo sim, eu te conheço).</p>
-                <table id="methodStr">
-                    <tr>
-                        <th>Método</th>
-                        <th>O que faz</th>
-                    </tr>
-                    <tr>
-                        <td>.split()</td>
-                        <td>Separa uma string em vários itens de array, com base no que foi colocado dentro dos parêntesis.
-                            Dada a variável let texto = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aperiam facere voluptate", ao aplicar o método splic da seguinte maneira: texto.split(" "), retorna o array (12) ["Lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipisicing", "elit.", "Dolor", "aperiam", "facere", "voluptate"]. Ao aplicar usando texto.split("e"), retorna a string (10) ["Lor", "m ipsum dolor sit am", "t cons", "ct", "tur adipisicing ", "lit. Dolor ap", "riam fac", "r", " voluptat", ""] e assim por diante.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.slice()</td>
-                        <td>O método slice pega uma parte da string, essa parte é definida dentro dos parêntesis. texto.slice(2) retorna a string com o texto a partir do segundo caractere, texto.slice(8) retorna o texto a partir do oitavo caractere. Números negativos retornam os últimos caracteres da string. Ao escolher 2 números separados por vírgula, o texto.slice(a, b) retora a partir a partir do caractere de posição a, até o caractere de posição b.</td>
-                    </tr>
-                    <tr>
-                        <td>.substring()</td>
-                        <td>Faz basicamente a mesma coisa que o .slice(), se este apresentar 2 valores entre os pareêntesis, porém não é possível usar valores negativos, tendo em vista que o javascript automaticamente troca os números de lugares se o primeiro valor for maior que o segundo.</td>
-                    </tr>
-                    <tr>
-                        <td>.substr</td>
-                        <td>Não tem no canvas mas eu achei mais legal que o substring então vou falar dele também. É praticamente igual ao substring, mas o segundo valor dentro dos parêntesis equivale ao número de caracteres a partir do primeiro, então (2, 4) pega 4 caracteres a partir do segundo, no substring pegaria do caractere de posição 2 até o caractere de posição 4.</td>
-                    </tr>
-                    <tr>
-                        <td>.indexOf()</td>
-                        <td>O método indexOf de alguma string qualquer retorna a primeira posição encontrada de uma letra, palavra ou qualquer trecho de texto que esteja presente na string. "O tempo voa".indexOf("o") retorna 6, da palavra tempo. Como deve ter percebido, indexOf é case sensitive. Uma maneira interessante de checar se um trecho de texto está ou não em uma string é usando o if ("texto".indexOf("o") !== -1)(espera-se retorno diferente de -1, então a afirmação é true), porque quando o trecho não está no texto o retorno é -1.</td>
-                    </tr>
-                    <tr>
-                        <td>.lastIndexOif()</td>
-                        <td>Semelhante ao .indexOf(), porém a string começa a ser contada pelo último caractere, apesar do index ser contado como a palavra foi escrita, ou seja, conta de trás pra frente mas o index é de frente pra frente mesmo.</td>
-                    </tr>
-                    <tr>
-                        <td>.includes()</td>
-                        <td>Esse método verifica se a string dentro dos parêntesis estão dentro de outra string, se a posição da palavra não importa, esse até agora é o método mais indicado para procura de trechos de texto em outro texto.</td>
-                    </tr>
-                    <tr>
-                        <td>.startsWith()</td>
-                        <td>Verifica se uma string começa com a string especificada dentro dos parêntesis, é literalmente o que o nome diz. Assim como os outros métodos acima, ao colocar um número depois da string, a busca iniciará a pesquisa a partir do indíce equivalente ao número. Por exemplo "texto".startsWith("ex", 1) retorna true, o trecho ex começa no índice 1 da string "texto".</td>
-                    </tr>
-                    <tr>
-                        <td>.endsWith()</td>
-                        <td>Semelhante ao método acima, porém, começa contando do fim. Geralmente a primeira letra do trecho é o index, nesse caso a última letra do trecho é o index, que é contado normalmente sem inverter a string.</td>
-                    </tr>
-                    <tr>
-                        <td>.trim(), .trimRight, e .trimLeft</td>
-                        <td>Remove os espaços do começo e/ou do fim da string. Mas só esses. todos os espaços que estiverem depois da primeira caracteres válido ou antes do último continuarão. .trim remove dos 2 lados, se tiver dos 2 lados, .trimRight remove da direita e .trimLeft remove da esquerda. Existem funções melhores pra remover espaços, mas caso seja necessário esse nível de especificidade, tá aí.</td>
-                    </tr>
-                    <tr>
-                        <td>.toUpperCase e .toLowerCase</td>
-                        <td>Colocam o texto todo da string em letras maiúsculas e minúsculas, respectivamente.</td>
-                    </tr>
-                    <tr>
-                        <td>.match() e .search()</td>
-                        <td>Envolve expressão regular, quero ver isso ainda não mó dor de cabeça, se tá nas opcionais(a partir do .trim tava opcional no canvas) então tem jeito melhor de fazer seja lá o que essa tal match e search fizerem.</td>
-                    </tr>
-                    <tr>
-                        <td>.concat</td>
-                        <td>Concatena 2 arrays de strings ou números, coloca tudo numa array só e retorna outro array. O tal do [...[array]] faz isso melhor.</td>
-                    </tr>
-                </table>
-                <p>Agora são os métodos de arrays.</p>
-                <table>
-                    <tr>
-                        <td>.join()</td>
-                        <td>Separa os itens de array com o que tiver dentro dos parêntesis, se não tiver nada neles separa com vírgula sem espaço, uma string vazia só junta tudo. O retorno desse método é uma string.</td>
-                    </tr>
-                    <tr>
-                        <td>.splice()</td>
-                        <td>Método de array que até onde entendi remove alguns itens do array e adciona outros, opcionalmente. Dentro dos parêntesis vão 2 números e outro valor, que pode ser uma string, uma função e o que mais puder ser colocado como item de array.</td>
-                    </tr>
-                    <tr>
-                        <td>.slice()</td>
-                        <td>Esse slice é igual o outro slice, só que ao invés de retornar um caractere de um índice, ele retorna um array com os itens dentro dele correspondentes. o array [1, 2, 3, 4].slice(1, 2) retorna tudo o que vier a partir do índice 1 até o índice 2, no caso um único item do array, que é o 2.</td>
-                    </tr>
-                    <tr>
-                        <td>.includes()</td>
-                        <td>É o includes do string, só que com array. Faz a mesma coisa só que com itens de arrays ao invés de fazer com caracteres. Retorna true se tiver e false se não tiver, tudo igual. Igualmente o método de string, esse conta com 2 parâmetros, o segundo opcional, que se negativo conta a partir do último item e retorna a partir dele em direção ao último. É meio confuso essa parte.</td>
-                    </tr>
-                    <tr>
-                        <td>.findIndex()</td>
-                        <td>Encontra o index de um item de array, dentro dos parêntesis vai uma função callback, aquelas que define na hora e morre ali mesmo, mas também dá pra colocar funções de fora. Prefiro a primeira opção. Nesse caso, não sei se é padrão, mas a função callback é definida do seguinte modo: [2 ,3 ,4 ,5 ,67 ,1].findIndex(element => element === 3). Nesse caso procura o index de um item da função se, este for igual a 3. </td>
-                    </tr>
-                    <tr>
-                        <td>.find</td>
-                        <td>Faz a mesma coisa que o método acima, porém retorna o item do array ao invés de retornar o index dele.</td>
-                    </tr>
-                    <tr>
-                        <td>.pop()</td>
-                        <td>Retorna o último item de um array. Só isso. Pode ser armazenado numa variável. Nada vai entre os parêntesis. Reduz o tamanho da array usada.</td>
-                    </tr>
-                    <tr>
-                        <td>.push()</td>
-                        <td>Adciona o que tiver entre os parêntesis ao array, no fim dele para ser mais específico.</td>
-                    </tr>
-                    <tr>
-                        <td>.shift()</td>
-                        <td>Retorna o primeiro item de um array. Só isso. Pode ser armazenado numa variável. Nada vai entre os parêntesis. Reduz o tamanho da array usada.</td>
-                    </tr>
-                    <tr>
-                        <td>.unshift()</td>
-                        <td>É o push só que no começo do array.</td>
-                    </tr>
-                    <tr>
-                        <td>.concat()</td>
-                        <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e arrays.</td>
-                    </tr>
-                </table>
+                <details style="margin: 0;">
+                    <summary>
+                        <div>
+                            Métodos de string
+                        </div>
+                    </summary>
+                    <div style="border: none;">
+                        <table id="methodStr">
+                            <tr>
+                                <th>Método</th>
+                                <th>O que faz</th>
+                            </tr>
+                            <tr>
+                                <td>.split()</td>
+                                <td>"texto".split("") === (5) ["t", "e", "x", "t", "o"] <br>
+                                "texto texto".split(" ") === (2) ["texto", "texto"] <br>
+                                Não modifica o original, retorna um array de strings.
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>.slice()</td>
+                                <td>"texto".slice(2) === "xto" Seleciona a partir do índice 2 até o final <br>
+                                    "texto".slice(-2) === "to" Seleciona a partir do índice -2, que é o enésimo começando do fim da string <br>
+                                    "texto".slice(2, 4) === "xt" Seleciona um intervalo, do 2 ao 4 <br>
+                                    "texto".slice(-5, 3) === "tex" seleciona um intervalo comaçando do fim <br>
+                                    Retorna uma string, não modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.substring()</td>
+                                <td>Faz a mesma coisa que o de cima só que não dá pra usar índices negativos. <br>
+                                Retorna uma string e não modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.substr</td>
+                                <td>É diferente dos 2 acima, o segundo parâmetro não é um índice, é a quantidade de indices que ele vai retornar.<br>
+                                    "texto".substr(2, 2) === "xt" <br>
+                                    Pode ser mais útim em várias situações, na minha opinião, apesar de não poder usar indices negativos.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.indexOf()</td>
+                                <td>"texto".indexOf("e") === 1 <br>
+                                    "texto".indexOf("t") === 0 <br>
+                                    "texto".indexOf("t", 1) === 3
+                                    Retorna o índice do início da ocorrência da string entre parêntesis, na string especificada. Se não houver ocorrências, retorna -1. O segundo parâmetro, opcional, é onde se iniciará a busca pela ocorrência. Retorna um número, não modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.lastIndexOif()</td>
+                                <td>Semelhante ao .indexOf(), porém a string começa a ser contada pelo último caractere, apesar do index ser contado como a palavra foi escrita, ou seja, conta de trás pra frente mas o index é de frente pra frente mesmo. Retorna um número, não modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.includes()</td>
+                                <td>Esse método verifica se a string dentro dos parêntesis estão dentro de outra string, se a posição da palavra não importa, esse até agora é o método mais indicado para procura de trechos de texto em outro texto. 2 parâmetros, o segundo é opcional, o índice de onde se iniciará a busca. Restorna um booleano(true ou false), não modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.startsWith()</td>
+                                <td>Verifica se uma string começa com a string especificada dentro dos parêntesis, é literalmente o que o nome diz. Assim como os outros métodos acima, ao colocar um número depois da string, a busca iniciará a pesquisa a partir do indíce equivalente ao número. Retorna um booleano(true ou false), não modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.endsWith()</td>
+                                <td>Semelhante ao método acima, porém, começa contando do fim. Geralmente a primeira letra do trecho é o index, nesse caso a última letra do trecho é o index, que é contado normalmente sem inverter a string. Retorna um booleano(ture ou false), não modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.trim(), .trimRight, e .trimLeft</td>
+                                <td>Remove os espaços do começo e/ou do fim da string. Mas só esses. todos os espaços que estiverem depois da primeira caracteres válido ou antes do último continuarão. .trim remove dos 2 lados, se tiver dos 2 lados, .trimRight remove da direita e .trimLeft remove da esquerda. Existem funções melhores pra remover espaços, mas caso seja necessário esse nível de especificidade, tá aí.</td>
+                            </tr>
+                            <tr>
+                                <td>.toUpperCase e .toLowerCase</td>
+                                <td>Colocam o texto todo da string em letras maiúsculas e minúsculas, respectivamente.</td>
+                            </tr>
+                            <tr>
+                                <td>.match() e .search()</td>
+                                <td>Envolve expressão regular, quero ver isso ainda não mó dor de cabeça, se tá nas opcionais(a partir do .trim tava opcional no canvas) então tem jeito melhor de fazer seja lá o que essa tal match e search fizerem.</td>
+                            </tr>
+                            <tr>
+                                <td>.concat</td>
+                                <td>Concatena 2 arrays de strings ou números, coloca tudo numa array só e retorna outro array. O tal do [...[array]] faz isso melhor.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </details>
+                <details style="border: none; margin: 0; padding: 0;">
+                    <summary>
+                        <div>Métodos de Array</div>
+                    </summary>
+                    <div style="border: none;">
+                        <table>
+                            <tr>
+                                <td>.join()</td>
+                                <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                    texto.join() === "texto" <br>
+                                    texto.join("-") === "t-e-x-t-o" <br>
+                                    Faz array virar string, caracteres da string serão separados com o que tiver no parâmetro. Retorna uma string, não modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.splice()</td>
+                                <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                    texto.splice(2) === (3) ["x", "t", "o"] => Array original === ["t", "e"] <br>
+                                    texto.splice(2, 1) === ["x"] => Array original === ["t", "e", "t", "o"] <br>
+                                    texto.splice(1, 2) === (2) ["e", "x"] => Array original === ["t", "t", "o"] <br>
+                                    texto.splice(1, 1, "abacate") === ["e"] => Array original === ["t", "abacate", "x", "t", "o"] <br>
+                                    No mozila parece que não funciona a parte de substiruir, só exclui msm. Retorna um array, modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.slice()</td>
+                                <td>É exatamente o mesmo conceito do slice pra strings, só que retorna um array, continua a não modificar o original</td>
+                            </tr>
+                            <tr>
+                                <td>.includes()</td>
+                                <td>Mesmo conceito do includes de string, só que com array. Não modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.findIndex()</td>
+                                <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                    texto.findIndex(a => a === "x") === 2 <br>
+                                    Retorna a posição do item do array, se existir no array. Caso não exista, retorna -1. Retorna um número, não modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.find</td>
+                                <td>Faz a mesma coisa que o método acima, porém retorna o item do array ao invés de retornar o index dele.</td>
+                            </tr>
+                            <tr>
+                                <td>.pop()</td>
+                                <td>Retorna o último item de um array. Só isso. Pode ser armazenado numa variável. Nada vai entre os parêntesis. Modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.push()</td>
+                                <td>Adciona o que tiver entre os parêntesis ao array, no fim dele para ser mais específico. Retorna o indíce do que foi adcionado, modifica o original</td>
+                            </tr>
+                            <tr>
+                                <td>.shift()</td>
+                                <td>Remove e retorna o primeiro item de um array. Só isso. Pode ser armazenado numa variável. Nada vai entre os parêntesis. Modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.unshift()</td>
+                                <td>É o push só que no começo do array.Retorna o novo length. Modifica o original.</td>
+                            </tr>
+                            <tr>
+                                <td>.concat()</td>
+                                <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e arrays.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </details>
             </div>
         </details>
         <script src="index.js">
