@@ -831,6 +831,19 @@
                     <div style="border: none;">
                         <table>
                             <tr>
+                                <th>Método</th>
+                                <th>O que faz</th>
+                            </tr>
+                            <tr>
+                                <td>.sort()</td>
+                                <td>
+                                    let texto = [4,8,4,7,4,2,65,9,7,6] <br>
+                                    texto.sort((x, y) => x-y) === (10) [2, 4, 4, 4, 6, 7, 7, 8, 9, 65] <br>
+                                    texto.sort((x, y) => y-x) === (10) [65, 9, 8, 7, 7, 6, 4, 4, 4, 2] <br>
+                                    O método .sort é muito mais poderoso que ordenar em ordem crescente ou decrescente, mas por ora isso basta, retorna um array, modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
                                 <td>.join()</td>
                                 <td>let texto = ["t", "e", "x", "t", "o"] <br>
                                     texto.join() === "texto" <br>
@@ -886,6 +899,50 @@
                             <tr>
                                 <td>.concat()</td>
                                 <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e arrays.</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                </details>
+                <details style="margin: 0;">
+                    <summary>
+                        <div>Métodos de números</div>
+                    </summary>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>Método</th>
+                                <th>O que faz</th>
+                            </tr>
+                            <tr>
+                                <td>().toString()</td>
+                                <td>(123).toString() === "123" <br>
+                                    (123).toString(2) === "1111011" <br>
+                                    No primeiro parâmetro vai o número a ser convertido, no segundo a base (binário, octal, qualquer uma de 2 até 36). Retorna uma string, não modifica o original.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>.toPrecision()</td>
+                                <td>
+                                    let texto = 1.2535 <br>
+                                    texto.toPrecision() === "1.2535" <br>
+                                    texto.toPrecision(3) === "1.25" <br>
+                                    Esse método retorna uma string com o número de dígitos definido pelo parâmetro.
+                                </td>
+                                <tr>
+                                    <td>.toFixed()</td>
+                                    <td>let texto = 0.002535 <br>
+                                        texto.toFixed(3) === "1.254" <br>
+                                        Parecido com o de cima, porém o parâmetro é o número de casas decimais retornadas, e arredonda pra cima. Retorna uma string, não modifica o original.</td>
+                                </tr>
+                                <tr>
+                                    <td>.toExponential()</td>
+                                    <td>É a mesma coisa que o de cima, só que retorna com notação exponencial. Esse número em notação exponencial pode ser convertido em número normal com o .toFixed().</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
                             </tr>
                         </table>
                     </div>
