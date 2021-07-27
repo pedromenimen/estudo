@@ -1,956 +1,1129 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="assets/favicon.ico">
-        <title>Estudo webdev</title>
-        <meta lang="pt-br">
-    </head>
-    <body>
-        <img src="assets/pixelart.gif">
-        <details>    
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 02/06/2021</h1>
-                </div>
-            </summary>    
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <title>Estudo webdev</title>
+    <meta lang="pt-br">
+</head>
+
+<body>
+    <img src="assets/pixelart.gif">
+    <details>
+        <summary>
             <div>
-                <p>Tags básicas tipo &lt;h1~6&gt;, &lt;p&gt;, &lt;li&gt;, &lt;ol&gt;, &lt;ul&gt;, &lt;a&gt; e seus principais atributos(href, target, title etc).</p>
-                <p>As tags &lt;div&gt; e &lt;span&gt; além da definição de peso semântico e nível bloco e linha. </p>
-                <p>Outras tags:&lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;u&gt;, &lt;cite&gt;, &lt;i&gt;, &lt;pre&gt;.</p>
-                <p>Também foram mencionadas as tags &lt;dd&gt;, &lt;dt&gt; e &lt;dl&gt;, mas foi dito que são incomuns apesar de eu ter curtido mais que as listas normais.</p>
-                <p>Id's podem ser usados para linkar uma parte da página à outra. Para linkar id's de outras páginas basta colocar o nome da página seguido do # e o nome. <a href="teste.html#testememo">Tipo assim</a></p>
+                <h1>O que deu pra estudar no dia 02/06/2021</h1>
             </div>
-        </details>   
-        <details>
-            <summary>    
+        </summary>
+        <div>
+            <p>Tags básicas tipo &lt;h1~6&gt;, &lt;p&gt;, &lt;li&gt;, &lt;ol&gt;, &lt;ul&gt;, &lt;a&gt; e seus
+                principais atributos(href, target, title etc).</p>
+            <p>As tags &lt;div&gt; e &lt;span&gt; além da definição de peso semântico e nível bloco e linha. </p>
+            <p>Outras tags:&lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;u&gt;, &lt;cite&gt;, &lt;i&gt;, &lt;pre&gt;.</p>
+            <p>Também foram mencionadas as tags &lt;dd&gt;, &lt;dt&gt; e &lt;dl&gt;, mas foi dito que são incomuns
+                apesar de eu ter curtido mais que as listas normais.</p>
+            <p>Id's podem ser usados para linkar uma parte da página à outra. Para linkar id's de outras páginas basta
+                colocar o nome da página seguido do # e o nome. <a href="teste.html#testememo">Tipo assim</a></p>
+        </div>
+    </details>
+    <details>
+        <summary>
             <div>
                 <h1>O que deu pra estudar no dia 03/06/2021</h1>
             </div>
-            </summary>         
+        </summary>
+        <div>
+            <p>
+                Os elementos HTML &lt;table&gt; e &lt;img&gt;. Os principais atributos da tag &lt;img&gt; são alt,
+                height, src e width. Eu curti a ideia de mapa de imagem mas parece que não é tão comum usar com
+                frequência.
+            </p>
+            <p>
+                A tag &lt;table&gt; define uma tabela, a tag &lt;tr&gt; define uma linha e dentro dela são colocadas as
+                tags &lt;td&gt; ou &lt;th&gt;, que só colocam em negrito para definir a categoria da tabela.
+            <table>
+                <tr>
+                    <th>Cor</th>
+                    <th>Placa</th>
+                    <th>Modelo</th>
+                    <th>Marca</th>
+                </tr>
+                <tr>
+                    <td>Cinza</td>
+                    <td>32A123A</td>
+                    <td>Modelo de carro</td>
+                    <td>Sla, Honda?</td>
+                </tr>
+            </table>
+            <br>
+            Cor Placa Modelo e Marca são &lt;th&gt;, o restante é &lt;td&gt;, e toda a tabela é o &lt;table&gt;.
+            </p>
+        </div>
+    </details>
+    <details>
+        <summary>
             <div>
-                <p>
-                    Os elementos HTML &lt;table&gt; e &lt;img&gt;. Os principais atributos da tag &lt;img&gt; são alt, height, src e width. Eu curti a ideia de mapa de imagem mas parece que não é tão comum usar com frequência.
-                </p>
-                <p>
-                    A tag &lt;table&gt; define uma tabela, a tag &lt;tr&gt; define uma linha e dentro dela são colocadas as tags &lt;td&gt; ou &lt;th&gt;, que só colocam em negrito para definir a categoria da tabela.
-                    <table>
+                <h1>O que deu pra estudar no dia 04/06/2021</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Deu pra aprender vários comandos do terminal, vou fazer tabela só pq sim. Diretório=Pasta.</p>
+            <table>
+                <tr>
+                    <th>Comando</th>
+                    <th>O que faz</th>
+                </tr>
+                <tr>
+                    <td>exit</td>
+                    <td>Sai do terminal.</td>
+                </tr>
+                <tr>
+                    <td>cd</td>
+                    <td>Muda de diretório e.g.: cd ~/Downloads, se move pra pasta Downloads. Famoso teleporte editado.
+                    </td>
+                </tr>
+                <tr>
+                    <td>pwd</td>
+                    <td>Mostra o diretório atual.</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">ls</td>
+                    <td>Lista os arquivos e diretórios do diretório atual.</td>
+                </tr>
+                <tr>
+
+                    <td>O comando ls -l mostra mais informações do arquivo(data de criação, nível de proteção etc)</td>
+                </tr>
+                <tr>
+
+                    <td>O comando ls -a mostra arquivos e diretórios ocultos.</td>
+                </tr>
+                <tr>
+
+                    <td>O comando ls -la lista informações sobre todos os arquivos e diretórios, inclusive os ocultos.
+                    </td>
+                </tr>
+                <tr>
+                    <td>cp</td>
+                    <td>Copia arquivo.</td>
+                </tr>
+                <tr>
+                    <td>mv</td>
+                    <td>Move Arquivo.</td>
+                </tr>
+                <tr>
+                    <td>mkdir</td>
+                    <td>Cria um diretório.</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">rm</td>
+                    <td>Remove um arquivo.</td>
+                </tr>
+                <tr>
+                    <td>O comando rm -r remove um diretório.</td>
+                </tr>
+                <tr>
+                    <td>O comando rm * remove um arquivo, ou todos se nenhum for especificado.</td>
+                </tr>
+                <tr>
+                    <td>man</td>
+                    <td>Ajuda para comandos, tipo man cp, detalha o cp.</td>
+                </tr>
+                <tr>
+                    <td>clear</td>
+                    <td>Limpa o texto que aparece no terminal.</td>
+                </tr>
+                <tr>
+                    <td>xdg-open</td>
+                    <td>Abre um arquivo ou documento, e.g.:xdg-open ~/Documentos.</td>
+                </tr>
+                <tr>
+                    <td>touch</td>
+                    <td>Cria um arquivo na pasta atual.</td>
+                </tr>
+                <tr>
+                    <td>rmdir</td>
+                    <td>Remove um diretório.</td>
+                </tr>
+                <tr>
+                    <td>echo</td>
+                    <td>Repete uma frase ou palavra qualquer que seja especificada, se depois da frase ou palavra for
+                        digitado sinal de maior que(>) e um arquivo, o comando cria o arquivo com a frase dentro.</td>
+                </tr>
+                <tr>
+                    <td>cat</td>
+                    <td>Imprime o conteúdo de um arquivo na saída padrão, como no echo, e também como o echo ele pode
+                        imprimir conteúdo em outro arquivo.</td>
+                </tr>
+                <tr>
+                    <td>tail</td>
+                    <td>Imprime as últimas linhas de um arquivo, tipo tail -n 5 qualquercoisa.txt imprime as últimas 5
+                        linhas de um arquivo</td>
+                </tr>
+            </table>
+            <p>O . e o .. tem funções interessantes. O ponto final indica o diretório atual e pode ser digitado para
+                economizar texto, e.g., cp text.txt ./text4.txt, o arquivo sera copiado para a mesma pasta com outro
+                nome. O mesmo vale para cp text3.txt .., o arquivo vai para a pasta pai. Para renomear um arquivo basta
+                mover um arquivo com outro nome, e.g.:mv text.txt text66.txt</p>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>O que deu pra estudar no dia 05/06/2021</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Hoje deu pra ver uns comandos dentro do vi. O vi é um editor de texto de trocentos anos atrás, na época
+                que não tinha interfaces dahoras, mas ainda estudam isso hoje por algum motivo. Existem 3 modos dentro
+                do vi, o modo de comando, o modo de linha de comando e o modo de inserção. O vi já entra em modo de
+                comando e ao apertar : ele entra em modo de linha de comando. Para sair do modo linha de comando basta
+                apagar o :. Para entrar no modo inserção basta apertar i no modo de comando, e para sair basta apertar
+                esc. Porém ao entrar no modo inserção as setas não fazem sua função nem a tecla backspace, então é
+                necessário sair do vi para resolver isso. É necessário criar um arquivo chamado .vimrc e entrar no modo
+                inserção, depois digitar set nocompatible, depois dar uma quebra de linha, e continuar escrevendo set
+                backspace=2. Agora é sair do modo inserção, salvar e sair do modo vi e as setas e o backspace estarão
+                funcionando como deveriam no modo inserção.</p>
+            <p> Alguns comandos básicos úteis da linha de comando estarão listados abaixo bem como suas respectivas
+                funções.</p>
+            <table>
+                <tr>
+                    <th>Comando</th>
+                    <th>O que faz</th>
+                </tr>
+                <tr>
+                    <td>:q</td>
+                    <td>Sai do editor vi.</td>
+                </tr>
+                <tr>
+                    <td>:q!</td>
+                    <td>Sai do editor sem salvar.</td>
+                </tr>
+                <tr>
+                    <td>:w</td>
+                    <td>Salva mudanças feitas no vi.</td>
+                </tr>
+                <tr>
+                    <td>:wq</td>
+                    <td>Salva e sai do vi.</td>
+                </tr>
+                <tr>
+                    <td>:u</td>
+                    <td>Desfaz a última mudança.</td>
+                </tr>
+                <tr>
+                    <td>:help</td>
+                    <td>é tipo o man mas pra comandos do modo de comando, ou algo assim.</td>
+                </tr>
+            </table>
+            <p>Abaixo há outra tabela com comandos do modo de linha de comando, alguns são meio desnecessários mas algum
+                dia deve ser útil.</p>
+            <table>
+                <tr>
+                    <th>Comando</th>
+                    <th>O que faz</th>
+                </tr>
+                <tr>
+                    <td>i</td>
+                    <td>Entra no modo inserção</td>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>~Entra no modo inserção mas os caracteres digitados aparecem depois daquele retângulo branco
+                        piscando. Honestamente já me acostumei com as letras saindo do lado esquerdo então entrar sempre
+                        com o i.</td>
+                </tr>
+                <tr>
+                    <td>o</td>
+                    <td>Insere uma nova linha abaixo de onde o retângulo branco piscando estiver(vou chamar de cursor pq
+                        pqp) e entra no modo inserção.</td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td>Insere uma nova linha acima de onde estiver o cursor e entra no modo inserção.</td>
+                </tr>
+                <tr>
+                    <td>h(não tenho certeza se é h ou H, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER
+                            NO UBUNTU)</td>
+                    <td>Move o cursor pra a esquerda.</td>
+                </tr>
+                <tr>
+                    <td>j(não tenho certeza se é j ou J, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER
+                            NO UBUNTU)</td>
+                    <td>Move o cursor pra baixo.</td>
+                </tr>
+                <tr>
+                    <td>k(não tenho certeza se é k ou K, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER
+                            NO UBUNTU)</td>
+                    <td>Move o cursor pra cima.</td>
+                </tr>
+                <tr>
+                    <td>l(não tenho certeza se é l ou L, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER
+                            NO UBUNTU)</td>
+                    <td>Move o cursor pra direita.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">w</td>
+                    <td>Move o cursor para a primeira letra da prócima palavra.</td>
+                </tr>
+                <tr>
+                    <td>2w move o cursor para a primeira letra da segunda palavra a partir da atual, e isso vale para
+                        todos os números, 3w avança 3 palavras, 4w avança 4 palavras, etc.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">b</td>
+                    <td>Move o cursor para a primeira letra da palavra atual, ou da palavra anterior caso esteja num
+                        espaço vazio.</td>
+                </tr>
+                <tr>
+                    <td>2b move o cursor 2 palavras pra trás e isso vale para todos os números, 3b volta 3 palavras, 4b
+                        volta 4 palavras , etc.</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Move o cursor para o começo da linha atual.</td>
+                </tr>
+                <tr>
+                    <td>$</td>
+                    <td>Move o cursor para o fim da linha atual.</td>
+                </tr>
+                <tr>
+                    <td>gg</td>
+                    <td>Move o cursor para o início do arquivo.</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>Move o cursor para a primeira letra da última linha.</td>
+                </tr>
+                <tr>
+                    <td>G$</td>
+                    <td>Move o cursor para a última letra da última linha, o fim do arquivo.</td>
+                </tr>
+                <tr>
+                    <td>x(não tenho certeza se é x ou X, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</span>
+                    </td>
+                    <td>Apaga o caractere onde o cursor estiver.</td>
+                </tr>
+                <tr>
+                    <td>db</td>
+                    <td>Apaga todo o conteúdo entre o cursor e a primeira letra da palavra anterior.</td>
+                </tr>
+                <tr>
+                    <td>dw</td>
+                    <td>Apaga todo o conteúdo entre o caractere onde o cursor estiver e a primeira letra da próxima
+                        palavra.</td>
+                </tr>
+                <tr>
+                    <td>d0<span style="color:red">(Conferir quando estiver no ubuntu tb)</span></td>
+                    <td>Apaga todo o conteúdo entre o cursor e o primeiro caractere da linha atual.</td>
+                </tr>
+                <tr>
+                    <td>d$<span style="color:red">(Conferir quandoestiver no ubuntu tb)</span></td>
+                    <td>Apaga todo o conteúdo entre o caractere onde o cursor estiver e o último caractere da linha
+                        atual.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">dd</td>
+                    <td>Apaga(na verdade recorta, mas no fim é quase a mesma coisa) a linha toda onde o cursor estiver.
+                    </td>
+                </tr>
+                <tr>
+                    <td>3dd apaga as próximas 3 linhas inteiras, e funfa com 4dd 5dd do msm jeito.</td>
+                </tr>
+                <tr>
+                    <td>yy</td>
+                    <td>Copia uma linha inteira.</td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>Cola o que estiver copiado(ou recortado) na linha de baixo, que se move pra baixo dando lugar ao
+                        que for colado.</td>
+                </tr>
+                <tr>
+                    <td>P</td>
+                    <td>Cola o que estiver copiado(ou recortado) na linha atual, que se move pra baixo dando lugar ao
+                        que for colado.</td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>Entra no modo visual destacando a linha atual, e ao mover com as setas seleciona a linha inteira
+                        de baixo ou a de cima, depende da seta teclada. Nesse modo y copia e d recorta e volta ao modo
+                        de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.
+                    </td>
+                </tr>
+                <tr>
+                    <td>v</td>
+                    <td>Entra no modo visual só que seleciona caractere por caractere a partir do cursor. Nesse modo y
+                        copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos
+                        listados aqui funcionam nesse modo.</td>
+                </tr>
+                <tr>
+                    <td>ctrl+v</td>
+                    <td>Entra no modo visual em bloco, que é tipo aquele modo do vscode quando vc seleciona o texto com
+                        o scroll do mouse. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e
+                        provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
+                </tr>
+                <tr>
+                    <td>1v</td>
+                    <td>Seleciona com o mesmo formato da última seleção feita em qualquer um dos modos visuais e volta
+                        ao modo visual.</td>
+                </tr>
+                <tr>
+                    <td>gv</td>
+                    <td>Seleciona a mesma seleção feita em algum modo visual e volta ao modo visual.</td>
+                </tr>
+            </table>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>O que deu pra estudar no dia 06/06/2021</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Hoje eu vi uns comandos dahorinha pro vscode, tipo o ctrl+shift+enter. Até que enfim não preciso mais ir
+                pro final da linha e apertar enter, se bem que eu tinha começado a apertar end e dps enter. Sei la. É
+                mais uma opção pra facilitar, um dia eu acostumo. Ctrl+shift+enter faz a mesma cosia pra cima. Digitar
+                html:5 já coloca as tags tudo, doctype html head body e umas tags metadata np head. Mto foda. Digitar a
+                tag#nomedoid cria uma tag já com o id, o mesmo vale para classes, só que no lugar do # tem que colocar
+                um ponto. Se nenhuma tag for especificada vai ser criada uma tag div com a classe ou o id.tag*numerp
+                cria várias tags, tipo p*3 cria 3 parágrafos. Digitar tag>outratag cria uma outratag filha dentro da tag
+                pai. Por hoje foi isso, tinha umas extensões pra instalar e mais uns exercícios pra treinar o terminal,
+                mas o terminal é o terminal, hoje não vou ver isso.</p>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>O que deu pra estudar no dia 08/06/2021(<s>deu dor de cabeça pra krl ontem</s>)</h1>
+            </div>
+        </summary>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>O que deu pra estudar no dia 23/06/2021</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Hoje fui rever o conteúdo de javascript e com pouco tempo já resolvi algumas duvidas que tinha antes,
+                tipo vários ifs são melhores que if, else if, else if, pelo simples fato de que se eu quiser concatenar
+                uma string em outra string eu só consigo com vários ifs, pelo menos do modo como faço. Outra questão que
+                martelava minha cabeça era, = não concatena, += concatena. Isso não me atrapalhou muito na resolução do
+                snapCrackle mas a questão dos ifs só atrapalhou pra krl. Ao concatenar strings uma string é printada
+                depois da outra, ao concatenar números eles se somam, então veja com cuidado isso aê. Resolvi a questão
+                lá do code wars do semaforo carai.</p>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>Não é nem que deu pra estudar, é que eu achei imnportante colocar aqui</h1>
+            </div>
+        </summary>
+        <div>
+            <details>
+                <summary>
+                    <div class="subdet title">
+                        <p>Flex direction</p>
+                    </div>
+                </summary>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-direction-row</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-direction-row">
+                        <div class="item">1 flex-direction-row</div>
+                        <div class="item">2 flex-direction-row</div>
+                        <div class="item">3 flex-direction-row</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-direction-row-reverse</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-direction-row-reverse">
+                        <div class="item">1 flex-direction-row-reverse</div>
+                        <div class="item">2 flex-direction-row-reverse</div>
+                        <div class="item">3 flex-direction-row-reverse</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-direction-column</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-direction-column">
+                        <div class="item">1 flex-direction-column</div>
+                        <div class="item">2 flex-direction-column</div>
+                        <div class="item">3 flex-direction-column</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-direction-column-reverse</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-direction-column-reverse">
+                        <div class="item">1 flex-direction-column-reverse</div>
+                        <div class="item">2 flex-direction-column-reverse</div>
+                        <div class="item">3 flex-direction-column-reverse</div>
+                    </div>
+                </details>
+            </details>
+            <details>
+                <summary>
+                    <div class="subdet title">
+                        <p>Flex wrap</p>
+                    </div>
+                </summary>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-wrap-nowrap</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-wrap-nowrap">
+                        <div class="item">1 OTextoOuOutroBlocoQualquerVaiPraBaixoTipoAssim</div>
+                        <div class="item">2 OTextoOuOutroBlocoQualquerVaiPraBaixoTipoAssim</div>
+                        <div class="item">2 OTextoOuOutroBlocoQualquerVaiPraBaixoTipoAssim</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-wrap-wrap</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-wrap-wrap">
+                        <div class="item">1 ÉOPadrãoNãoMudaNadaPqÉAssimQueJáVem</div>
+                        <div class="item">2 ÉOPadrãoNãoMudaNadaPqÉAssimQueJáVem</div>
+                        <div class="item">3 ÉOPadrãoNãoMudaNadaPqÉAssimQueJáVem</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-wrap-wrap-reverse</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-wrap-wrap-reverse">
+                        <div class="item">1 ÉIgualODeAntesSóQueComeçaDeBaixo</div>
+                        <div class="item">2 ÉIgualODeAntesSóQueComeçaDeBaixo</div>
+                        <div class="item">3 ÉIgualODeAntesSóQueComeçaDeBaixo</div>
+                    </div>
+                </details>
+            </details>
+
+            <p>O flex-flow abaixo é o tal do shorthand pra flex-direction e flex-wrap</p>
+
+            <details>
+                <summary>
+                    <div class="subdet title">
+                        <p>Flex flow</p>
+                    </div>
+                </summary>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-flow-row-nowrap</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-flow-row-nowrap">
+                        <div class="item">1 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
+                        <div class="item">2 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
+                        <div class="item">3 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>flex-flow-row-wrap</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner flex-flow-row-wrap">
+                        <div class="item">1 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
+                        <div class="item">2 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
+                        <div class="item">3 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
+                    </div>
+                </details>
+            </details>
+            <details>
+                <summary>
+                    <div class="subdet title">
+                        <p>Justify content</p>
+                    </div>
+                </summary>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>jutify-content-flex-start</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner jutify-content-flex-start">
+                        <div class="item justify">1</div>
+                        <div class="item justify">2</div>
+                        <div class="item justify">3</div>
+                        <div class="item justify">3 com mais texto</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>justify-content-flex-end</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner justify-content-flex-end">
+                        <div class="item justify">1</div>
+                        <div class="item justify">2</div>
+                        <div class="item justify">3</div>
+                        <div class="item justify">3 com mais texto</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>justify-content-center</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner justify-content-center">
+                        <div class="item justify">1</div>
+                        <div class="item justify">2</div>
+                        <div class="item justify">3</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>justify-content-space-between</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner justify-content-space-between">
+                        <div class="item justify">1</div>
+                        <div class="item justify">2</div>
+                        <div class="item justify">3</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>justify-content-space-around</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner justify-content-space-around">
+                        <div class="item justify">1</div>
+                        <div class="item justify">2</div>
+                        <div class="item justify">3</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>justify-content-space-evenly</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner justify-content-space-evenly">
+                        <div class="item justify">1</div>
+                        <div class="item justify">2</div>
+                        <div class="item justify">3</div>
+                    </div>
+                </details>
+            </details>
+            <details>
+                <summary>
+                    <div class="subdet title">
+                        <p>Align items</p>
+                    </div>
+                </summary>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-items-stretch</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-items-stretch">
+                        <div class="item">1</div>
+                        <div class="item">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae fuga vel
+                            doloremque sequi sunt officia?</div>
+                        <div class="item">3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nulla
+                            reprehenderit consequuntur quae quibusdam tenetur, quis natus ad repellendus officia
+                            placeat. Aliquid suscipit excepturi hic praesentium porro, eos voluptates ut.</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-items-flex-start</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-items-flex-start">
+                        <div class="item">1</div>
+                        <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt id
+                            quia laudantium vitae voluptatibus.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sit alias
+                            repellendus, eum quis, quas soluta perferendis eius ea sunt quam corporis laudantium nostrum
+                            aut illo nesciunt! Totam, eos illum?</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-items-flex-end</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-items-flex-end">
+                        <div class="item">1</div>
+                        <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus
+                            neque id consequuntur reiciendis officia.</div>
+                        <div class="item">3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+                            repellendus qui, consequatur delectus maiores magnam reprehenderit provident officiis
+                            reiciendis ab eaque corporis quidem obcaecati. Doloribus ex quam culpa voluptatum quia.
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-items-center</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-items-center">
+                        <div class="item">1</div>
+                        <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae
+                            accusantium rem perspiciatis qui impedit.</div>
+                        <div class="item">3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam vel magni
+                            odio, qui accusantium inventore ipsum iste optio ex? Aliquid unde animi nam numquam omnis
+                            culpa distinctio, quaerat quae aut?</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-items-baseline</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-items-baseline">
+                        <div class="item">1</div>
+                        <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem vel
+                            quisquam ducimus mollitia asperiores repellendus?</div>
+                        <div class="item">3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis cumque
+                            obcaecati ipsam alias quas perspiciatis consectetur unde eveniet? Fugiat voluptates, in
+                            culpa sed dignissimos minima quasi deserunt explicabo cumque eos.</div>
+                    </div>
+                </details>
+            </details>
+            <p>o align content deu errado sla pq</p>
+            <details>
+                <summary>
+                    <div class="subdet title">
+                        <p>Align content</p>
+                    </div>
+                </summary>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-content-stretch</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-content-stretch g2a">
+                        <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
+                        <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+                            quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-content-flex-start</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-content-flex-start g2a">
+                        <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
+                        <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+                            quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-content-flex-end</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-content-flex-end g2a">
+                        <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
+                        <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+                            quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-content-center</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-content-center g2a">
+                        <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
+                        <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+                            quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-content-space-between</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-content-space-between g2a">
+                        <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
+                        <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+                            quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
+                    </div>
+                </details>
+                <details>
+                    <summary>
+                        <div class="subdet">
+                            <p>align-content-space-around</p>
+                        </div>
+                    </summary>
+                    <div class="conteiner align-content-space-around g2a">
+                        <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
+                        <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
+                        <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+                            quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
+                    </div>
+                </details>
+            </details>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>O que deu pra estudar no dia 18/07/2021</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Hoje vi uns atalhos que parecem ser muto úteis para usar no javascript, tipo usar o
+                document.querySelector.bind(document) numa variável, aí é só chamar a variável toda vez que quiser usar
+                o document.querySelector("qualquer caminho no css"). Por exemplo, quero selecionar um trecho com id
+                teste, então no início do documento coloco let $ = document.querySelector.bin(document). Quando precisar
+                selecionar a tag com o id mencionado basta digitar $.("#teste"). Mas isso foi ensinado por um cara que
+                já tinha usado jquery, por isso o $. No meu caso a melhor opção para atribuir seria algo do tipo let
+                querysel ou algo assim, uma forma não tão curta mas se eu quiser posso fazê-la com vários métodos de
+                selecionar tipo getElementById, getElementsByName, getElementsByTagName etc. Testar no próximo trabalho.
+                Outra coisa importante que vi é que não precisa selecionaro document para procurar algo, pode ser uma
+                HTMLCollection, que é resultado de um getElementsByTagName e getElementsByClassName. Poderíamos procurar
+                todos os elementos p existentes dentro de uma única div com id teste ao selecioná-la com o
+                document.querySelector.("#teste").querySelector("p"). Aquilo que eu queria fazer muito no CSS, que é
+                selecionar algum elemento pai, apesar de ter como fazer isso eu nunca decorei pq o CSS tem muita coisa
+                pra decorar, no javascript tem como fazer e é o método .closest. Se eu quiser chamao a div que seja pai
+                mais próximo de algum elemento selecionado basta digitar
+                document.querySelector("#teste").closest("div"). Ele irá procurar o div pai mais próximo da tag cujo o
+                id é teste. isso não procura filhos, mas pra fazer isso é só selecionar com > tipo div>aside>p e etc.
+            </p>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>O que deu pra aprender no dia 19/07/2021</h1>
+            </div>
+        </summary>
+        <div>
+            <div>
+                <h1>Vai dá uma revisada em switch vai, ninguém usa mas vc sabe melhor que ninguém que existe gente
+                    diferente por aí.</h1>
+            </div>
+            <p>Ae carai 2 dias seguidos, isso quer dizer que voltei a anotar o que aprendi com mais frequência. Mas é pq
+                nessa sprint não tem atividade valendo nota e parece ser mais tranquila, se não for tão tranquila não
+                escrevo aqui nos próximos dias hsauhsuasuah.</p>
+            <p>A aula sobre métodos de string mostra vários métodos além de uma página no mdn falando sobre strings e
+                tipos de strings, algum outro dia dou foco nisso. Hoje o foco é nos métodos, e se algum deles falhar por
+                isso eu volto e leio mais o primeiro link, e fazer isso se mostrou bem efetivo nas outras sprints(bateu
+                a dúvida? volta e lê tudo de novo, pq vc polou algo sim, eu te conheço).</p>
+            <details style="margin: 0;">
+                <summary>
+                    <div>
+                        Métodos de string
+                    </div>
+                </summary>
+                <div style="border: none;">
+                    <table id="methodStr">
                         <tr>
-                            <th>Cor</th>
-                            <th>Placa</th>
-                            <th>Modelo</th>
-                            <th>Marca</th>
+                            <th>Método</th>
+                            <th>O que faz</th>
                         </tr>
                         <tr>
-                            <td>Cinza</td>
-                            <td>32A123A</td>
-                            <td>Modelo de carro</td>
-                            <td>Sla, Honda?</td>
-                        </tr>
-                    </table>
-                    <br>
-                    Cor Placa Modelo e Marca são &lt;th&gt;, o restante é &lt;td&gt;, e toda a tabela é o &lt;table&gt;.
-                </p>
-            </div>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 04/06/2021</h1>
-                </div>
-            </summary>
-            <div>
-                <p>Deu pra aprender vários comandos do terminal, vou fazer tabela só pq sim. Diretório=Pasta.</p>
-                <table>
-                    <tr>
-                        <th>Comando</th>
-                        <th>O que faz</th>
-                    </tr>
-                    <tr>
-                        <td>exit</td>
-                        <td>Sai do terminal.</td>
-                    </tr>
-                    <tr>
-                        <td>cd</td>
-                        <td>Muda de diretório e.g.: cd ~/Downloads, se move pra pasta Downloads. Famoso teleporte editado.</td>
-                    </tr>
-                    <tr>
-                        <td>pwd</td>
-                        <td>Mostra o diretório atual.</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="4">ls</td>
-                        <td>Lista os arquivos e diretórios do diretório atual.</td>
-                    </tr>
-                    <tr>
-                        
-                        <td>O comando ls -l mostra mais informações do arquivo(data de criação, nível de proteção etc)</td>
-                    </tr>
-                    <tr>
-                        
-                        <td>O comando ls -a mostra arquivos e diretórios ocultos.</td>
-                    </tr>
-                    <tr>
-                        
-                        <td>O comando ls -la lista informações sobre todos os arquivos e diretórios, inclusive os ocultos.</td>
-                    </tr>
-                    <tr>
-                        <td>cp</td>
-                        <td>Copia arquivo.</td>
-                    </tr>
-                    <tr>
-                        <td>mv</td>
-                        <td>Move Arquivo.</td>
-                    </tr>
-                    <tr>
-                        <td>mkdir</td>
-                        <td>Cria um diretório.</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3">rm</td>
-                        <td>Remove um arquivo.</td>
-                    </tr>
-                    <tr>
-                        <td>O comando rm -r remove um diretório.</td>
-                    </tr>
-                    <tr>
-                        <td>O comando rm * remove um arquivo, ou todos se nenhum for especificado.</td>
-                    </tr>
-                    <tr>
-                        <td>man</td>
-                        <td>Ajuda para comandos, tipo man cp, detalha o cp.</td>
-                    </tr>
-                    <tr>
-                        <td>clear</td>
-                        <td>Limpa o texto que aparece no terminal.</td>
-                    </tr>
-                    <tr>
-                        <td>xdg-open</td>
-                        <td>Abre um arquivo ou documento, e.g.:xdg-open ~/Documentos.</td>
-                    </tr>
-                    <tr>
-                        <td>touch</td>
-                        <td>Cria um arquivo na pasta atual.</td>
-                    </tr>
-                    <tr>
-                        <td>rmdir</td>
-                        <td>Remove um diretório.</td>
-                    </tr>
-                    <tr>
-                        <td>echo</td>
-                        <td>Repete uma frase ou palavra qualquer que seja especificada, se depois da frase ou palavra for digitado sinal de maior que(>) e um arquivo, o comando cria o arquivo com a frase dentro.</td>
-                    </tr>
-                    <tr>
-                        <td>cat</td>
-                        <td>Imprime o conteúdo de um arquivo na saída padrão, como no echo, e também como o echo ele pode imprimir conteúdo em outro arquivo.</td>
-                    </tr>
-                    <tr>
-                        <td>tail</td>
-                        <td>Imprime as últimas linhas de um arquivo, tipo tail -n 5 qualquercoisa.txt imprime as últimas 5 linhas de um arquivo</td>
-                    </tr>
-                </table>
-                <p>O . e o .. tem funções interessantes. O ponto final indica o diretório atual e pode ser digitado para economizar texto, e.g., cp text.txt ./text4.txt, o arquivo sera copiado para a mesma pasta com outro nome. O mesmo vale para cp text3.txt .., o arquivo vai para a pasta pai. Para renomear um arquivo basta mover um arquivo com outro nome, e.g.:mv text.txt text66.txt</p>
-            </div>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 05/06/2021</h1>
-                </div>
-            </summary>
-            <div>
-                <p>Hoje deu pra ver uns comandos dentro do vi. O vi é um editor de texto de trocentos anos atrás, na época que não tinha interfaces dahoras, mas ainda estudam isso hoje por algum motivo. Existem 3 modos dentro do vi, o modo de comando, o modo de linha de comando e o modo de inserção. O vi já entra em modo de comando e ao apertar : ele entra em modo de linha de comando. Para sair do modo linha de comando basta apagar o :. Para entrar no modo inserção basta apertar i no modo de comando, e para sair basta apertar esc. Porém ao entrar no modo inserção as setas não fazem sua função nem a tecla backspace, então é necessário sair do vi para resolver isso. É necessário criar um arquivo chamado .vimrc e entrar no modo inserção, depois digitar set nocompatible, depois dar uma quebra de linha, e continuar escrevendo set backspace=2. Agora é sair do modo inserção, salvar e sair do modo vi e as setas e o backspace estarão funcionando como deveriam no modo inserção.</p>
-                <p> Alguns comandos básicos úteis da linha de comando estarão listados abaixo bem como suas respectivas funções.</p>
-                <table>
-                    <tr>
-                        <th>Comando</th>
-                        <th>O que faz</th>
-                    </tr>
-                    <tr>
-                        <td>:q</td>
-                        <td>Sai do editor vi.</td>
-                    </tr>
-                    <tr>
-                        <td>:q!</td>
-                        <td>Sai do editor sem salvar.</td>
-                    </tr>
-                    <tr>
-                        <td>:w</td>
-                        <td>Salva mudanças feitas no vi.</td>
-                    </tr>
-                    <tr>
-                        <td>:wq</td>
-                        <td>Salva e sai do vi.</td>
-                    </tr>
-                    <tr>
-                        <td>:u</td>
-                        <td>Desfaz a última mudança.</td>
-                    </tr>
-                    <tr>
-                        <td>:help</td>
-                        <td>é tipo o man mas pra comandos do modo de comando, ou algo assim.</td>
-                    </tr>
-                </table>
-                <p>Abaixo há outra tabela com comandos do modo de linha de comando, alguns são meio desnecessários mas algum dia deve ser útil.</p>
-                <table>
-                    <tr>
-                        <th>Comando</th>
-                        <th>O que faz</th>
-                    </tr>
-                    <tr>
-                        <td>i</td>
-                        <td>Entra no modo inserção</td>
-                    </tr>
-                    <tr>
-                        <td>a</td>
-                        <td>~Entra no modo inserção mas os caracteres digitados aparecem depois daquele retângulo branco piscando. Honestamente já me acostumei com as letras saindo do lado esquerdo então entrar sempre com o i.</td>
-                    </tr>
-                    <tr>
-                        <td>o</td>
-                        <td>Insere uma nova linha abaixo de onde o retângulo branco piscando estiver(vou chamar de cursor pq pqp) e entra no modo inserção.</td>
-                    </tr>
-                    <tr>
-                        <td>O</td>
-                        <td>Insere uma nova linha acima de onde estiver o cursor e entra no modo inserção.</td>
-                    </tr>
-                    <tr>
-                        <td>h(não tenho certeza se é h ou H, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
-                        <td>Move o cursor pra a esquerda.</td>
-                    </tr>
-                    <tr>
-                        <td>j(não tenho certeza se é j ou J, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
-                        <td>Move o cursor pra baixo.</td>
-                    </tr>
-                    <tr>
-                        <td>k(não tenho certeza se é k ou K, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
-                        <td>Move o cursor pra cima.</td>
-                    </tr>
-                    <tr>
-                        <td>l(não tenho certeza se é l ou L, ou se tanto faz, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</td>
-                        <td>Move o cursor pra direita.</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">w</td>
-                        <td>Move o cursor para a primeira letra da prócima palavra.</td>
-                    </tr>
-                    <tr>
-                        <td>2w move o cursor para a primeira letra da segunda palavra a partir da atual, e isso vale para todos os números, 3w avança 3 palavras, 4w avança 4 palavras, etc.</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">b</td>
-                        <td>Move o cursor para a primeira letra da palavra atual, ou da palavra anterior caso esteja num espaço vazio.</td>
-                    </tr>
-                    <tr>
-                        <td>2b move o cursor 2 palavras pra trás e isso vale para todos os números, 3b volta 3 palavras, 4b volta 4 palavras , etc.</td>
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <td>Move o cursor para o começo da linha atual.</td>
-                    </tr>
-                    <tr>
-                        <td>$</td>
-                        <td>Move o cursor para o fim da linha atual.</td>
-                    </tr>
-                    <tr>
-                        <td>gg</td>
-                        <td>Move o cursor para o início do arquivo.</td>
-                    </tr>
-                    <tr>
-                        <td>G</td>
-                        <td>Move o cursor para a primeira letra da última linha.</td>
-                    </tr>
-                    <tr>
-                        <td>G$</td>
-                        <td>Move o cursor para a última letra da última linha, o fim do arquivo.</td>
-                    </tr>
-                    <tr>
-                        <td>x(não tenho certeza se é x ou X, <span style='color:red'>TESTAR QUANDO ESTIVER NO UBUNTU)</span></td>
-                        <td>Apaga o caractere onde o cursor estiver.</td>
-                    </tr>
-                    <tr>
-                        <td>db</td>
-                        <td>Apaga todo o conteúdo entre o cursor e a primeira letra da palavra anterior.</td>
-                    </tr>
-                    <tr>
-                        <td>dw</td>
-                        <td>Apaga todo o conteúdo entre o caractere onde o cursor estiver e a primeira letra da próxima palavra.</td>
-                    </tr>
-                    <tr>
-                        <td>d0<span style="color:red">(Conferir quando estiver no ubuntu tb)</span></td>
-                        <td>Apaga todo o conteúdo entre o cursor e o primeiro caractere da linha atual.</td>
-                    </tr>
-                    <tr>
-                        <td>d$<span style="color:red">(Conferir quandoestiver no ubuntu tb)</span></td>
-                        <td>Apaga todo o conteúdo entre o caractere onde o cursor estiver e o último caractere da linha atual.</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">dd</td>
-                        <td>Apaga(na verdade recorta, mas no fim é quase a mesma coisa) a linha toda onde o cursor estiver.</td>
-                    </tr>
-                    <tr>
-                        <td>3dd apaga as próximas 3 linhas inteiras, e funfa com 4dd 5dd do msm jeito.</td>
-                    </tr>
-                    <tr>
-                        <td>yy</td>
-                        <td>Copia uma linha inteira.</td>
-                    </tr>
-                    <tr>
-                        <td>p</td>
-                        <td>Cola o que estiver copiado(ou recortado) na linha de baixo, que se move pra baixo dando lugar ao que for colado.</td>
-                    </tr>
-                    <tr>
-                        <td>P</td>
-                        <td>Cola o que estiver copiado(ou recortado) na linha atual, que se move pra baixo dando lugar ao que for colado.</td>
-                    </tr>
-                    <tr>
-                        <td>V</td>
-                        <td>Entra no modo visual destacando a linha atual, e ao mover com as setas seleciona a linha inteira de baixo ou a de cima, depende da seta teclada. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
-                    </tr>
-                    <tr>
-                        <td>v</td>
-                        <td>Entra no modo visual só que seleciona caractere por caractere a partir do cursor. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
-                    </tr>
-                    <tr>
-                        <td>ctrl+v</td>
-                        <td>Entra no modo visual em bloco, que é tipo aquele modo do vscode quando vc seleciona o texto com o scroll do mouse. Nesse modo y copia e d recorta e volta ao modo de inserção, w e b e provavelmente a maioria dos comandos listados aqui funcionam nesse modo.</td>
-                    </tr>
-                    <tr>
-                        <td>1v</td>
-                        <td>Seleciona com o mesmo formato da última seleção feita em qualquer um dos modos visuais e volta ao modo visual.</td>
-                    </tr>
-                    <tr>
-                        <td>gv</td>
-                        <td>Seleciona a mesma seleção feita em algum modo visual e volta ao modo visual.</td>
-                    </tr>
-                </table>
-            </div>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 06/06/2021</h1>
-                </div>
-            </summary>
-            <div>
-                <p>Hoje eu vi uns comandos dahorinha pro vscode, tipo o ctrl+shift+enter. Até que enfim não preciso mais ir pro final da linha e apertar enter, se bem que eu tinha começado a apertar end e dps enter. Sei la. É mais uma opção pra facilitar, um dia eu acostumo. Ctrl+shift+enter faz a mesma cosia pra cima. Digitar html:5 já coloca as tags tudo, doctype html head body e umas tags metadata np head. Mto foda. Digitar a tag#nomedoid cria uma tag já com o id, o mesmo vale para classes, só que no lugar do # tem que colocar um ponto. Se nenhuma tag for especificada vai ser criada uma tag div com a classe ou o id.tag*numerp cria várias tags, tipo p*3 cria 3 parágrafos. Digitar tag>outratag cria uma outratag filha dentro da tag pai. Por hoje foi isso, tinha umas extensões pra instalar e mais uns exercícios pra treinar o terminal, mas o terminal é o terminal, hoje não vou ver isso.</p>
-            </div>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 08/06/2021(<s>deu dor de cabeça pra krl ontem</s>)</h1>
-                </div>
-            </summary>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 23/06/2021</h1>
-                </div>
-            </summary>
-                <div>
-                    <p>Hoje fui rever o conteúdo de javascript e com pouco tempo já resolvi algumas duvidas que tinha antes, tipo vários ifs são melhores que if, else if, else if, pelo simples fato de que se eu quiser concatenar uma string em outra string eu só consigo com vários ifs, pelo menos do modo como faço. Outra questão que martelava minha cabeça era, = não concatena, += concatena. Isso não me atrapalhou muito na resolução do snapCrackle mas a questão dos ifs só atrapalhou pra krl. Ao concatenar strings uma string é printada depois da outra, ao concatenar números eles se somam, então veja com cuidado isso aê. Resolvi a questão lá do code wars do semaforo carai.</p>
-                </div>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>Não é nem que deu pra estudar, é que eu achei imnportante colocar aqui</h1>
-                </div>
-            </summary>
-            <div>
-                <details>
-                    <summary>
-                        <div class="subdet title">
-                            <p>Flex direction</p>
-                        </div>
-                    </summary>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-direction-row</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-direction-row">
-                            <div class="item">1 flex-direction-row</div>
-                            <div class="item">2 flex-direction-row</div>
-                            <div class="item">3 flex-direction-row</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-direction-row-reverse</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-direction-row-reverse">
-                            <div class="item">1 flex-direction-row-reverse</div>
-                            <div class="item">2 flex-direction-row-reverse</div>
-                            <div class="item">3 flex-direction-row-reverse</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-direction-column</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-direction-column">
-                            <div class="item">1 flex-direction-column</div>
-                            <div class="item">2 flex-direction-column</div>
-                            <div class="item">3 flex-direction-column</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-direction-column-reverse</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-direction-column-reverse">
-                            <div class="item">1 flex-direction-column-reverse</div>
-                            <div class="item">2 flex-direction-column-reverse</div>
-                            <div class="item">3 flex-direction-column-reverse</div>
-                        </div>
-                    </details>
-                </details>
-                <details>
-                    <summary>
-                        <div class="subdet title">
-                            <p>Flex wrap</p>
-                        </div>
-                    </summary>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-wrap-nowrap</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-wrap-nowrap">
-                            <div class="item">1 OTextoOuOutroBlocoQualquerVaiPraBaixoTipoAssim</div>
-                            <div class="item">2 OTextoOuOutroBlocoQualquerVaiPraBaixoTipoAssim</div>
-                            <div class="item">2 OTextoOuOutroBlocoQualquerVaiPraBaixoTipoAssim</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-wrap-wrap</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-wrap-wrap">
-                            <div class="item">1 ÉOPadrãoNãoMudaNadaPqÉAssimQueJáVem</div>
-                            <div class="item">2 ÉOPadrãoNãoMudaNadaPqÉAssimQueJáVem</div>
-                            <div class="item">3 ÉOPadrãoNãoMudaNadaPqÉAssimQueJáVem</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-wrap-wrap-reverse</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-wrap-wrap-reverse">
-                            <div class="item">1 ÉIgualODeAntesSóQueComeçaDeBaixo</div>
-                            <div class="item">2 ÉIgualODeAntesSóQueComeçaDeBaixo</div>
-                            <div class="item">3 ÉIgualODeAntesSóQueComeçaDeBaixo</div>
-                        </div>
-                    </details>
-                </details>
-                
-                    <p>O flex-flow abaixo é o tal do shorthand pra flex-direction e flex-wrap</p>
-                
-                <details>
-                    <summary>
-                        <div class="subdet title">
-                            <p>Flex flow</p>
-                        </div>
-                    </summary>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-flow-row-nowrap</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-flow-row-nowrap">
-                            <div class="item">1 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
-                            <div class="item">2 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
-                            <div class="item">3 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>flex-flow-row-wrap</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner flex-flow-row-wrap">
-                            <div class="item">1 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
-                            <div class="item">2 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
-                            <div class="item">3 MuitoTextoSóPraPassarDaBorderDoConteiner</div>
-                        </div>
-                    </details>
-                </details>
-                <details>
-                    <summary>
-                        <div class="subdet title">
-                            <p>Justify content</p>
-                        </div>
-                    </summary>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>jutify-content-flex-start</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner jutify-content-flex-start">
-                            <div class="item justify">1</div>
-                            <div class="item justify">2</div>
-                            <div class="item justify">3</div>
-                            <div class="item justify">3 com mais texto</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>justify-content-flex-end</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner justify-content-flex-end">
-                            <div class="item justify">1</div>
-                            <div class="item justify">2</div>
-                            <div class="item justify">3</div>
-                            <div class="item justify">3 com mais texto</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>justify-content-center</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner justify-content-center">
-                            <div class="item justify">1</div>
-                            <div class="item justify">2</div>
-                            <div class="item justify">3</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>justify-content-space-between</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner justify-content-space-between">
-                            <div class="item justify">1</div>
-                            <div class="item justify">2</div>
-                            <div class="item justify">3</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>justify-content-space-around</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner justify-content-space-around">
-                            <div class="item justify">1</div>
-                            <div class="item justify">2</div>
-                            <div class="item justify">3</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>justify-content-space-evenly</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner justify-content-space-evenly">
-                            <div class="item justify">1</div>
-                            <div class="item justify">2</div>
-                            <div class="item justify">3</div>
-                        </div>
-                    </details>
-                </details>
-                <details>
-                    <summary>
-                        <div class="subdet title">
-                            <p>Align items</p>
-                        </div>
-                    </summary>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-items-stretch</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-items-stretch">
-                            <div class="item">1</div>
-                            <div class="item">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae fuga vel doloremque sequi sunt officia?</div>
-                            <div class="item">3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nulla reprehenderit consequuntur quae quibusdam tenetur, quis natus ad repellendus officia placeat. Aliquid suscipit excepturi hic praesentium porro, eos voluptates ut.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-items-flex-start</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-items-flex-start">
-                            <div class="item">1</div>
-                            <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt id quia laudantium vitae voluptatibus.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sit alias repellendus, eum quis, quas soluta perferendis eius ea sunt quam corporis laudantium nostrum aut illo nesciunt! Totam, eos illum?</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-items-flex-end</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-items-flex-end">
-                            <div class="item">1</div>
-                            <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus neque id consequuntur reiciendis officia.</div>
-                            <div class="item">3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos repellendus qui, consequatur delectus maiores magnam reprehenderit provident officiis reiciendis ab eaque corporis quidem obcaecati. Doloribus ex quam culpa voluptatum quia.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-items-center</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-items-center">
-                            <div class="item">1</div>
-                            <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae accusantium rem perspiciatis qui impedit.</div>
-                            <div class="item">3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam vel magni odio, qui accusantium inventore ipsum iste optio ex? Aliquid unde animi nam numquam omnis culpa distinctio, quaerat quae aut?</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-items-baseline</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-items-baseline">
-                            <div class="item">1</div>
-                            <div class="item">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem vel quisquam ducimus mollitia asperiores repellendus?</div>
-                            <div class="item">3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis cumque obcaecati ipsam alias quas perspiciatis consectetur unde eveniet? Fugiat voluptates, in culpa sed dignissimos minima quasi deserunt explicabo cumque eos.</div>
-                        </div>
-                    </details>
-                </details>
-                <p>o align content deu errado sla pq</p>
-                <details>
-                    <summary>
-                        <div class="subdet title">
-                            <p>Align content</p>
-                        </div>
-                    </summary>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-content-stretch</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-content-stretch g2a">
-                            <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
-                            <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-content-flex-start</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-content-flex-start g2a">
-                            <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
-                            <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-content-flex-end</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-content-flex-end g2a">
-                            <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
-                            <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-content-center</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-content-center g2a">
-                            <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
-                            <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-content-space-between</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-content-space-between g2a">
-                            <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
-                            <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
-                        </div>
-                    </details>
-                    <details>
-                        <summary>
-                            <div class="subdet">
-                                <p>align-content-space-around</p>
-                            </div>
-                        </summary>
-                        <div class="conteiner align-content-space-around g2a">
-                            <div class="item">1Loremipsumdolorsitlkjsdlkjljkfdkljamet.</div>
-                            <div class="item">2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, rerum.</div>
-                            <div class="item">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quibusdam explicabo deleniti soluta quisquam rerum ullam, voluptatem expedita eos.</div>
-                        </div>
-                    </details>
-                </details>
-            </div>
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra estudar no dia 18/07/2021</h1>
-                </div>
-            </summary>
-                <div>
-                    <p>Hoje vi uns atalhos que parecem ser muto úteis para usar no javascript, tipo usar o document.querySelector.bind(document) numa variável, aí é só chamar a variável toda vez que quiser usar o document.querySelector("qualquer caminho no css"). Por exemplo, quero selecionar um trecho com id teste, então no início do documento coloco let $ = document.querySelector.bin(document). Quando precisar selecionar a tag com o id mencionado basta digitar $.("#teste"). Mas isso foi ensinado por um cara que já tinha usado jquery, por isso o $. No meu caso a melhor opção para atribuir seria algo do tipo let querysel ou algo assim, uma forma não tão curta mas se eu quiser posso fazê-la com vários métodos de selecionar tipo getElementById, getElementsByName, getElementsByTagName etc. Testar no próximo trabalho. Outra coisa importante que vi é que não precisa selecionaro document para procurar algo, pode ser uma HTMLCollection, que é resultado de um getElementsByTagName e getElementsByClassName. Poderíamos procurar todos os elementos p existentes dentro de uma única div com id teste ao selecioná-la com o document.querySelector.("#teste").querySelector("p"). Aquilo que eu queria fazer muito no CSS, que é selecionar algum elemento pai, apesar de ter como fazer isso eu nunca decorei pq o CSS tem muita coisa pra decorar, no javascript tem como fazer e é o método .closest. Se eu quiser chamao a div que seja pai mais próximo de algum elemento selecionado basta digitar document.querySelector("#teste").closest("div"). Ele irá procurar o div pai mais próximo da tag cujo o id é teste. isso não procura filhos, mas pra fazer isso é só selecionar com > tipo div>aside>p e etc.</p>
-                </div>            
-        </details>
-        <details>
-            <summary>
-                <div>
-                    <h1>O que deu pra aprender no dia 19/07/2021</h1>
-                </div>
-            </summary>
-            <div>
-                <div><h1>Vai dá uma revisada em switch vai, ninguém usa mas vc sabe melhor que ninguém que existe gente diferente por aí.</h1></div>
-                <p>Ae carai 2 dias seguidos, isso quer dizer que voltei a anotar o que aprendi com mais frequência. Mas é pq nessa sprint não tem atividade valendo nota e parece ser mais tranquila, se não for tão tranquila não escrevo aqui nos próximos dias hsauhsuasuah.</p>
-                <p>A aula sobre métodos de string mostra vários métodos além de uma página no mdn falando sobre strings e tipos de strings, algum outro dia dou foco nisso. Hoje o foco é nos métodos, e se algum deles falhar por isso eu volto e leio mais o primeiro link, e fazer isso se mostrou bem efetivo nas outras sprints(bateu a dúvida? volta e lê tudo de novo, pq vc polou algo sim, eu te conheço).</p>
-                <details style="margin: 0;">
-                    <summary>
-                        <div>
-                            Métodos de string
-                        </div>
-                    </summary>
-                    <div style="border: none;">
-                        <table id="methodStr">
-                            <tr>
-                                <th>Método</th>
-                                <th>O que faz</th>
-                            </tr>
-                            <tr>
-                                <td>.split()</td>
-                                <td>"texto".split("") === (5) ["t", "e", "x", "t", "o"] <br>
+                            <td>.split()</td>
+                            <td>"texto".split("") === (5) ["t", "e", "x", "t", "o"] <br>
                                 "texto texto".split(" ") === (2) ["texto", "texto"] <br>
                                 Não modifica o original, retorna um array de strings.
                             </td>
-                            </tr>
-                            <tr>
-                                <td>.slice()</td>
-                                <td>"texto".slice(2) === "xto" Seleciona a partir do índice 2 até o final <br>
-                                    "texto".slice(-2) === "to" Seleciona a partir do índice -2, que é o enésimo começando do fim da string <br>
-                                    "texto".slice(2, 4) === "xt" Seleciona um intervalo, do 2 ao 4 <br>
-                                    "texto".slice(-5, 3) === "tex" seleciona um intervalo comaçando do fim <br>
-                                    Retorna uma string, não modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.substring()</td>
-                                <td>Faz a mesma coisa que o de cima só que não dá pra usar índices negativos. <br>
+                        </tr>
+                        <tr>
+                            <td>.slice()</td>
+                            <td>"texto".slice(2) === "xto" Seleciona a partir do índice 2 até o final <br>
+                                "texto".slice(-2) === "to" Seleciona a partir do índice -2, que é o enésimo começando do
+                                fim da string <br>
+                                "texto".slice(2, 4) === "xt" Seleciona um intervalo, do 2 ao 4 <br>
+                                "texto".slice(-5, 3) === "tex" seleciona um intervalo comaçando do fim <br>
+                                Retorna uma string, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.substring()</td>
+                            <td>Faz a mesma coisa que o de cima só que não dá pra usar índices negativos. <br>
                                 Retorna uma string e não modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.substr</td>
-                                <td>É diferente dos 2 acima, o segundo parâmetro não é um índice, é a quantidade de indices que ele vai retornar.<br>
-                                    "texto".substr(2, 2) === "xt" <br>
-                                    Pode ser mais útim em várias situações, na minha opinião, apesar de não poder usar indices negativos.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.indexOf()</td>
-                                <td>"texto".indexOf("e") === 1 <br>
-                                    "texto".indexOf("t") === 0 <br>
-                                    "texto".indexOf("t", 1) === 3
-                                    Retorna o índice do início da ocorrência da string entre parêntesis, na string especificada. Se não houver ocorrências, retorna -1. O segundo parâmetro, opcional, é onde se iniciará a busca pela ocorrência. Retorna um número, não modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.lastIndexOif()</td>
-                                <td>Semelhante ao .indexOf(), porém a string começa a ser contada pelo último caractere, apesar do index ser contado como a palavra foi escrita, ou seja, conta de trás pra frente mas o index é de frente pra frente mesmo. Retorna um número, não modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.includes()</td>
-                                <td>Esse método verifica se a string dentro dos parêntesis estão dentro de outra string, se a posição da palavra não importa, esse até agora é o método mais indicado para procura de trechos de texto em outro texto. 2 parâmetros, o segundo é opcional, o índice de onde se iniciará a busca. Restorna um booleano(true ou false), não modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.startsWith()</td>
-                                <td>Verifica se uma string começa com a string especificada dentro dos parêntesis, é literalmente o que o nome diz. Assim como os outros métodos acima, ao colocar um número depois da string, a busca iniciará a pesquisa a partir do indíce equivalente ao número. Retorna um booleano(true ou false), não modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.endsWith()</td>
-                                <td>Semelhante ao método acima, porém, começa contando do fim. Geralmente a primeira letra do trecho é o index, nesse caso a última letra do trecho é o index, que é contado normalmente sem inverter a string. Retorna um booleano(ture ou false), não modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.trim(), .trimRight, e .trimLeft</td>
-                                <td>Remove os espaços do começo e/ou do fim da string. Mas só esses. todos os espaços que estiverem depois da primeira caracteres válido ou antes do último continuarão. .trim remove dos 2 lados, se tiver dos 2 lados, .trimRight remove da direita e .trimLeft remove da esquerda. Existem funções melhores pra remover espaços, mas caso seja necessário esse nível de especificidade, tá aí.</td>
-                            </tr>
-                            <tr>
-                                <td>.toUpperCase e .toLowerCase</td>
-                                <td>Colocam o texto todo da string em letras maiúsculas e minúsculas, respectivamente.</td>
-                            </tr>
-                            <tr>
-                                <td>.match() e .search()</td>
-                                <td>Bastante úteis para fazer buscas mais refinadas que procurar uma letra. Dentro do parêntesis vai uma expressão regular, e o match retorna um array com a string que se encaixar nas especificações da expressão regular, a tring e um grupo que eu não sei o que é ainda. O search é mais simlpes, ele retorna o indíce da ocorrência do que se encaixar na expressão regular, se não houver, retorna -1.</td>
-                            </tr>
-                            <tr>
-                                <td>.concat</td>
-                                <td>Concatena 2 arrays de strings ou números, coloca tudo numa array só e retorna outro array. O tal do [...[array]] faz isso melhor.</td>
-                            </tr>
-                        </table>
-                    </div>
-                </details>
-                <details style="border: none; margin: 0; padding: 0;">
-                    <summary>
-                        <div>Métodos de Array</div>
-                    </summary>
-                    <div style="border: none;">
-                        <table>
-                            <tr>
-                                <th>Método</th>
-                                <th>O que faz</th>
-                            </tr>
-                            <tr>
-                                <td>.sort()</td>
-                                <td>
-                                    let texto = [4,8,4,7,4,2,65,9,7,6] <br>
-                                    texto.sort((x, y) => x-y) === (10) [2, 4, 4, 4, 6, 7, 7, 8, 9, 65] <br>
-                                    texto.sort((x, y) => y-x) === (10) [65, 9, 8, 7, 7, 6, 4, 4, 4, 2] <br>
-                                    O método .sort é muito mais poderoso que ordenar em ordem crescente ou decrescente, mas por ora isso basta, retorna um array, modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.join()</td>
-                                <td>let texto = ["t", "e", "x", "t", "o"] <br>
-                                    texto.join() === "texto" <br>
-                                    texto.join("-") === "t-e-x-t-o" <br>
-                                    Faz array virar string, caracteres da string serão separados com o que tiver no parâmetro. Retorna uma string, não modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.splice()</td>
-                                <td>let texto = ["t", "e", "x", "t", "o"] <br>
-                                    texto.splice(2) === (3) ["x", "t", "o"] => Array original === ["t", "e"] <br>
-                                    texto.splice(2, 1) === ["x"] => Array original === ["t", "e", "t", "o"] <br>
-                                    texto.splice(1, 2) === (2) ["e", "x"] => Array original === ["t", "t", "o"] <br>
-                                    texto.splice(1, 1, "abacate") === ["e"] => Array original === ["t", "abacate", "x", "t", "o"] <br>
-                                    No mozila parece que não funciona a parte de substiruir, só exclui msm. Retorna um array, modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.slice()</td>
-                                <td>É exatamente o mesmo conceito do slice pra strings, só que retorna um array, continua a não modificar o original</td>
-                            </tr>
-                            <tr>
-                                <td>.includes()</td>
-                                <td>Mesmo conceito do includes de string, só que com array. Não modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.findIndex()</td>
-                                <td>let texto = ["t", "e", "x", "t", "o"] <br>
-                                    texto.findIndex(a => a === "x") === 2 <br>
-                                    Retorna a posição do item do array, se existir no array. Caso não exista, retorna -1. Retorna um número, não modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.find</td>
-                                <td>Faz a mesma coisa que o método acima, porém retorna o item do array ao invés de retornar o index dele.</td>
-                            </tr>
-                            <tr>
-                                <td>.pop()</td>
-                                <td>Retorna o último item de um array. Só isso. Pode ser armazenado numa variável. Nada vai entre os parêntesis. Modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.push()</td>
-                                <td>Adciona o que tiver entre os parêntesis ao array, no fim dele para ser mais específico. Retorna o indíce do que foi adcionado, modifica o original</td>
-                            </tr>
-                            <tr>
-                                <td>.shift()</td>
-                                <td>Remove e retorna o primeiro item de um array. Só isso. Pode ser armazenado numa variável. Nada vai entre os parêntesis. Modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.unshift()</td>
-                                <td>É o push só que no começo do array.Retorna o novo length. Modifica o original.</td>
-                            </tr>
-                            <tr>
-                                <td>.concat()</td>
-                                <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e arrays.</td>
-                            </tr>
-                            
-                        </table>
-                    </div>
-                </details>
-                <details style="margin: 0;">
-                    <summary>
-                        <div>Métodos de números</div>
-                    </summary>
-                    <div>
-                        <table>
-                            <tr>
-                                <th>Método</th>
-                                <th>O que faz</th>
-                            </tr>
-                            <tr>
-                                <td>().toString()</td>
-                                <td>(123).toString() === "123" <br>
-                                    (123).toString(2) === "1111011" <br>
-                                    No primeiro parâmetro vai o número a ser convertido, no segundo a base (binário, octal, qualquer uma de 2 até 36). Retorna uma string, não modifica o original.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>.toPrecision()</td>
-                                <td>
-                                    let texto = 1.2535 <br>
-                                    texto.toPrecision() === "1.2535" <br>
-                                    texto.toPrecision(3) === "1.25" <br>
-                                    Esse método retorna uma string com o número de dígitos definido pelo parâmetro.
-                                </td>
-                                <tr>
-                                    <td>.toFixed()</td>
-                                    <td>let texto = 0.002535 <br>
-                                        texto.toFixed(3) === "1.254" <br>
-                                        Parecido com o de cima, porém o parâmetro é o número de casas decimais retornadas, e arredonda pra cima. Retorna uma string, não modifica o original.</td>
-                                </tr>
-                                <tr>
-                                    <td>.toExponential()</td>
-                                    <td>É a mesma coisa que o de cima, só que retorna com notação exponencial. Esse número em notação exponencial pode ser convertido em número normal com o .toFixed().</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tr>
-                        </table>
-                    </div>
-                </details>
-            </div>
-        </details>
-        <script src="index.js">
+                        </tr>
+                        <tr>
+                            <td>.substr</td>
+                            <td>É diferente dos 2 acima, o segundo parâmetro não é um índice, é a quantidade de indices
+                                que ele vai retornar.<br>
+                                "texto".substr(2, 2) === "xt" <br>
+                                Pode ser mais útim em várias situações, na minha opinião, apesar de não poder usar
+                                indices negativos.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.indexOf()</td>
+                            <td>"texto".indexOf("e") === 1 <br>
+                                "texto".indexOf("t") === 0 <br>
+                                "texto".indexOf("t", 1) === 3
+                                Retorna o índice do início da ocorrência da string entre parêntesis, na string
+                                especificada. Se não houver ocorrências, retorna -1. O segundo parâmetro, opcional, é
+                                onde se iniciará a busca pela ocorrência. Retorna um número, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.lastIndexOif()</td>
+                            <td>Semelhante ao .indexOf(), porém a string começa a ser contada pelo último caractere,
+                                apesar do index ser contado como a palavra foi escrita, ou seja, conta de trás pra
+                                frente mas o index é de frente pra frente mesmo. Retorna um número, não modifica o
+                                original.</td>
+                        </tr>
+                        <tr>
+                            <td>.includes()</td>
+                            <td>Esse método verifica se a string dentro dos parêntesis estão dentro de outra string, se
+                                a posição da palavra não importa, esse até agora é o método mais indicado para procura
+                                de trechos de texto em outro texto. 2 parâmetros, o segundo é opcional, o índice de onde
+                                se iniciará a busca. Restorna um booleano(true ou false), não modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.startsWith()</td>
+                            <td>Verifica se uma string começa com a string especificada dentro dos parêntesis, é
+                                literalmente o que o nome diz. Assim como os outros métodos acima, ao colocar um número
+                                depois da string, a busca iniciará a pesquisa a partir do indíce equivalente ao número.
+                                Retorna um booleano(true ou false), não modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.endsWith()</td>
+                            <td>Semelhante ao método acima, porém, começa contando do fim. Geralmente a primeira letra
+                                do trecho é o index, nesse caso a última letra do trecho é o index, que é contado
+                                normalmente sem inverter a string. Retorna um booleano(ture ou false), não modifica o
+                                original.</td>
+                        </tr>
+                        <tr>
+                            <td>.trim(), .trimRight, e .trimLeft</td>
+                            <td>Remove os espaços do começo e/ou do fim da string. Mas só esses. todos os espaços que
+                                estiverem depois da primeira caracteres válido ou antes do último continuarão. .trim
+                                remove dos 2 lados, se tiver dos 2 lados, .trimRight remove da direita e .trimLeft
+                                remove da esquerda. Existem funções melhores pra remover espaços, mas caso seja
+                                necessário esse nível de especificidade, tá aí.</td>
+                        </tr>
+                        <tr>
+                            <td>.toUpperCase e .toLowerCase</td>
+                            <td>Colocam o texto todo da string em letras maiúsculas e minúsculas, respectivamente.</td>
+                        </tr>
+                        <tr>
+                            <td>.match() e .search()</td>
+                            <td>Bastante úteis para fazer buscas mais refinadas que procurar uma letra. Dentro do
+                                parêntesis vai uma expressão regular, e o match retorna um array com a string que se
+                                encaixar nas especificações da expressão regular, a tring e um grupo que eu não sei o
+                                que é ainda. O search é mais simlpes, ele retorna o indíce da ocorrência do que se
+                                encaixar na expressão regular, se não houver, retorna -1.</td>
+                        </tr>
+                        <tr>
+                            <td>.concat</td>
+                            <td>Concatena 2 arrays de strings ou números, coloca tudo numa array só e retorna outro
+                                array. O tal do [...[array]] faz isso melhor.</td>
+                        </tr>
+                    </table>
+                </div>
+            </details>
+            <details style="border: none; margin: 0; padding: 0;">
+                <summary>
+                    <div>Métodos de Array</div>
+                </summary>
+                <div style="border: none;">
+                    <table>
+                        <tr>
+                            <th>Método</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>.map()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.reduce()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.filter()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.sort()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.sort()</td>
+                            <td>
+                                let texto = [4,8,4,7,4,2,65,9,7,6] <br>
+                                texto.sort((x, y) => x-y) === (10) [2, 4, 4, 4, 6, 7, 7, 8, 9, 65] <br>
+                                texto.sort((x, y) => y-x) === (10) [65, 9, 8, 7, 7, 6, 4, 4, 4, 2] <br>
+                                O método .sort é muito mais poderoso que ordenar em ordem crescente ou decrescente, mas
+                                por ora isso basta, retorna um array, modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.join()</td>
+                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                texto.join() === "texto" <br>
+                                texto.join("-") === "t-e-x-t-o" <br>
+                                Faz array virar string, caracteres da string serão separados com o que tiver no
+                                parâmetro. Retorna uma string, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.splice()</td>
+                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                texto.splice(2) === (3) ["x", "t", "o"] => Array original === ["t", "e"] <br>
+                                texto.splice(2, 1) === ["x"] => Array original === ["t", "e", "t", "o"] <br>
+                                texto.splice(1, 2) === (2) ["e", "x"] => Array original === ["t", "t", "o"] <br>
+                                texto.splice(1, 1, "abacate") === ["e"] => Array original === ["t", "abacate", "x", "t",
+                                "o"] <br>
+                                No mozila parece que não funciona a parte de substiruir, só exclui msm. Retorna um
+                                array, modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.slice()</td>
+                            <td>É exatamente o mesmo conceito do slice pra strings, só que retorna um array, continua a
+                                não modificar o original</td>
+                        </tr>
+                        <tr>
+                            <td>.includes()</td>
+                            <td>Mesmo conceito do includes de string, só que com array. Não modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.findIndex()</td>
+                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                texto.findIndex(a => a === "x") === 2 <br>
+                                Retorna a posição do item do array, se existir no array. Caso não exista, retorna -1.
+                                Retorna um número, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.find</td>
+                            <td>Faz a mesma coisa que o método acima, porém retorna o item do array ao invés de retornar
+                                o index dele.</td>
+                        </tr>
+                        <tr>
+                            <td>.pop()</td>
+                            <td>Retorna o último item de um array. Só isso. Pode ser armazenado numa variável. Nada vai
+                                entre os parêntesis. Modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.push()</td>
+                            <td>Adciona o que tiver entre os parêntesis ao array, no fim dele para ser mais específico.
+                                Retorna o indíce do que foi adcionado, modifica o original</td>
+                        </tr>
+                        <tr>
+                            <td>.shift()</td>
+                            <td>Remove e retorna o primeiro item de um array. Só isso. Pode ser armazenado numa
+                                variável. Nada vai entre os parêntesis. Modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.unshift()</td>
+                            <td>É o push só que no começo do array.Retorna o novo length. Modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.concat()</td>
+                            <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e
+                                arrays.</td>
+                        </tr>
+                        <tr>
+                            <td>.reverse()</td>
+                            <td>Não recebe parâmetros. Modifica o original. Faz exatamente o que o nome propõe, ordena
+                                os itens do array no mesmo array começando pelo último até o primeiro.</td>
+                        </tr>
+                    </table>
+                </div>
+            </details>
+            <details style="margin: 0;">
+                <summary>
+                    <div>Métodos de números</div>
+                </summary>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Método</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>().toString()</td>
+                            <td>(123).toString() === "123" <br>
+                                (123).toString(2) === "1111011" <br>
+                                No primeiro parâmetro vai o número a ser convertido, no segundo a base (binário, octal,
+                                qualquer uma de 2 até 36). Retorna uma string, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.toPrecision()</td>
+                            <td>
+                                let texto = 1.2535 <br>
+                                texto.toPrecision() === "1.2535" <br>
+                                texto.toPrecision(3) === "1.25" <br>
+                                Esse método retorna uma string com o número de dígitos definido pelo parâmetro.
+                            </td>
+                        <tr>
+                            <td>.toFixed()</td>
+                            <td>let texto = 0.002535 <br>
+                                texto.toFixed(3) === "1.254" <br>
+                                Parecido com o de cima, porém o parâmetro é o número de casas decimais retornadas, e
+                                arredonda pra cima. Retorna uma string, não modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.toExponential()</td>
+                            <td>É a mesma coisa que o de cima, só que retorna com notação exponencial. Esse número em
+                                notação exponencial pode ser convertido em número normal com o .toFixed().</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tr>
+                    </table>
+                </div>
+            </details>
+        </div>
+    </details>
+    <script src="index.js">
 
-        </script>
-    </body>
+    </script>
+</body>
+
 </html>
