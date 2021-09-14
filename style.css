@@ -10,7 +10,7 @@ body {
     margin: 0;
     border: 0;
 }
-img {
+.background {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -143,10 +143,4 @@ details > summary {
     border-radius: 10px;
     padding-bottom: 2px;
     padding: 2px;
-}
-
-.guia {
-    position: inherit;
-    width: 331px;
-    height: 222px;
 }
