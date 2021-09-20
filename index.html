@@ -1216,6 +1216,11 @@
             <div class="code">name: yup.string().required("Nome obrigatório").matches("^[A-Za-z\\s]+$", "Nome inválido")</div>
             <div class="code">age: yup.string().required("Idade obrigatória").matches("^[0-9]+$", "Idade inválida")</div>
             <p>Se precisar de algo mais pesquisa no <a href="https://github.com/jquense/yup">github do yup</a></p>
+            <p>Na tag form vai um onSubmit com o handleSubmit e outra função como parâmetro, essa função que tem como paramêtro data(acho que não precisa ser esse nome) mostra tudo o que foi submitado.</p>
+            <div class="code"><form
+                className="formulario"
+                onSubmit={handleSubmit(handleSubmitButton)}
+              ></div>
         </div>
     </details>
     <details>
