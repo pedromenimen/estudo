@@ -1214,9 +1214,9 @@
             <div class="code">const {register, handleSubmit, formState: { errors }} = useForm({resolver: yupResolver(formSchema)})</div>
             <p>O register é pra registrar o campo do formulário, o handle submit é a função a ser executada ao fazer o submit, o formState nesse caso é pra renderizar a mensagem de erro, o useForm nesse caso(?) é pra colocar o que vai ser validado em cada campo, e fica tudo armazenado no formSchema(o nome não precisa ser esse).O código no formSchema define várias coisas que precisam ser digitadas ou escolhidas nos inputs para que o submit possa ser executado, ao clicar no botão nada acontece a não ser que tudo o que for passado aqui esteja nos conformes. Tipo regex de email, cpf essas coisas.</p>
             <div class="code">name: yup.string().required("Nome obrigatório").matches("^[A-Za-z\\s]+$", "Nome inválido")</div>
+            <div class="code">age: yup.string().required("Idade obrigatória").matches("^[0-9]+$", "Idade inválida")</div>
+            <p>Se precisar de algo mais pesquisa no <a href="https://github.com/jquense/yup">github do yup</a></p>
         </div>
-        <div class="code">age: yup.string().required("Idade obrigatória").matches("^[0-9]+$", "Idade inválida")</div>
-        <p>Se precisar de algo mais pesquisa no <a href="https://github.com/jquense/yup">github do yup</a></p>
     </details>
     <details>
         <summary>
