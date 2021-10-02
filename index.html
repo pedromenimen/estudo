@@ -1249,7 +1249,7 @@
         </summary>
         <div>
             <p>Até agora vi que ele serve pra armazenar states e depois conseguir utilizar eles de qualquer componente sem passar por props, é aquilo que eu tava fazendo com o localStorage só que sem consumir memória do navegador. Para instalar é necessário o comando abaixo./p>
-                <div class="code">yarn add redux react-redux</div>
+                <div class="code">yarn add redux react-redux redux-thunk</div>
                 <p>Não deve ser regra mas é boa prática criar uma pasta store, dentro dela uma pasta mnodules, dentro dela outra pasta com o nome de onde o redux for atuar</p>
                 <p>É boa prática criar uma pasta store com um arquivo index.js, onde será criada a store, os reducers serão combinados e o middleware será aplicado. Além do index.js, uma pasta chamada modules, cada módulo tende a ter 4 arquivos, reducer, que é a função que vai agir sobre o state, o actions, que é o que determina o que a reducer vai fazer, o actionTypes serve pra padronizar os tipos de actions em variáveis, e o thunks, que é quando é necessário fazer algo além do que o reducer faz, como formatar um cpf ou adicionar algo ao localStorage.</p>
         </div>
