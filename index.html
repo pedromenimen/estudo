@@ -1603,7 +1603,58 @@
             </div>
         </summary>
         <div>
-            <p>Texto</p>
+            <p>Dicionários são objetos diferenciados, a diferença é basicamente que eles podem ter chaves como strings, números e tuplas. Qualquer tipo de dado pode ser armazenado no respectivo valor. Para adicionar alguma chave a algum dicionário basta digitar nome_do_dicionario[nome_da_chave] = valor_da_chave, e para deletar é só fazer o mesmo só que usando o del na frente: del nome_do_dicionario[nome_da_chave] = valor_da_chave</p>
+            <table>
+                <tr>
+                    <td>.clear()</td>
+                    <td>dict.clear()
+                        <br>
+                        Deleta todos os items do dicionário.
+                    </td>
+                </tr>
+                <tr>
+                    <td>.get()</td>
+                    <td>dict.get(dict_item, error_message)
+                        <br>
+                        É basicamente a mesma coisa que dict[index], mas aqui pode ser definida uma mensagem de erro personalizada no caso de o item não existir. dict.get("slider", "Item não existente")
+                    </td>
+                </tr>
+                <tr>
+                    <td>.items()</td>
+                    <td>dict.items()
+                        <br>
+                        Retorna em forma de uma lista de tuplas, o par chave/valor em cada tupla.
+                    </td>
+                </tr>
+                <tr>
+                    <td>.keys()</td>
+                    <td>dict.keys()
+                        <br>
+                        Retorna as chaves do dicionário, cada uma como um item de uma lista.
+                    </td>
+                </tr>
+                <tr>
+                    <td>.pop()</td>
+                    <td>dict.pop(dict_item, error_message)
+                        <br>
+                        Remove e retorna um valor do dicionário, caso a chave do valor não exista retorna a mensagem de erro, caso definida.
+                    </td>
+                </tr>
+                <tr>
+                    <td>.setdefault()</td>
+                    <td>dict.setdefault(key, value)
+                        <br>
+                        Caso a chave exista retorna o valor, caso contrário, cria e retorna o valor.
+                    </td>
+                </tr>
+                <tr>
+                    <td>.values()</td>
+                    <td>dict.values()
+                        <br>
+                        Retorna um array com os valores do dicionário.
+                    </td>
+                </tr>
+            </table>
         </div>
     </details>
     <details>
