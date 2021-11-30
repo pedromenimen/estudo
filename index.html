@@ -1117,8 +1117,11 @@
             </div>
         </summary>
         <div>
-            <p>Parece que é muito mais comum usar essas coisas aí de baixo com o react então já vai acostumando pq pode dar ruim no futuro:</p>
-            <p>Classes, callbacks, eventos de usuário, template string(`${variavel, função etc} texto comum`), arrow functions, métodos de array, ternário(if só que com pouco texto), spread operators e desconstrução de dados(objetos e arrays).</p>
+            <p>Parece que é muito mais comum usar essas coisas aí de baixo com o react então já vai acostumando pq pode
+                dar ruim no futuro:</p>
+            <p>Classes, callbacks, eventos de usuário, template string(`${variavel, função etc} texto comum`), arrow
+                functions, métodos de array, ternário(if só que com pouco texto), spread operators e desconstrução de
+                dados(objetos e arrays).</p>
         </div>
     </details>
     <details>
@@ -1129,14 +1132,15 @@
         </summary>
         <div>
             <p>Digitar isso aqui no terminal:
-                <div class="code">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</div>
-                <div class="code">export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-                </div>
-                <p>Lê antes de copiar e colar sua mula</p>
-                <div class="code">nvm install 14.17.5</div>
-                <div class="code">nvm list</div>
-                <p>A opção stable tem que ser 14.algumacoisa e ser default</p>
-                <img class="guia"src="./assets/nvm-list-14-17.png" alt="">
+            <div class="code">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</div>
+            <div class="code">export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads
+                nvm [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+            </div>
+            <p>Lê antes de copiar e colar sua mula</p>
+            <div class="code">nvm install 14.17.5</div>
+            <div class="code">nvm list</div>
+            <p>A opção stable tem que ser 14.algumacoisa e ser default</p>
+            <img class="guia" src="./assets/nvm-list-14-17.png" alt="">
             </p>
         </div>
     </details>
@@ -1164,11 +1168,14 @@
         <div>
             <p>Pra instalar o vercel, além de ter o node precisa digitar no terminal o seguiinte código:</p>
             <div class="code">npm install -g vercel</div>
-            <p>Agora todo site(ou qual for o nome que dão pra site, projeto aplicação sla) que precisar ir pro ar, tipo no github pages, basta digitar o código:</p>
+            <p>Agora todo site(ou qual for o nome que dão pra site, projeto aplicação sla) que precisar ir pro ar, tipo
+                no github pages, basta digitar o código:</p>
             <div class="code">vercel --build-env CI=false</div>
             <p>Toda vez que alguma atualização precise ser feita, o código abaixo o atualiza o site:</p>
             <div class="code">vercel --prod</div>
-            <p>É mais fácil que o github pages mas o github pages nunca foi difícil, então por mim tanto faz, já que nenhum deles é uma opção para projetos de verdade, daqueles que os clientes pagam, é só pra fazer as atividades aqui na kenzie.</p>
+            <p>É mais fácil que o github pages mas o github pages nunca foi difícil, então por mim tanto faz, já que
+                nenhum deles é uma opção para projetos de verdade, daqueles que os clientes pagam, é só pra fazer as
+                atividades aqui na kenzie.</p>
 
         </div>
     </details>
@@ -1179,7 +1186,9 @@
             </div>
         </summary>
         <div>
-            <p>O react é uma biblioteca com várias coisas prontas, tipo botão e várias estilizações aí, e o jsx é o html junto com o javascript, é normal ver coisas tipo function sla(man) {<br>return &lt;h1&gt;man&lt;h1&gt;<br>}</p>
+            <p>O react é uma biblioteca com várias coisas prontas, tipo botão e várias estilizações aí, e o jsx é o html
+                junto com o javascript, é normal ver coisas tipo function sla(man) {<br>return
+                &lt;h1&gt;man&lt;h1&gt;<br>}</p>
         </div>
     </details>
     <details>
@@ -1191,12 +1200,16 @@
         <div>
             <p>Pra usar o react router DOM digitar o seguinte comando dentro do projeto:</p>
             <div class="code">yarn add react-router-dom</div>
-            <p>Para importar algo dentro do projeto, basta digitar import { o que vc tiver a fim de importar } from "react-router-dom".</p>
-            <p>Antes de começar a usar é necessário ir no index.js e importar BrowserRouter, depois dentro do &lt;React.StrictMode&gt; como children colocar o &lt;BrowserRouter&gt;, e dentro deste colocar o &lt;App&gt;, também como children.</p>
-            <p>Até hoje precisei importar Switch, Route(que são necessários para paginação, clicar em algo e ir pra outro lugar), Link e o BrowserRouter.</p>
+            <p>Para importar algo dentro do projeto, basta digitar import { o que vc tiver a fim de importar } from
+                "react-router-dom".</p>
+            <p>Antes de começar a usar é necessário ir no index.js e importar BrowserRouter, depois dentro do
+                &lt;React.StrictMode&gt; como children colocar o &lt;BrowserRouter&gt;, e dentro deste colocar o
+                &lt;App&gt;, também como children.</p>
+            <p>Até hoje precisei importar Switch, Route(que são necessários para paginação, clicar em algo e ir pra
+                outro lugar), Link e o BrowserRouter.</p>
         </div>
     </details>
-    
+
     <details>
         <summary>
             <div>
@@ -1206,21 +1219,33 @@
         <div>
             <p>Não sei o que é ainda, mas tem um comando que tem que digitar antes de começar a implementar.</p>
             <div class="code">yarn add yup react-hook-form @hookform/resolvers</div>
-            <p>Para começar a usá-lo, é necessário importar algumas coisas de alguns lugares, eu sla os termos técnicos.</p>
+            <p>Para começar a usá-lo, é necessário importar algumas coisas de alguns lugares, eu sla os termos técnicos.
+            </p>
             <div class="code">import * as yup from "yup"</div>
             <div class="code">import { useForm } from "react-hook-form"</div>
             <div class="code">import { yupResolver } from "@hookform/resolvers/yup"</div>
-            <p>Depois de importar, até agora eu só precisei usar os comandos abaixo, se precisar de mais coisas tem no <a href="https://github.com/jquense/yup">github do yup</a> .</p>
-            <div class="code">const {register, handleSubmit, formState: { errors }} = useForm({resolver: yupResolver(formSchema)})</div>
-            <p>O register é pra registrar o campo do formulário, o handle submit é a função a ser executada ao fazer o submit, o formState nesse caso é pra renderizar a mensagem de erro, o useForm nesse caso(?) é pra colocar o que vai ser validado em cada campo, e fica tudo armazenado no formSchema(o nome não precisa ser esse).O código no formSchema define várias coisas que precisam ser digitadas ou escolhidas nos inputs para que o submit possa ser executado, ao clicar no botão nada acontece a não ser que tudo o que for passado aqui esteja nos conformes. Tipo regex de email, cpf essas coisas.</p>
-            <div class="code">name: yup.string().required("Nome obrigatório").matches("^[A-Za-z\\s]+$", "Nome inválido")</div>
-            <div class="code">age: yup.string().required("Idade obrigatória").matches("^[0-9]+$", "Idade inválida")</div>
+            <p>Depois de importar, até agora eu só precisei usar os comandos abaixo, se precisar de mais coisas tem no
+                <a href="https://github.com/jquense/yup">github do yup</a> .
+            </p>
+            <div class="code">const {register, handleSubmit, formState: { errors }} = useForm({resolver:
+                yupResolver(formSchema)})</div>
+            <p>O register é pra registrar o campo do formulário, o handle submit é a função a ser executada ao fazer o
+                submit, o formState nesse caso é pra renderizar a mensagem de erro, o useForm nesse caso(?) é pra
+                colocar o que vai ser validado em cada campo, e fica tudo armazenado no formSchema(o nome não precisa
+                ser esse).O código no formSchema define várias coisas que precisam ser digitadas ou escolhidas nos
+                inputs para que o submit possa ser executado, ao clicar no botão nada acontece a não ser que tudo o que
+                for passado aqui esteja nos conformes. Tipo regex de email, cpf essas coisas.</p>
+            <div class="code">name: yup.string().required("Nome obrigatório").matches("^[A-Za-z\\s]+$", "Nome inválido")
+            </div>
+            <div class="code">age: yup.string().required("Idade obrigatória").matches("^[0-9]+$", "Idade inválida")
+            </div>
             <p>Se precisar de algo mais pesquisa no <a href="https://github.com/jquense/yup">github do yup</a></p>
-            <p>Na tag form vai um onSubmit com o handleSubmit e outra função como parâmetro, essa função que tem como paramêtro data(acho que não precisa ser esse nome) mostra tudo o que foi submitado.</p>
+            <p>Na tag form vai um onSubmit com o handleSubmit e outra função como parâmetro, essa função que tem como
+                paramêtro data(acho que não precisa ser esse nome) mostra tudo o que foi submitado.</p>
             <div class="code">&lt;form
                 className="formulario"
                 onSubmit={handleSubmit(handleSubmitButton)}
-              &gt;</div>
+                &gt;</div>
         </div>
     </details>
     <details>
@@ -1232,12 +1257,14 @@
         <div>
             <p>O axios é dahorinha pra conversar com a api, e tem alguns comandos fáceis de lembrar tb.</p>
             <div class="code">yarn add axios</div>
-            <p>O comando acima instala o axios. No arquivo que for usar o axios é necessário importá-lo, e o comando abaixo o faz.</p>
+            <p>O comando acima instala o axios. No arquivo que for usar o axios é necessário importá-lo, e o comando
+                abaixo o faz.</p>
             <div class="code">import axios from "axios"</div>
-            <p>Normalmente declaramos uma constante com a url base da api, e conforme as necessidades utilizamos essa constante em outros arquivos.</p>
+            <p>Normalmente declaramos uma constante com a url base da api, e conforme as necessidades utilizamos essa
+                constante em outros arquivos.</p>
             <div class="code">const api = axios.create({
                 baseURL: "https://kenziehub.herokuapp.com"
-            })</div>
+                })</div>
             <p>Se for necessário autorização do token ou usar url.get ou url.post estará documentado no insomnia.</p>
         </div>
     </details>
@@ -1248,10 +1275,212 @@
             </div>
         </summary>
         <div>
-            <p>Até agora vi que ele serve pra armazenar states e depois conseguir utilizar eles de qualquer componente sem passar por props, é aquilo que eu tava fazendo com o localStorage só que sem consumir memória do navegador. Para instalar é necessário o comando abaixo./p>
-                <div class="code">yarn add redux react-redux redux-thunk</div>
-                <p>Não deve ser regra mas é boa prática criar uma pasta store, dentro dela uma pasta mnodules, dentro dela outra pasta com o nome de onde o redux for atuar</p>
-                <p>É boa prática criar uma pasta store com um arquivo index.js, onde será criada a store, os reducers serão combinados e o middleware será aplicado. Além do index.js, uma pasta chamada modules, cada módulo tende a ter 4 arquivos, reducer, que é a função que vai agir sobre o state, o actions, que é o que determina o que a reducer vai fazer, o actionTypes serve pra padronizar os tipos de actions em variáveis, e o thunks, que é quando é necessário fazer algo além do que o reducer faz, como formatar um cpf ou adicionar algo ao localStorage.</p>
+            <p>Até agora vi que ele serve pra armazenar states e depois conseguir utilizar eles de qualquer componente
+                sem passar por props, é aquilo que eu tava fazendo com o localStorage só que sem consumir memória do
+                navegador. Para instalar é necessário o comando abaixo./p>
+            <div class="code">yarn add redux react-redux redux-thunk</div>
+            <p>Não deve ser regra mas é boa prática criar uma pasta store, dentro dela uma pasta mnodules, dentro dela
+                outra pasta com o nome de onde o redux for atuar</p>
+            <p>É boa prática criar uma pasta store com um arquivo index.js, onde será criada a store, os reducers serão
+                combinados e o middleware será aplicado. Além do index.js, uma pasta chamada modules, cada módulo tende
+                a ter 4 arquivos, reducer, que é a função que vai agir sobre o state, o actions, que é o que determina o
+                que a reducer vai fazer, o actionTypes serve pra padronizar os tipos de actions em variáveis, e o
+                thunks, que é quando é necessário fazer algo além do que o reducer faz, como formatar um cpf ou
+                adicionar algo ao localStorage.</p>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>Métodos Python</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Começou o Q3 e já tem método pra krl pra usar, tipo os do javascript. Copiei e colei a parte dos métodos
+                do javascript, mas é quase tudo igual.</p>
+            <details style="margin: 0;">
+                <summary>
+                    <div>
+                        Métodos de string
+                    </div>
+                </summary>
+                <div style="border: none;">
+                    <table id="methodStr">
+                        <tr>
+                            <th>Método</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>str.join(str, list, tuple, dict, etc)</td>
+                            <td>"".join([list_item1, list_item2, list_item3]) === "list_item1, list_item2, list_item3"
+                                Insere o que tiver entre os parêntesis entre cada item da lista, string, tupla,
+                                dicionário, conjuntos, etc... <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>str.split("")</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </details>
+            <details style="border: none; margin: 0; padding: 0;">
+                <summary>
+                    <div>Métodos de Array</div>
+                </summary>
+                <div style="border: none;">
+                    <table>
+                        <tr>
+                            <th>Método</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>.map()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.reduce()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.filter()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.sort()</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>.sort()</td>
+                            <td>
+                                let texto = [4,8,4,7,4,2,65,9,7,6] <br>
+                                texto.sort((x, y) => x-y) === (10) [2, 4, 4, 4, 6, 7, 7, 8, 9, 65] <br>
+                                texto.sort((x, y) => y-x) === (10) [65, 9, 8, 7, 7, 6, 4, 4, 4, 2] <br>
+                                O método .sort é muito mais poderoso que ordenar em ordem crescente ou decrescente, mas
+                                por ora isso basta, retorna um array, modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.join()</td>
+                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                texto.join() === "texto" <br>
+                                texto.join("-") === "t-e-x-t-o" <br>
+                                Faz array virar string, caracteres da string serão separados com o que tiver no
+                                parâmetro. Retorna uma string, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.splice()</td>
+                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                texto.splice(2) === (3) ["x", "t", "o"] => Array original === ["t", "e"] <br>
+                                texto.splice(2, 1) === ["x"] => Array original === ["t", "e", "t", "o"] <br>
+                                texto.splice(1, 2) === (2) ["e", "x"] => Array original === ["t", "t", "o"] <br>
+                                texto.splice(1, 1, "abacate") === ["e"] => Array original === ["t", "abacate", "x", "t",
+                                "o"] <br>
+                                No mozila parece que não funciona a parte de substiruir, só exclui msm. Retorna um
+                                array, modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.slice()</td>
+                            <td>É exatamente o mesmo conceito do slice pra strings, só que retorna um array, continua a
+                                não modificar o original</td>
+                        </tr>
+                        <tr>
+                            <td>.includes()</td>
+                            <td>Mesmo conceito do includes de string, só que com array. Não modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.findIndex()</td>
+                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
+                                texto.findIndex(a => a === "x") === 2 <br>
+                                Retorna a posição do item do array, se existir no array. Caso não exista, retorna -1.
+                                Retorna um número, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.find</td>
+                            <td>Faz a mesma coisa que o método acima, porém retorna o item do array ao invés de retornar
+                                o index dele.</td>
+                        </tr>
+                        <tr>
+                            <td>.pop()</td>
+                            <td>Retorna o último item de um array. Só isso. Pode ser armazenado numa variável. Nada vai
+                                entre os parêntesis. Modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.push()</td>
+                            <td>Adciona o que tiver entre os parêntesis ao array, no fim dele para ser mais específico.
+                                Retorna o indíce do que foi adcionado, modifica o original</td>
+                        </tr>
+                        <tr>
+                            <td>.shift()</td>
+                            <td>Remove e retorna o primeiro item de um array. Só isso. Pode ser armazenado numa
+                                variável. Nada vai entre os parêntesis. Modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.unshift()</td>
+                            <td>É o push só que no começo do array.Retorna o novo length. Modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.concat()</td>
+                            <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e
+                                arrays.</td>
+                        </tr>
+                        <tr>
+                            <td>.reverse()</td>
+                            <td>Não recebe parâmetros. Modifica o original. Faz exatamente o que o nome propõe, ordena
+                                os itens do array no mesmo array começando pelo último até o primeiro.</td>
+                        </tr>
+                    </table>
+                </div>
+            </details>
+            <details style="margin: 0;">
+                <summary>
+                    <div>Métodos de números</div>
+                </summary>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Método</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>().toString()</td>
+                            <td>(123).toString() === "123" <br>
+                                (123).toString(2) === "1111011" <br>
+                                No primeiro parâmetro vai o número a ser convertido, no segundo a base (binário, octal,
+                                qualquer uma de 2 até 36). Retorna uma string, não modifica o original.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.toPrecision()</td>
+                            <td>
+                                let texto = 1.2535 <br>
+                                texto.toPrecision() === "1.2535" <br>
+                                texto.toPrecision(3) === "1.25" <br>
+                                Esse método retorna uma string com o número de dígitos definido pelo parâmetro.
+                            </td>
+                        <tr>
+                            <td>.toFixed()</td>
+                            <td>let texto = 0.002535 <br>
+                                texto.toFixed(3) === "1.254" <br>
+                                Parecido com o de cima, porém o parâmetro é o número de casas decimais retornadas, e
+                                arredonda pra cima. Retorna uma string, não modifica o original.</td>
+                        </tr>
+                        <tr>
+                            <td>.toExponential()</td>
+                            <td>É a mesma coisa que o de cima, só que retorna com notação exponencial. Esse número em
+                                notação exponencial pode ser convertido em número normal com o .toFixed().</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tr>
+                    </table>
+                </div>
+            </details>
         </div>
     </details>
     <details>
@@ -1265,9 +1494,9 @@
         </div>
     </details>
     <script>
-        
+
     </script>
-        <!-- details>(summary>div>h1)>(div>p) -->
+    <!-- details>(summary>div>h1)>(div>p) -->
 </body>
 
 </html>
