@@ -1435,69 +1435,66 @@
                         </tr>
                         <tr>
                             <td>.index()</td>
-                            <td></td>
+                            <td>list.index(list_item)
+                                <br>
+                                Retorna um número, que é o index da primeira ocorrência do list_item na lista.
+                            </td>
                         </tr>
                         <tr>
                             <td>.insert()</td>
-                            <td></td>
+                            <td>list.insert(index, new_list_item)
+                                <br>
+                                Adiciona o new_list_item à lista na posição index.
+                            </td>
                         </tr>
                         <tr>
                             <td>.pop()</td>
-                            <td></td>
+                            <td>list.pop(index)
+                                <br>
+                                Remove o último item da lista caso index não seja definido, caso contrário, remove o item correspondente ao index.
+                            </td>
                         </tr>
                         <tr>
                             <td>.remove()</td>
-                            <td></td>
+                            <td>list.remove(list_item)
+                                <br>
+                                Remove a primeira ocorrência do list_item da lista.
+                            </td>
                         </tr>
                         <tr>
                             <td>.reverse()</td>
-                            <td></td>
+                            <td>list.reverse()
+                                <br>
+                                Inverte a ordem dos itens da lista
+                            </td>
                         </tr>
                     </table>
                 </div>
             </details>
             <details style="margin: 0;">
                 <summary>
-                    <div>Métodos de números</div>
+                    <div>Métodos de tuplas</div>
                 </summary>
                 <div>
+                    <p>As tuplas são imutáveis(tipo o const do react) então só tem 2 métodos.</p>
                     <table>
                         <tr>
                             <th>Método</th>
                             <th>O que faz</th>
                         </tr>
                         <tr>
-                            <td>().toString()</td>
-                            <td>(123).toString() === "123" <br>
-                                (123).toString(2) === "1111011" <br>
-                                No primeiro parâmetro vai o número a ser convertido, no segundo a base (binário, octal,
-                                qualquer uma de 2 até 36). Retorna uma string, não modifica o original.
+                            <td>.count()</td>
+                            <td>tuple(to_be_counted)
+                                <br>
+                                Retorna um número, que é o número de vezes que to_be_counted aparece na tupla.
                             </td>
                         </tr>
                         <tr>
-                            <td>.toPrecision()</td>
-                            <td>
-                                let texto = 1.2535 <br>
-                                texto.toPrecision() === "1.2535" <br>
-                                texto.toPrecision(3) === "1.25" <br>
-                                Esse método retorna uma string com o número de dígitos definido pelo parâmetro.
+                            <td>.index()</td>
+                            <td>tuple.index(tuple_item)
+                                <br>
+                                Retorna um número, que é o index da primeira ocorrência do list_item na tupla.
                             </td>
-                        <tr>
-                            <td>.toFixed()</td>
-                            <td>let texto = 0.002535 <br>
-                                texto.toFixed(3) === "1.254" <br>
-                                Parecido com o de cima, porém o parâmetro é o número de casas decimais retornadas, e
-                                arredonda pra cima. Retorna uma string, não modifica o original.</td>
-                        </tr>
-                        <tr>
-                            <td>.toExponential()</td>
-                            <td>É a mesma coisa que o de cima, só que retorna com notação exponencial. Esse número em
-                                notação exponencial pode ser convertido em número normal com o .toFixed().</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
                         </tr>
                     </table>
                 </div>
