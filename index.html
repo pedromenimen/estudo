@@ -1366,7 +1366,8 @@
                             <td>.replace()</td>
                             <td>str.replace(str2, str3)
                                 <br>
-                                Retorna uma string (str), mas nessa string houver alguma ocorrência de str2, será trocado por str3
+                                Retorna uma string (str), mas nessa string houver alguma ocorrência de str2, será
+                                trocado por str3
                             </td>
                         </tr>
                     </table>
@@ -1374,7 +1375,7 @@
             </details>
             <details style="border: none; margin: 0; padding: 0;">
                 <summary>
-                    <div>Métodos de Array</div>
+                    <div>Métodos de lista</div>
                 </summary>
                 <div style="border: none;">
                     <table>
@@ -1383,102 +1384,74 @@
                             <th>O que faz</th>
                         </tr>
                         <tr>
-                            <td>.map()</td>
-                            <td></td>
+                            <td>.append()</td>
+                            <td>list.append(str, number, etc)
+                                <br>
+                                Adciona o que estiver dentro dos parêntesis ao final da lista como um item, diferente do <a href="#extend">extend</a>>.
+                            </td>
                         </tr>
                         <tr>
-                            <td>.reduce()</td>
-                            <td></td>
+                            <td>.clear()</td>
+                            <td>list.clear()
+                                <br>
+                                Apaga todos os itens da lista.
+                            </td>
                         </tr>
                         <tr>
-                            <td>.filter()</td>
-                            <td></td>
+                            <td>.copy()</td>
+                            <td>list.copy()
+                                <br>
+                                Copia todos os itens da lista, pode ser atribuído à uma variável.
+                            </td>
                         </tr>
                         <tr>
                             <td>.sort()</td>
+                            <td>list.sort()
+                                <br>
+                                Retorna uma lista com os itens em ordem crescente por padrão. Se reverse=True, for colocado entre os parênteses, a ordem será invertida.
+                                Se key=function for colocado entre os parênteses, irá alterar a ordem de exibição também, alguns exemplos de key são: len, propriedade do item do dicionário, etc.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>sorted()</td>
+                            <td>sorted(Qualquer coisa iterável)
+                                <br>
+                                Retorna o iterável em ordem crescente, ou outra desejável. Reverse e key podem ser colocados entre parênteses, assim como no método .sort().
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.count()</td>
+                            <td>list.count(to_be_counted)
+                                <br>
+                                Retorna um número, que é o número de vezes que to_be_counted aparece em list.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.extend()</td>
+                            <td id="extend">list.extend(Qualquer coisa iterável)
+                                <br>
+                                Adciona o que estiver entre parênteses ao final da lista. A diferença entre esse método e o append é que esse é como o spread operator do javascript, no append o que estiver dentro dos parênteses vai como um único item.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.index()</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>.sort()</td>
-                            <td>
-                                let texto = [4,8,4,7,4,2,65,9,7,6] <br>
-                                texto.sort((x, y) => x-y) === (10) [2, 4, 4, 4, 6, 7, 7, 8, 9, 65] <br>
-                                texto.sort((x, y) => y-x) === (10) [65, 9, 8, 7, 7, 6, 4, 4, 4, 2] <br>
-                                O método .sort é muito mais poderoso que ordenar em ordem crescente ou decrescente, mas
-                                por ora isso basta, retorna um array, modifica o original.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>.join()</td>
-                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
-                                texto.join() === "texto" <br>
-                                texto.join("-") === "t-e-x-t-o" <br>
-                                Faz array virar string, caracteres da string serão separados com o que tiver no
-                                parâmetro. Retorna uma string, não modifica o original.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>.splice()</td>
-                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
-                                texto.splice(2) === (3) ["x", "t", "o"] => Array original === ["t", "e"] <br>
-                                texto.splice(2, 1) === ["x"] => Array original === ["t", "e", "t", "o"] <br>
-                                texto.splice(1, 2) === (2) ["e", "x"] => Array original === ["t", "t", "o"] <br>
-                                texto.splice(1, 1, "abacate") === ["e"] => Array original === ["t", "abacate", "x", "t",
-                                "o"] <br>
-                                No mozila parece que não funciona a parte de substiruir, só exclui msm. Retorna um
-                                array, modifica o original.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>.slice()</td>
-                            <td>É exatamente o mesmo conceito do slice pra strings, só que retorna um array, continua a
-                                não modificar o original</td>
-                        </tr>
-                        <tr>
-                            <td>.includes()</td>
-                            <td>Mesmo conceito do includes de string, só que com array. Não modifica o original.</td>
-                        </tr>
-                        <tr>
-                            <td>.findIndex()</td>
-                            <td>let texto = ["t", "e", "x", "t", "o"] <br>
-                                texto.findIndex(a => a === "x") === 2 <br>
-                                Retorna a posição do item do array, se existir no array. Caso não exista, retorna -1.
-                                Retorna um número, não modifica o original.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>.find</td>
-                            <td>Faz a mesma coisa que o método acima, porém retorna o item do array ao invés de retornar
-                                o index dele.</td>
+                            <td>.insert()</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>.pop()</td>
-                            <td>Retorna o último item de um array. Só isso. Pode ser armazenado numa variável. Nada vai
-                                entre os parêntesis. Modifica o original.</td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>.push()</td>
-                            <td>Adciona o que tiver entre os parêntesis ao array, no fim dele para ser mais específico.
-                                Retorna o indíce do que foi adcionado, modifica o original</td>
-                        </tr>
-                        <tr>
-                            <td>.shift()</td>
-                            <td>Remove e retorna o primeiro item de um array. Só isso. Pode ser armazenado numa
-                                variável. Nada vai entre os parêntesis. Modifica o original.</td>
-                        </tr>
-                        <tr>
-                            <td>.unshift()</td>
-                            <td>É o push só que no começo do array.Retorna o novo length. Modifica o original.</td>
-                        </tr>
-                        <tr>
-                            <td>.concat()</td>
-                            <td>É literalmente o mesmo que tava na lista dos métodos de string, pq ele atua em string e
-                                arrays.</td>
+                            <td>.remove()</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>.reverse()</td>
-                            <td>Não recebe parâmetros. Modifica o original. Faz exatamente o que o nome propõe, ordena
-                                os itens do array no mesmo array começando pelo último até o primeiro.</td>
+                            <td></td>
                         </tr>
                     </table>
                 </div>
