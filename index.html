@@ -1305,6 +1305,7 @@
                     </div>
                 </summary>
                 <div style="border: none;">
+                    <p>String é string, nada demais e é só isso mesmo. Várias letras e tals.</p>
                     <table id="methodStr">
                         <tr>
                             <th>Método</th>
@@ -1378,6 +1379,7 @@
                     <div>Métodos de lista</div>
                 </summary>
                 <div style="border: none;">
+                    <p>Lista é array. Ponto final. É igual. Não muda nada.</p>
                     <table>
                         <tr>
                             <th>Método</th>
@@ -1387,7 +1389,8 @@
                             <td>.append()</td>
                             <td id="append">list.append(str, number, etc)
                                 <br>
-                                Adciona o que estiver dentro dos parêntesis ao final da lista como um item, diferente do <a href="#extend">extend</a>>.
+                                Adciona o que estiver dentro dos parêntesis ao final da lista como um item, diferente do
+                                <a href="#extend">extend</a>>.
                             </td>
                         </tr>
                         <tr>
@@ -1408,15 +1411,18 @@
                             <td>.sort()</td>
                             <td>list.sort()
                                 <br>
-                                Retorna uma lista com os itens em ordem crescente por padrão. Se reverse=True, for colocado entre os parênteses, a ordem será invertida.
-                                Se key=function for colocado entre os parênteses, irá alterar a ordem de exibição também, alguns exemplos de key são: len, propriedade do item do dicionário, etc.
+                                Retorna uma lista com os itens em ordem crescente por padrão. Se reverse=True, for
+                                colocado entre os parênteses, a ordem será invertida.
+                                Se key=function for colocado entre os parênteses, irá alterar a ordem de exibição
+                                também, alguns exemplos de key são: len, propriedade do item do dicionário, etc.
                             </td>
                         </tr>
                         <tr>
                             <td>sorted()</td>
                             <td>sorted(Qualquer coisa iterável)
                                 <br>
-                                Retorna o iterável em ordem crescente, ou outra desejável. Reverse e key podem ser colocados entre parênteses, assim como no método .sort().
+                                Retorna o iterável em ordem crescente, ou outra desejável. Reverse e key podem ser
+                                colocados entre parênteses, assim como no método .sort().
                             </td>
                         </tr>
                         <tr>
@@ -1430,7 +1436,9 @@
                             <td>.extend()</td>
                             <td id="extend">list.extend(Qualquer coisa iterável)
                                 <br>
-                                Adciona o que estiver entre parênteses ao final da lista. A diferença entre esse método e o <a href="#append">append</a> é que esse é como o spread operator do javascript, no append o que estiver dentro dos parênteses vai como um único item.
+                                Adciona o que estiver entre parênteses ao final da lista. A diferença entre esse método
+                                e o <a href="#append">append</a> é que esse é como o spread operator do javascript, no
+                                append o que estiver dentro dos parênteses vai como um único item.
                             </td>
                         </tr>
                         <tr>
@@ -1451,7 +1459,8 @@
                             <td>.pop()</td>
                             <td>list.pop(index)
                                 <br>
-                                Remove o último item da lista caso index não seja definido, caso contrário, remove o item correspondente ao index.
+                                Remove o último item da lista caso index não seja definido, caso contrário, remove o
+                                item correspondente ao index.
                             </td>
                         </tr>
                         <tr>
@@ -1476,7 +1485,8 @@
                     <div>Métodos de tuplas</div>
                 </summary>
                 <div>
-                    <p>As tuplas são imutáveis(tipo o const do react) então só tem 2 métodos.</p>
+                    <p>As tuplas são imutáveis(tipo o const do react) então só tem 2 métodos. Tupla é lista que não dá
+                        pra mudar o que tem dentro. Só isso.</p>
                     <table>
                         <tr>
                             <th>Método</th>
@@ -1499,6 +1509,101 @@
                     </table>
                 </div>
             </details>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>Métodos de conjuntos</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Conjuntos são listas que não pode ter o mesmo item 2 vezes, e os itens do conjunto só podem ser strings,
+                números inteiros, booleanos e tuplas.</p>
+            <details style="margin: 0;">
+                <summary>
+                    <div>Métodos de tuplas</div>
+                </summary>
+                <div>
+                    <p>As tuplas são imutáveis(tipo o const do react) então só tem 2 métodos. Tupla é lista que não dá
+                        pra mudar o que tem dentro. Só isso.</p>
+                    <table>
+                        <tr>
+                            <th>Método</th>
+                            <th>O que faz</th>
+                        </tr>
+                        <tr>
+                            <td>.intersection()</td>
+                            <td>set.intersection(setb)
+                                <br>
+                                Retorna um set (conjunto) dos itens que são comuns tanto a set quanto a setb. Também
+                                pode ser representado por set & setb, muito mais fácil.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.union()</td>
+                            <td>set.union(setb)
+                                <br>
+                                Retorna um set com todos os itens presentes em ambos os conjuntos set e setb, sem
+                                repetir os que estiverem presente em ambos os sets. Também pode ser representado por set
+                                | setb, muito mais fácil.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.difference()</td>
+                            <td>set.difference(setb)
+                                <br>
+                                Retorna todos os itens que estã presente somente no primeiro set. Também pode ser
+                                representado por set - setb, muito mais fácil.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.symmetric_difference()</td>
+                            <td>set.symmetric_difference(setb)
+                                <br>
+                                Retorna todos os itens que só aparecem em set e os que só aparecem em setb, em suma, o
+                                contrário do .union(). Também pode ser representado por set ^ setb. É mais fácil? É. É
+                                mais feio? É.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.isdisjoint()</td>
+                            <td>set.isdisjoint(setb)
+                                <br>
+                                Retorna um booleano, True se não houver nenhum item em comum, False caso contrário.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.issubset()</td>
+                            <td>set.issubset(setb)
+                                <br>
+                                Retorna um booleano, caso set esteja contido em setb retorna True, caso contrário retorna False.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.issuperset()</td>
+                            <td>
+                                set.issuperset(setb)
+                                <br>
+                                Retorna um booleano, caso set contenha setb retorna True, caso contrário, retorna False.
+                            </td>
+                        </tr>
+                        <p>Podemos usar outras maneiras de conferir conjuntos:
+                            len() para conferir o tamanho, in para conferir se um conjunto contém outro.
+                        </p>
+                    </table>
+                </div>
+            </details>
+        </div>
+    </details>
+    <details>
+        <summary>
+            <div>
+                <h1>Métodos de dicionários</h1>
+            </div>
+        </summary>
+        <div>
+            <p>Texto</p>
         </div>
     </details>
     <details>
