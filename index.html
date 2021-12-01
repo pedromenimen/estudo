@@ -1509,154 +1509,155 @@
                     </table>
                 </div>
             </details>
-        </div>
-    </details>
-    <details>
-        <summary>
-            <div>
-                <h1>Métodos de conjuntos</h1>
-            </div>
-        </summary>
-        <div>
-            <p>Conjuntos são listas que não pode ter o mesmo item 2 vezes, e os itens do conjunto só podem ser strings,
-                números inteiros, booleanos e tuplas.</p>
-            <details style="margin: 0;">
+            <details>
                 <summary>
-                    <div>Métodos de tuplas</div>
+                    <div>
+                        <h1>Métodos de conjuntos</h1>
+                    </div>
                 </summary>
                 <div>
-                    <p>As tuplas são imutáveis(tipo o const do react) então só tem 2 métodos. Tupla é lista que não dá
-                        pra mudar o que tem dentro. Só isso.</p>
+                    <p>Conjuntos são listas que não pode ter o mesmo item 2 vezes, e os itens do conjunto só podem ser strings,
+                        números inteiros, booleanos e tuplas.</p>
+                    <details style="margin: 0;">
+                        <summary>
+                            <div>Métodos de tuplas</div>
+                        </summary>
+                        <div>
+                            <p>As tuplas são imutáveis(tipo o const do react) então só tem 2 métodos. Tupla é lista que não dá
+                                pra mudar o que tem dentro. Só isso.</p>
+                            <table>
+                                <tr>
+                                    <th>Método</th>
+                                    <th>O que faz</th>
+                                </tr>
+                                <tr>
+                                    <td>.intersection()</td>
+                                    <td>set.intersection(setb)
+                                        <br>
+                                        Retorna um set (conjunto) dos itens que são comuns tanto a set quanto a setb. Também
+                                        pode ser representado por set & setb, muito mais fácil.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>.union()</td>
+                                    <td>set.union(setb)
+                                        <br>
+                                        Retorna um set com todos os itens presentes em ambos os conjuntos set e setb, sem
+                                        repetir os que estiverem presente em ambos os sets. Também pode ser representado por set
+                                        | setb, muito mais fácil.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>.difference()</td>
+                                    <td>set.difference(setb)
+                                        <br>
+                                        Retorna todos os itens que estã presente somente no primeiro set. Também pode ser
+                                        representado por set - setb, muito mais fácil.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>.symmetric_difference()</td>
+                                    <td>set.symmetric_difference(setb)
+                                        <br>
+                                        Retorna todos os itens que só aparecem em set e os que só aparecem em setb, em suma, o
+                                        contrário do .union(). Também pode ser representado por set ^ setb. É mais fácil? É. É
+                                        mais feio? É.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>.isdisjoint()</td>
+                                    <td>set.isdisjoint(setb)
+                                        <br>
+                                        Retorna um booleano, True se não houver nenhum item em comum, False caso contrário.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>.issubset()</td>
+                                    <td>set.issubset(setb)
+                                        <br>
+                                        Retorna um booleano, caso set esteja contido em setb retorna True, caso contrário retorna False.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>.issuperset()</td>
+                                    <td>
+                                        set.issuperset(setb)
+                                        <br>
+                                        Retorna um booleano, caso set contenha setb retorna True, caso contrário, retorna False.
+                                    </td>
+                                </tr>
+                                <p>Podemos usar outras maneiras de conferir conjuntos:
+                                    len() para conferir o tamanho, in para conferir se um conjunto contém outro.
+                                </p>
+                            </table>
+                        </div>
+                    </details>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    <div>
+                        <h1>Métodos de dicionários</h1>
+                    </div>
+                </summary>
+                <div>
+                    <p>Dicionários são objetos diferenciados, a diferença é basicamente que eles podem ter chaves como strings, números e tuplas. Qualquer tipo de dado pode ser armazenado no respectivo valor. Para adicionar alguma chave a algum dicionário basta digitar nome_do_dicionario[nome_da_chave] = valor_da_chave, e para deletar é só fazer o mesmo só que usando o del na frente: del nome_do_dicionario[nome_da_chave] = valor_da_chave</p>
                     <table>
                         <tr>
-                            <th>Método</th>
-                            <th>O que faz</th>
-                        </tr>
-                        <tr>
-                            <td>.intersection()</td>
-                            <td>set.intersection(setb)
+                            <td>.clear()</td>
+                            <td>dict.clear()
                                 <br>
-                                Retorna um set (conjunto) dos itens que são comuns tanto a set quanto a setb. Também
-                                pode ser representado por set & setb, muito mais fácil.
+                                Deleta todos os items do dicionário.
                             </td>
                         </tr>
                         <tr>
-                            <td>.union()</td>
-                            <td>set.union(setb)
+                            <td>.get()</td>
+                            <td>dict.get(dict_item, error_message)
                                 <br>
-                                Retorna um set com todos os itens presentes em ambos os conjuntos set e setb, sem
-                                repetir os que estiverem presente em ambos os sets. Também pode ser representado por set
-                                | setb, muito mais fácil.
+                                É basicamente a mesma coisa que dict[index], mas aqui pode ser definida uma mensagem de erro personalizada no caso de o item não existir. dict.get("slider", "Item não existente")
                             </td>
                         </tr>
                         <tr>
-                            <td>.difference()</td>
-                            <td>set.difference(setb)
+                            <td>.items()</td>
+                            <td>dict.items()
                                 <br>
-                                Retorna todos os itens que estã presente somente no primeiro set. Também pode ser
-                                representado por set - setb, muito mais fácil.
+                                Retorna em forma de uma lista de tuplas, o par chave/valor em cada tupla.
                             </td>
                         </tr>
                         <tr>
-                            <td>.symmetric_difference()</td>
-                            <td>set.symmetric_difference(setb)
+                            <td>.keys()</td>
+                            <td>dict.keys()
                                 <br>
-                                Retorna todos os itens que só aparecem em set e os que só aparecem em setb, em suma, o
-                                contrário do .union(). Também pode ser representado por set ^ setb. É mais fácil? É. É
-                                mais feio? É.
+                                Retorna as chaves do dicionário, cada uma como um item de uma lista.
                             </td>
                         </tr>
                         <tr>
-                            <td>.isdisjoint()</td>
-                            <td>set.isdisjoint(setb)
+                            <td>.pop()</td>
+                            <td>dict.pop(dict_item, error_message)
                                 <br>
-                                Retorna um booleano, True se não houver nenhum item em comum, False caso contrário.
+                                Remove e retorna um valor do dicionário, caso a chave do valor não exista retorna a mensagem de erro, caso definida.
                             </td>
                         </tr>
                         <tr>
-                            <td>.issubset()</td>
-                            <td>set.issubset(setb)
+                            <td>.setdefault()</td>
+                            <td>dict.setdefault(key, value)
                                 <br>
-                                Retorna um booleano, caso set esteja contido em setb retorna True, caso contrário retorna False.
+                                Caso a chave exista retorna o valor, caso contrário, cria e retorna o valor.
                             </td>
                         </tr>
                         <tr>
-                            <td>.issuperset()</td>
-                            <td>
-                                set.issuperset(setb)
+                            <td>.values()</td>
+                            <td>dict.values()
                                 <br>
-                                Retorna um booleano, caso set contenha setb retorna True, caso contrário, retorna False.
+                                Retorna um array com os valores do dicionário.
                             </td>
                         </tr>
-                        <p>Podemos usar outras maneiras de conferir conjuntos:
-                            len() para conferir o tamanho, in para conferir se um conjunto contém outro.
-                        </p>
                     </table>
                 </div>
             </details>
         </div>
     </details>
-    <details>
-        <summary>
-            <div>
-                <h1>Métodos de dicionários</h1>
-            </div>
-        </summary>
-        <div>
-            <p>Dicionários são objetos diferenciados, a diferença é basicamente que eles podem ter chaves como strings, números e tuplas. Qualquer tipo de dado pode ser armazenado no respectivo valor. Para adicionar alguma chave a algum dicionário basta digitar nome_do_dicionario[nome_da_chave] = valor_da_chave, e para deletar é só fazer o mesmo só que usando o del na frente: del nome_do_dicionario[nome_da_chave] = valor_da_chave</p>
-            <table>
-                <tr>
-                    <td>.clear()</td>
-                    <td>dict.clear()
-                        <br>
-                        Deleta todos os items do dicionário.
-                    </td>
-                </tr>
-                <tr>
-                    <td>.get()</td>
-                    <td>dict.get(dict_item, error_message)
-                        <br>
-                        É basicamente a mesma coisa que dict[index], mas aqui pode ser definida uma mensagem de erro personalizada no caso de o item não existir. dict.get("slider", "Item não existente")
-                    </td>
-                </tr>
-                <tr>
-                    <td>.items()</td>
-                    <td>dict.items()
-                        <br>
-                        Retorna em forma de uma lista de tuplas, o par chave/valor em cada tupla.
-                    </td>
-                </tr>
-                <tr>
-                    <td>.keys()</td>
-                    <td>dict.keys()
-                        <br>
-                        Retorna as chaves do dicionário, cada uma como um item de uma lista.
-                    </td>
-                </tr>
-                <tr>
-                    <td>.pop()</td>
-                    <td>dict.pop(dict_item, error_message)
-                        <br>
-                        Remove e retorna um valor do dicionário, caso a chave do valor não exista retorna a mensagem de erro, caso definida.
-                    </td>
-                </tr>
-                <tr>
-                    <td>.setdefault()</td>
-                    <td>dict.setdefault(key, value)
-                        <br>
-                        Caso a chave exista retorna o valor, caso contrário, cria e retorna o valor.
-                    </td>
-                </tr>
-                <tr>
-                    <td>.values()</td>
-                    <td>dict.values()
-                        <br>
-                        Retorna um array com os valores do dicionário.
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </details>
+    
     <details>
         <summary>
             <div>
