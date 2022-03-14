@@ -143,4 +143,5 @@ details > summary {
     border-radius: 10px;
     padding-bottom: 2px;
     padding: 2px;
+    background-color: gray;
 }
