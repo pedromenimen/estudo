@@ -1691,6 +1691,32 @@
         <div>
             <p>É muito comando então resolvi voltar a escrever aqui pra facilitar na hora de começar algum projeto.</p>
             <p>O comando <span class="code">yarn init -y</span> gera o package.json que é tipo o pip freeze.</p>
+            <p>O comando <span class="code">yarn add express</span> gera a pasta node_modules com os arquivos desse framework e adiciona as dependências no package.json.</p>
+            <p>O comando <span class="code">node index.js</span> roda o arquivo index.js.</p>
+            <p>O comando <span class="code">yarn add -D eslint</span> instala o elsint, e pra inicializá-lo basta digitar o comando <span class="code">yarn run eslint --init</span>.</p>
+            <p>As perguntas que irão aparecer podem ser respondidas com as seguintes respostas:
+                <ol>
+                    <li>To check syntax, find problems, and enforce code style</li>
+                    <li>JavaScript modules (import/export)</li>
+                    <li>None of these</li>
+                    <li>No</li>
+                    <li>Node</li>
+                    <li>Use a popular style guide</li>
+                    <li>Airbnb: https://github.com/airbnb/javascript</li>
+                    <li>JSON</li>
+                    <li>Yes</li>
+                </ol>
+            </p>
+            <p>Os próximos comandos são <span class="code">yarn add -D eslint prettier</span> e <span class="code">yarn add -D eslint-config-prettier eslint-plugin-prettier</span>. Isso tudo deve ser pra apertar tab e aparecer o que a gente precisa ver.</p>
+            <p>Agora a instalação é do Nodemon com o comando <span class="code">yarn add -D nodemon</span>.</p>
+            <p>Feito isso, adicionar ao package.json o seguinte objeto logo após as linhas "name", "version", "main" e "license". 
+                <span class="code">
+                    "scripts": {
+                        "dev": "nodemon index.js"
+                    },
+                </span>
+            </p>
+            <p>Agora no terminal novamente digite <span class="code">yarn dev</span> pra ver o que rolou. Dev não é palavra reservada, podia ser qualquer coisa.</p>
         </div>
     </details>
     <script>
