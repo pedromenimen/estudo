@@ -1708,33 +1708,34 @@
                 </ol>
             </p>
             <p>Agora vem a parte chata, não agora, mas se não fizer o que vem agoa fica chato na hora de codar. Os próximos comandos são <span class="code">yarn add -D eslint prettier</span> e <span class="code">yarn add -D eslint-config-prettier eslint-plugin-prettier</span>. Depois é necessário ir no arquivo <span class="code">.eslintrc.json</span> e adicionar a chave rules caso não exista, caso exista adicionar o valor "quotes": "off". Vai ficar +/- assim:
-                <pre>{
-                    ...,
-                    "rules": {
-                        "quotes": "off"
-                    }
+                <pre>
+{
+...,
+"rules": {
+    "quotes": "off"
+}
                 }
             </pre>. No mesmo arquivo mas agora na chave extends é necessário colocar o seguinte trecho:
             <pre>
-                {
-                    ...,
-                    "extends": [
-                        "airbnb-base",
-                        "prettier"
-                    ],
-                }
+{
+    ...,
+    "extends": [
+        "airbnb-base",
+        "prettier"
+    ],
+}
             </pre>. Essa linha do airbnb me atrapalhou mto então se for necessário trabalhar em grupo só comenta isso que o popup chatão para de aparecer. Agora é criar o arquivo <span class="code">.prettierrc.json</span> e dentro dele digitar o seguinte:
             <pre>
-                {
-                    "singleQuote": true
-                }
+{
+    "singleQuote": true
+}
             </pre>. Isso tudo deve ser pra apertar tab e aparecer o que a gente precisa ver.</p>
             <p>Agora a instalação é do Nodemon com o comando <span class="code">yarn add -D nodemon</span>.</p>
             <p>Feito isso, adicionar ao package.json o seguinte objeto logo após as linhas "name", "version", "main" e "license". 
                 <span class="code">
-                    "scripts": {
-                        "dev": "nodemon index.js"
-                    },
+"scripts": {
+    "dev": "nodemon index.js"
+},
                 </span>
             </p>
             <p>Agora no terminal novamente digite <span class="code">yarn dev</span> pra ver o que rolou. Dev não é palavra reservada, podia ser qualquer coisa.</p>
