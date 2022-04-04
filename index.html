@@ -1132,13 +1132,15 @@
         </summary>
         <div>
             <p>Digitar isso aqui no terminal:
-            <div class="code">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</div>
-            <div class="code">export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads
+            <div onclick="copiar(this)" class="code">curl -o-
+                https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</div>
+            <div onclick="copiar(this)" class="code">export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] &&
+                \. "$NVM_DIR/nvm.sh" # This loads
                 nvm [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
             </div>
             <p>Lê antes de copiar e colar sua mula</p>
-            <div class="code">nvm install 14.17.5</div>
-            <div class="code">nvm list</div>
+            <div onclick="copiar(this)" class="code">nvm install 14.17.5</div>
+            <div onclick="copiar(this)" class="code">nvm list</div>
             <p>A opção stable tem que ser 14.algumacoisa e ser default</p>
             <img class="guia" src="./assets/nvm-list-14-17.png" alt="">
             </p>
@@ -1152,11 +1154,12 @@
         </summary>
         <div>
             <p>Pra instalar o yarn é digitar o código e papum.</p>
-            <div class="code">npm install -g yarn</div>
+            <div onclick="copiar(this)" class="code">npm install -g yarn</div>
             <p>Toda vez que for criar algum projeto novo que precise do react tem que digitar o código:</p>
-            <div class="code">yarn create react-app "nome da pasta do projeto(pode ser existente ou não)"</div>
+            <div onclick="copiar(this)" class="code">yarn create react-app "nome da pasta do projeto(pode ser
+                existente ou não)"</div>
             <p>Pra ver seu projeto no navegador não é com o famoso alt+l e alt+o, é com o código:</p>
-            <div class="code">yarn start</div>
+            <div onclick="copiar(this)" class="code">yarn start</div>
         </div>
     </details>
     <details>
@@ -1167,12 +1170,12 @@
         </summary>
         <div>
             <p>Pra instalar o vercel, além de ter o node precisa digitar no terminal o seguiinte código:</p>
-            <div class="code">npm install -g vercel</div>
+            <div onclick="copiar(this)" class="code">npm install -g vercel</div>
             <p>Agora todo site(ou qual for o nome que dão pra site, projeto aplicação sla) que precisar ir pro ar, tipo
                 no github pages, basta digitar o código:</p>
-            <div class="code">vercel --build-env CI=false</div>
+            <div onclick="copiar(this)" class="code">vercel --build-env CI=false</div>
             <p>Toda vez que alguma atualização precise ser feita, o código abaixo o atualiza o site:</p>
-            <div class="code">vercel --prod</div>
+            <div onclick="copiar(this)" class="code">vercel --prod</div>
             <p>É mais fácil que o github pages mas o github pages nunca foi difícil, então por mim tanto faz, já que
                 nenhum deles é uma opção para projetos de verdade, daqueles que os clientes pagam, é só pra fazer as
                 atividades aqui na kenzie.</p>
@@ -1199,7 +1202,7 @@
         </summary>
         <div>
             <p>Pra usar o react router DOM digitar o seguinte comando dentro do projeto:</p>
-            <div class="code">yarn add react-router-dom</div>
+            <div onclick="copiar(this)" class="code">yarn add react-router-dom</div>
             <p>Para importar algo dentro do projeto, basta digitar import { o que vc tiver a fim de importar } from
                 "react-router-dom".</p>
             <p>Antes de começar a usar é necessário ir no index.js e importar BrowserRouter, depois dentro do
@@ -1218,16 +1221,18 @@
         </summary>
         <div>
             <p>Não sei o que é ainda, mas tem um comando que tem que digitar antes de começar a implementar.</p>
-            <div class="code">yarn add yup react-hook-form @hookform/resolvers</div>
+            <div onclick="copiar(this)" class="code">yarn add yup react-hook-form @hookform/resolvers</div>
             <p>Para começar a usá-lo, é necessário importar algumas coisas de alguns lugares, eu sla os termos técnicos.
             </p>
-            <div class="code">import * as yup from "yup"</div>
-            <div class="code">import { useForm } from "react-hook-form"</div>
-            <div class="code">import { yupResolver } from "@hookform/resolvers/yup"</div>
+            <div onclick="copiar(this)" class="code">import * as yup from "yup"</div>
+            <div onclick="copiar(this)" class="code">import { useForm } from "react-hook-form"</div>
+            <div onclick="copiar(this)" class="code">import { yupResolver } from "@hookform/resolvers/yup"
+            </div>
             <p>Depois de importar, até agora eu só precisei usar os comandos abaixo, se precisar de mais coisas tem no
                 <a href="https://github.com/jquense/yup">github do yup</a> .
             </p>
-            <div class="code">const {register, handleSubmit, formState: { errors }} = useForm({resolver:
+            <div onclick="copiar(this)" class="code">const {register, handleSubmit, formState: { errors }} =
+                useForm({resolver:
                 yupResolver(formSchema)})</div>
             <p>O register é pra registrar o campo do formulário, o handle submit é a função a ser executada ao fazer o
                 submit, o formState nesse caso é pra renderizar a mensagem de erro, o useForm nesse caso(?) é pra
@@ -1235,14 +1240,16 @@
                 ser esse).O código no formSchema define várias coisas que precisam ser digitadas ou escolhidas nos
                 inputs para que o submit possa ser executado, ao clicar no botão nada acontece a não ser que tudo o que
                 for passado aqui esteja nos conformes. Tipo regex de email, cpf essas coisas.</p>
-            <div class="code">name: yup.string().required("Nome obrigatório").matches("^[A-Za-z\\s]+$", "Nome inválido")
+            <div onclick="copiar(this)" class="code">name: yup.string().required("Nome
+                obrigatório").matches("^[A-Za-z\\s]+$", "Nome inválido")
             </div>
-            <div class="code">age: yup.string().required("Idade obrigatória").matches("^[0-9]+$", "Idade inválida")
+            <div onclick="copiar(this)" class="code">age: yup.string().required("Idade
+                obrigatória").matches("^[0-9]+$", "Idade inválida")
             </div>
             <p>Se precisar de algo mais pesquisa no <a href="https://github.com/jquense/yup">github do yup</a></p>
             <p>Na tag form vai um onSubmit com o handleSubmit e outra função como parâmetro, essa função que tem como
                 paramêtro data(acho que não precisa ser esse nome) mostra tudo o que foi submitado.</p>
-            <div class="code">&lt;form
+            <div onclick="copiar(this)" class="code">&lt;form
                 className="formulario"
                 onSubmit={handleSubmit(handleSubmitButton)}
                 &gt;</div>
@@ -1256,13 +1263,13 @@
         </summary>
         <div>
             <p>O axios é dahorinha pra conversar com a api, e tem alguns comandos fáceis de lembrar tb.</p>
-            <div class="code">yarn add axios</div>
+            <div onclick="copiar(this)" class="code">yarn add axios</div>
             <p>O comando acima instala o axios. No arquivo que for usar o axios é necessário importá-lo, e o comando
                 abaixo o faz.</p>
-            <div class="code">import axios from "axios"</div>
+            <div onclick="copiar(this)" class="code">import axios from "axios"</div>
             <p>Normalmente declaramos uma constante com a url base da api, e conforme as necessidades utilizamos essa
                 constante em outros arquivos.</p>
-            <div class="code">const api = axios.create({
+            <div onclick="copiar(this)" class="code">const api = axios.create({
                 baseURL: "https://kenziehub.herokuapp.com"
                 })</div>
             <p>Se for necessário autorização do token ou usar url.get ou url.post estará documentado no insomnia.</p>
@@ -1278,7 +1285,7 @@
             <p>Até agora vi que ele serve pra armazenar states e depois conseguir utilizar eles de qualquer componente
                 sem passar por props, é aquilo que eu tava fazendo com o localStorage só que sem consumir memória do
                 navegador. Para instalar é necessário o comando abaixo./p>
-            <div class="code">yarn add redux react-redux redux-thunk</div>
+            <div onclick="copiar(this)" class="code">yarn add redux react-redux redux-thunk</div>
             <p>Não deve ser regra mas é boa prática criar uma pasta store, dentro dela uma pasta mnodules, dentro dela
                 outra pasta com o nome de onde o redux for atuar</p>
             <p>É boa prática criar uma pasta store com um arquivo index.js, onde será criada a store, os reducers serão
@@ -1315,7 +1322,7 @@
                             <td>.join()</td>
                             <td>
                                 str.join(str, list, tuple, dict, etc) <br>
-                                Retorna 
+                                Retorna
                                 Insere a str entre cada item da lista,
                                 string, tupla,
                                 dicionário, conjuntos, etc... <br>
@@ -1567,7 +1574,8 @@
                             <td>.issubset()</td>
                             <td>set.issubset(setb)
                                 <br>
-                                Retorna um booleano, caso set esteja contido em setb retorna True, caso contrário retorna False.
+                                Retorna um booleano, caso set esteja contido em setb retorna True, caso contrário
+                                retorna False.
                             </td>
                         </tr>
                         <tr>
@@ -1591,7 +1599,11 @@
                     </div>
                 </summary>
                 <div>
-                    <p>Dicionários são objetos diferenciados, a diferença é basicamente que eles podem ter chaves como strings, números e tuplas. Qualquer tipo de dado pode ser armazenado no respectivo valor. Para adicionar alguma chave a algum dicionário basta digitar nome_do_dicionario[nome_da_chave] = valor_da_chave, e para deletar é só fazer o mesmo só que usando o del na frente: del nome_do_dicionario[nome_da_chave] = valor_da_chave</p>
+                    <p>Dicionários são objetos diferenciados, a diferença é basicamente que eles podem ter chaves como
+                        strings, números e tuplas. Qualquer tipo de dado pode ser armazenado no respectivo valor. Para
+                        adicionar alguma chave a algum dicionário basta digitar nome_do_dicionario[nome_da_chave] =
+                        valor_da_chave, e para deletar é só fazer o mesmo só que usando o del na frente: del
+                        nome_do_dicionario[nome_da_chave] = valor_da_chave</p>
                     <table>
                         <tr>
                             <td>.clear()</td>
@@ -1604,7 +1616,9 @@
                             <td>.get()</td>
                             <td>dict.get(dict_item, error_message)
                                 <br>
-                                É basicamente a mesma coisa que dict[index], mas aqui pode ser definida uma mensagem de erro personalizada no caso de o item não existir. dict.get("slider", "Item não existente")
+                                É basicamente a mesma coisa que dict[index], mas aqui pode ser definida uma mensagem de
+                                erro personalizada no caso de o item não existir. dict.get("slider", "Item não
+                                existente")
                             </td>
                         </tr>
                         <tr>
@@ -1625,7 +1639,8 @@
                             <td>.pop()</td>
                             <td>dict.pop(dict_item, error_message)
                                 <br>
-                                Remove e retorna um valor do dicionário, caso a chave do valor não exista retorna a mensagem de erro, caso definida.
+                                Remove e retorna um valor do dicionário, caso a chave do valor não exista retorna a
+                                mensagem de erro, caso definida.
                             </td>
                         </tr>
                         <tr>
@@ -1647,7 +1662,7 @@
             </details>
         </div>
     </details>
-    
+
     <details>
         <summary>
             <div>
@@ -1655,10 +1670,11 @@
             </div>
         </summary>
         <div>
-            <p>É até legalzinho, mas os métodos são confusos então to voltando aqui pra deixar escrito o que fazer com cada tipo de informação.</p>
+            <p>É até legalzinho, mas os métodos são confusos então to voltando aqui pra deixar escrito o que fazer com
+                cada tipo de informação.</p>
             <details style="margin: 0;">
                 <summary>
-                        <h1>loads(json_data)</h1>
+                    <h1>loads(json_data)</h1>
                 </summary>
                 <div>
                     <p>Converte um arquivo JSON pra uma string.</p>
@@ -1666,7 +1682,7 @@
             </details>
             <details>
                 <summary>
-                        <h1>dumps(dict, ident=int)</h1>
+                    <h1>dumps(dict, ident=int)</h1>
                 </summary>
                 <div>
                     <p>Converte um dicionário em uma string.</p>
@@ -1674,7 +1690,7 @@
             </details>
             <details>
                 <summary>
-                        <h1>load(json_data)</h1>
+                    <h1>load(json_data)</h1>
                 </summary>
                 <div>
                     <p>Converte um arquivo JSON em um dicionário. Precisa abrir o arquivo antes de converter.</p>
@@ -1690,25 +1706,37 @@
         </summary>
         <div>
             <p>É muito comando então resolvi voltar a escrever aqui pra facilitar na hora de começar algum projeto.</p>
-            <p>O comando <span class="code">yarn init -y</span> gera o package.json que é tipo o pip freeze.</p>
-            <p>O comando <span class="code">yarn add express</span> gera a pasta node_modules com os arquivos desse framework e adiciona as dependências no package.json.</p>
-            <p>O comando <span class="code">node index.js</span> roda o arquivo index.js.</p>
-            <p>O comando <span class="code">yarn add -D eslint</span> instala o elsint, e pra inicializá-lo basta digitar o comando <span class="code">yarn run eslint --init</span>.</p>
+            <p>O comando <span onclick="copiar(this)" class="code">yarn init -y</span> gera o package.json que
+                é tipo o pip freeze.</p>
+            <p>O comando <span onclick="copiar(this)" class="code">yarn add express</span> gera a pasta
+                node_modules com os arquivos desse
+                framework e adiciona as dependências no package.json.</p>
+            <p>O comando <span onclick="copiar(this)" class="code">node index.js</span> roda o arquivo
+                index.js.</p>
+            <p>O comando <span onclick="copiar(this)" class="code">yarn add -D eslint</span> instala o elsint,
+                e pra inicializá-lo basta
+                digitar o comando <span onclick="copiar(this)" class="code">yarn run eslint --init</span>.</p>
             <p>As perguntas que irão aparecer podem ser respondidas com as seguintes respostas:
-                <ol>
-                    <li>To check syntax, find problems, and enforce code style</li>
-                    <li>JavaScript modules (import/export)</li>
-                    <li>None of these</li>
-                    <li>No</li>
-                    <li>Node</li>
-                    <li>Use a popular style guide</li>
-                    <li>Airbnb: https://github.com/airbnb/javascript</li>
-                    <li>JSON</li>
-                    <li>Yes</li>
-                </ol>
+            <ol>
+                <li>To check syntax, find problems, and enforce code style</li>
+                <li>JavaScript modules (import/export)</li>
+                <li>None of these</li>
+                <li>No</li>
+                <li>Node</li>
+                <li>Use a popular style guide</li>
+                <li>Airbnb: https://github.com/airbnb/javascript</li>
+                <li>JSON</li>
+                <li>Yes</li>
+            </ol>
             </p>
-            <p>Agora vem a parte chata, não agora, mas se não fizer o que vem agoa fica chato na hora de codar. Os próximos comandos são <span class="code">yarn add -D eslint prettier</span> e <span class="code">yarn add -D eslint-config-prettier eslint-plugin-prettier</span>. Depois é necessário ir no arquivo <span class="code">.eslintrc.json</span> e adicionar a chave rules caso não exista, caso exista adicionar o valor "quotes": "off". Vai ficar +/- assim:
-                <pre>
+            <p>Agora vem a parte chata, não agora, mas se não fizer o que vem agoa fica chato na hora de codar. Os
+                próximos comandos são <span onclick="copiar(this)" class="code">yarn add -D eslint
+                    prettier</span> e <span onclick="copiar(this)" class="code">yarn
+                    add -D eslint-config-prettier eslint-plugin-prettier</span>. Depois é necessário ir no arquivo <span
+                    onclick="copiar(this)" class="code">.eslintrc.json</span> e adicionar a chave rules caso
+                não exista, caso exista adicionar
+                o valor "quotes": "off". Vai ficar +/- assim:
+            <pre>
 {
 ...,
 "rules": {
@@ -1724,36 +1752,63 @@
         "prettier"
     ],
 }
-            </pre>. Essa linha do airbnb me atrapalhou mto então se for necessário trabalhar em grupo só comenta isso que o popup chatão para de aparecer. Agora é criar o arquivo <span class="code">.prettierrc.json</span> e dentro dele digitar o seguinte:
+            </pre>. Essa linha do airbnb me atrapalhou mto então se for necessário trabalhar em grupo só comenta isso
+            que o popup chatão para de aparecer. Agora é criar o arquivo <span onclick="copiar(this)"
+                class="code">.prettierrc.json</span> e
+            dentro dele digitar o seguinte:
             <pre>
 {
     "singleQuote": true
 }
             </pre>. Isso tudo deve ser pra apertar tab e aparecer o que a gente precisa ver.</p>
-            <p>Agora a instalação é do Nodemon com o comando <span class="code">yarn add -D nodemon</span>.</p>
-            <p>Feito isso, adicionar ao package.json o seguinte objeto logo após as linhas "name", "version", "main" e "license". 
-                <span class="code">
-"scripts": {
-    "dev": "nodemon index.js"
-},
+            <p>Agora a instalação é do Nodemon com o comando <span onclick="copiar(this)" class="code">yarn
+                    add -D nodemon</span>.</p>
+            <p>Feito isso, adicionar ao package.json o seguinte objeto logo após as linhas "name", "version", "main" e
+                "license".
+                <span onclick="copiar(this)" class="code">
+                    "scripts": {
+                    "dev": "nodemon index.js"
+                    },
                 </span>
             </p>
-            <p>Agora no terminal novamente digite <span class="code">yarn dev</span> pra ver o que rolou. Dev não é palavra reservada, podia ser qualquer coisa.</p>
+            <p>Agora no terminal novamente digite <span onclick="copiar(this)" class="code">yarn dev</span>
+                pra ver o que rolou. Dev não é
+                palavra reservada, podia ser qualquer coisa.</p>
         </div>
     </details>
     <details>
         <summary>
-            <div><h1>Iniciando projeto em nodejs usando docker e typeorm</h1></div>
+            <div>
+                <h1>Iniciando projeto em nodejs usando docker e typeorm</h1>
+            </div>
         </summary>
         <div>
             <p>Primeiramente rodar os comando abaixo aí</p>
-            <span class="code">yarn init -y <button onclick="copiar()">Copiar código</button></span>
+            <span onclick="copiar(this)" class="code">yarn init -y </span>
+            <br>
+            <br>
+            <span onclick="copiar(this)" class="code">yarn add typeorm@0.2.45 reflect-metadata express</span>
+            <br>
+            <br>
+            <span onclick="copiar(this)" class="code">yarn add @types/express @types/node ts-node-dev
+                -D</span>
+            <br>
+            <br>
+            <span onclick="copiar(this)" class="code">yarn typeorm init --database postgres
+                -D</span>
         </div>
     </details>
     <script>
-        const copiar = () => {
-            console.log(document.parentElement.innerText)
-            navigator.clipboard.writeText(document.parentElement.innerText)
+        const copiar = (element) => {
+            console.log(element.parentElement)
+            console.log(element.innerText)
+            navigator.clipboard.writeText(element.innerText)
+            const alert = document.createElement("div")
+            alert.className = "alert, alert-primary"
+            alert.innerText = "Texto copiado para a área de transferência"
+            element.appendChild(alert)
+            setTimeout(() => element.removeChild(alert), 1500)
+
         }
     </script>
     <!-- details>(summary>div>h1)>(div>p) -->
