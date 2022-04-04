@@ -1796,7 +1796,7 @@
             <br>
             <span onclick="copiar(this)" class="code">yarn typeorm init --database postgres
                 -D</span>
-                <p>O próximo passo é configurar os arquivos. Abra o projeto e crie uma pasta db dentro de src e jogue o ormconfig lá dentro e troque o que estiver lá dentro pelo seguinte código.<p>
+                <p>O próximo passo é configurar os arquivos.A bra o projeto e renomeie entity e migrations para entities e migrations. Crie uma pasta db, database algo assim, dentro de src e jogue o ormconfig lá dentro, mude a extensão para .ts e troque o que estiver lá dentro pelo seguinte código.<p>
                     
                     <pre>
                         <span onclick="copiar(this)" class="code"> import { ConnectionOptions } from "typeorm";
@@ -1825,6 +1825,7 @@ const devConfig = {
 export default devConfig;
 </span>
                         </pre>
+                        <p>No arquivo tsconfig.json coloque depois de sourceMap o item <span onclick="copiar(this)" class="code">"esModuleInterop": true</span> </p>
         </div>
     </details>
     <script>
