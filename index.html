@@ -1796,10 +1796,15 @@
             <br>
             <span onclick="copiar(this)" class="code">yarn typeorm init --database postgres
                 -D</span>
-                <p>O próximo passo é configurar os arquivos.A bra o projeto e renomeie entity e migrations para entities e migrations. Crie uma pasta db, database algo assim, dentro de src e jogue o ormconfig lá dentro, mude a extensão para .ts e troque o que estiver lá dentro pelo seguinte código.<p>
-                    
-                    <pre>
-                        <span onclick="copiar(this)" class="code"> import { ConnectionOptions } from "typeorm";
+            <span onclick="copiar(this)" class="code">yarn add dotenv</span>
+            <p>O próximo passo é configurar os arquivos.A bra o projeto e renomeie entity e migrations para entities e
+                migrations. Crie uma pasta db, database algo assim, dentro de src e jogue o ormconfig lá dentro, mude a
+                extensão para .ts e troque o que estiver lá dentro pelo seguinte código.
+            <p>
+
+            <pre>
+                        <span onclick="copiar(this)" class="code">
+import { ConnectionOptions } from "typeorm";
 import { ConnectionOptions } from "typeorm";
 import path from "path";
 import dotenv from "dotenv";
@@ -1825,7 +1830,46 @@ const devConfig = {
 export default devConfig;
 </span>
                         </pre>
-                        <p>No arquivo tsconfig.json coloque depois de sourceMap o item <span onclick="copiar(this)" class="code">"esModuleInterop": true</span> </p>
+            <p>No arquivo tsconfig.json coloque depois de sourceMap o item <span onclick="copiar(this)"
+                    class="code">"esModuleInterop": true</span> </p>
+            <p>Crie os arquivos .env e o .env.example e coloque as configurações que julgar sensíveis, além das
+                seguintes, que são obrigatórias nno método que eu sei usar<span onclick="copiar(this)"
+                    class="code">POSTGRES_PASSWORD POSTGRES_DB</span> </p>
+            <p>Agora vá para package.json e troque o script start por:</p>
+            <span onclick="copiar(this)" class="code">ts-node-dev --files src/server.ts</span>
+            <p>Troque, agora, o scrpit typeorm por:</p>
+            <span onclick="copiar(this)" class="code">node --require ts-node/register ./node_modules/typeorm/cli.js -f
+                src/db/ormconfig.ts</span>
+            <p>As configurações acima estão sujeitas a mudanças conforme organização das pastas e arquivos do projeto.
+            </p>
+            <p>Apague o arquivo index.ts/js e crie os arquivos app.ts e server.ts. Cole os seguintes códigos dentro deles.</p>
+            <p>app.ts</p>
+            <span onclick="copiar(this)" class="code"><pre>
+import express, { json } from "express";
+
+const app = express();
+
+app.use(json());
+
+export default app;
+            </pre></span>
+            <p>server.ts</p>
+            <span onclick="copiar(this)" class="code"><pre>
+import "reflect-metadata";
+import { createConnection } from "typeorm";
+import app from "./app";
+import dbConfig from "./db/ormconfig";
+
+createConnection(dbConfig)
+    .then(() => {
+    const PORT = process.env.PORT ?? 3000;
+    console.log("Database connected");
+    app.listen(PORT, () =>
+        console.log(`App is running on http//localhost:${PORT}`)
+    );
+    })
+    .catch((err) => console.log(err));
+            </pre></span>
         </div>
     </details>
     <script>
