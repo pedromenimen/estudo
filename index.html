@@ -1842,9 +1842,11 @@ export default devConfig;
                 src/db/ormconfig.ts</span>
             <p>As configurações acima estão sujeitas a mudanças conforme organização das pastas e arquivos do projeto.
             </p>
-            <p>Apague o arquivo index.ts/js e crie os arquivos app.ts e server.ts. Cole os seguintes códigos dentro deles.</p>
+            <p>Apague o arquivo index.ts/js e crie os arquivos app.ts e server.ts. Cole os seguintes códigos dentro
+                deles.</p>
             <p>app.ts</p>
-            <span onclick="copiar(this)" class="code"><pre>
+            <span onclick="copiar(this)" class="code">
+                <pre>
 import express, { json } from "express";
 
 const app = express();
@@ -1852,9 +1854,11 @@ const app = express();
 app.use(json());
 
 export default app;
-            </pre></span>
+            </pre>
+            </span>
             <p>server.ts</p>
-            <span onclick="copiar(this)" class="code"><pre>
+            <span onclick="copiar(this)" class="code">
+                <pre>
 import "reflect-metadata";
 import { createConnection } from "typeorm";
 import app from "./app";
@@ -1869,7 +1873,15 @@ createConnection(dbConfig)
     );
     })
     .catch((err) => console.log(err));
-            </pre></span>
+            </pre>
+            </span>
+            <p>O seguinte comando cria o container</p>
+            <span onclick="copiar(this)" class="code">docker run --name configInicial --env-file ./.env -p 5432:5432 -d
+                postgres</span>
+            <p>Conferir se foi criado com docker ps</p>
+            <p>O comando <span onclick="copiar(this)" class="code">docker exec -it configInicial bash</span> e <span
+                    onclick="copiar(this)" class="code">psql -U postgres</span> </p>
+            <p>Agora é rodar yarn start no terminal e ver se o pc não explodecacacacajota</p>
         </div>
     </details>
     <script>
