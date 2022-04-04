@@ -1752,6 +1752,7 @@
     </details>
     <script>
         const copiar = () => {
+            console.log(document.parentElement.textContent)
             navigator.clipboard.writeText(document.parentElement.textContent)
         }
     </script>
