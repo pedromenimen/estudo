@@ -1845,8 +1845,8 @@ export default devConfig;
             <p>Apague o arquivo index.ts/js e crie os arquivos app.ts e server.ts. Cole os seguintes códigos dentro
                 deles.</p>
             <p>app.ts</p>
-            <span onclick="copiar(this)" class="code">
-                <pre>
+            <pre>
+                    <span onclick="copiar(this)" class="code">
 import express, { json } from "express";
 
 const app = express();
@@ -1854,11 +1854,11 @@ const app = express();
 app.use(json());
 
 export default app;
-            </pre>
-            </span>
+</span>
+</pre>
             <p>server.ts</p>
+            <pre>
             <span onclick="copiar(this)" class="code">
-                <pre>
 import "reflect-metadata";
 import { createConnection } from "typeorm";
 import app from "./app";
@@ -1873,8 +1873,8 @@ createConnection(dbConfig)
     );
     })
     .catch((err) => console.log(err));
-            </pre>
-            </span>
+</span>
+</pre>
             <p>O seguinte comando cria o container</p>
             <span onclick="copiar(this)" class="code">docker run --name configInicial --env-file ./.env -p 5432:5432 -d
                 postgres</span>
