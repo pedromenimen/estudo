@@ -156,8 +156,10 @@ details > summary {
   background-color: rgb(66, 65, 65);
 }
 
-.alert-primary {
-  position: absolute;
+.alert {
+  top: 5vh;
+  right: 3vh;
+  position: fixed;
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;

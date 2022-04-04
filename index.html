@@ -1888,7 +1888,7 @@ createConnection(dbConfig)
         const copiar = (element) => {
             navigator.clipboard.writeText(element.innerText)
             const alert = document.createElement("div")
-            alert.className = "alert, alert-primary"
+            alert.className = "alert"
             alert.innerText = "Texto copiado para a área de transferência"
             element.appendChild(alert)
             setTimeout(() => element.removeChild(alert), 1500)
