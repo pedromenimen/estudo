@@ -1884,6 +1884,74 @@ createConnection(dbConfig)
             <p>Agora é rodar yarn start no terminal e ver se o pc não explodecacacacajota.</p>
         </div>
     </details>
+    <details>
+        <summary>
+            <div>
+                <h1>Docker</h1>
+            </div>
+        </summary>
+            <div>
+                <p>Lembra do snapcrackle? Pois é, o docker é tipo aquilo então vou anotar o que acho que deve ser anotado aqui pra começar a usar docker nos deploys.</p>
+                <p>O docker é um negócio muito doido que não é um emulador de nada mas parece muito que é, cada container tem algo que precia pra rodar um projeto, tipo um com o angular da vida, outro com o django, e um outro com o banco de dados levantado pro django conseguir acessar e o angular conseguir fazer ficar bonito.</p>
+                <p>Para criar um container é preciso antes de uma imagem, imagem do que? Tu lembra do senai que tu fez e sabe que o windows tem uma imagem, que é o próprio sistema operacional, a imagem do python é tipo isso. Baixes a imagem e serás capaz de usar funcionalidades que precisam dela.</p>
+                <p>Dito isso, docker pull é o comando que faz o download da image como por exemplo:</p>
+                <p class="code" onclick="copiar(this)">docker pull python</p>
+                <p>É tipo o git. Agora com a imagem baixada é necessário criar o container, com o seguinte comando:</p>
+                <p class="code" onclick=copiar(this)>docker run --name NAME -p PORT:PORT -e ENV_VARIABLE_KEY=ENV_VARIABLE_VALUE -d image.</p>
+                <p>O --name define o nome do container a ser criado, o -p define a porta usada e a porta que vc quer que seja usada, a do postgres é 5432 então algo do tipo 5432:PORTA_QUE_TU_QUEIRA.</p>
+                <p>O -e define variáveis de ambiente, talvez nem toda imagem precise disso, o -d faz o processo ser rodado em segundo plano e image é o nome da imagem a ser usada no container.</p>
+                <p>Agora com o container rodando basta o seguinte comando para entrar no container:</p>
+                <p class="code" onclick=copiar(this)>docker exec -it NOME_DO_CONTAINER bash</p>
+                <p>O -it serve para manter o terminal linkado e como o terminal padrão do linux.</p>
+                <p>Uma vez dentro do container basta usar os comandos que julgar necessário para fazer o que precisa ser feito, como entrar no postgres criar um banco e definir o formato das datas.</p>
+                <p>Mas predro, mó chatão isso de usar terminal, tu usa windows pô mó preguiçoso. Pra isso que criaram o tal do Dockerfile.</p>
+                <p>O dockerfile serve pra fazer tudo o que vc faria no terminal, mas sem usar ele.</p>
+                <p>O Dockerfile aceita vários comandos muito doidos que servem para fazer muita coisa, procura na documentação oficial tudo quando tiver passando alguma dificuldade.</p>
+                <p>Os importantes para a aplicação que to testando são:</p>
+                <table>
+                    <tr>
+                        <th>Comando</th>
+                        <th>O que seria no terminal</th>
+                        <th>Exemplo</th>
+                    </tr>
+                    <tr>
+                        <td>FROM</td>
+                        <td>git pull image</td>
+                        <td>FROM python</td>
+                    </tr>
+                    <tr>
+                        <td>RUN</td>
+                        <td>Digitar o que vier a seguir</td>
+                        <td>RUN apt-get update</td>
+                    </tr>
+                    <tr>
+                        <td>ENV</td>
+                        <td>O -e no docker run</td>
+                        <td>ENV DB_PASSWORD=1234</td>
+                    </tr>
+                    <tr>
+                        <td>EXPOSE</td>
+                        <td>O -p no docker run, mas passando só a porta de saída</td>
+                        <td>EXPOSE 3000</td>
+                    </tr>
+                    <tr>
+                        <td>WORKDIR</td>
+                        <td>Não usei no docker run, mas o que ele faz é definir a pasta raíz da aplicação</td>
+                        <td>WORKDIR /app</td>
+                    </tr>
+                    <tr>
+                        <td>COPY</td>
+                        <td>Ele copia</td>
+                        <td>COPY requirements.txt /app/</td>
+                    </tr>
+                    <tr>
+                        <td>CMD</td>
+                        <td>Ele faz o que o RUN faz, mas por algum motivo ele é diferente e é bom só usar uma vez<td>
+                        <td>CMD ["flask", "db", "init"]</td>
+                    </tr>
+                </table>
+            </div>
+    </details>
     <script>
         const copiar = (element) => {
             navigator.clipboard.writeText(element.innerText)
