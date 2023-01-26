@@ -1,0 +1,1721 @@
+=FILTER('Sem filtro Site Atual'!A2:AA500;A2='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A3='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A4='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A5='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A6='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A7='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A8='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A9='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A10='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A11='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A12='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A13='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A14='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A15='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A16='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A17='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A18='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A19='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A20='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A21='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A22='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A23='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A24='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A25='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A26='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A27='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A28='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A29='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A30='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A31='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A32='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A33='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A34='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A35='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A36='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A37='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A38='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A39='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A40='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A41='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A42='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A43='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A44='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A45='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A46='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A47='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A48='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A49='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A50='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A51='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A52='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A53='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A54='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A55='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A56='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A57='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A58='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A59='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A60='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A61='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A62='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A63='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A64='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A65='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A66='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A67='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A68='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A69='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A70='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A71='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A72='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A73='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A74='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A75='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A76='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A77='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A78='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A79='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A80='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A81='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A82='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A83='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A84='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A85='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A86='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A87='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A88='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A89='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A90='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A91='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A92='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A93='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A94='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A95='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A96='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A97='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A98='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A99='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A100='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A101='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A102='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A103='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A104='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A105='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A106='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A107='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A108='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A109='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A110='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A111='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A112='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A113='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A114='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A115='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A116='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A117='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A118='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A119='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A120='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A121='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A122='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A123='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A124='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A125='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A126='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A127='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A128='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A129='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A130='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A131='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A132='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A133='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A134='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A135='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A136='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A137='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A138='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A139='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A140='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A141='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A142='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A143='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A144='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A145='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A146='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A147='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A148='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A149='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A150='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A151='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A152='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A153='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A154='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A155='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A156='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A157='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A158='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A159='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A160='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A161='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A162='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A163='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A164='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A165='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A166='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A167='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A168='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A169='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A170='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A171='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A172='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A173='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A174='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A175='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A176='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A177='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A178='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A179='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A180='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A181='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A182='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A183='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A184='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A185='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A186='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A187='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A188='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A189='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A190='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A191='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A192='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A193='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A194='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A195='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A196='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A197='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A198='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A199='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A200='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A201='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A202='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A203='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A204='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A205='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A206='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A207='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A208='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A209='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A210='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A211='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A212='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A213='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A214='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A215='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A216='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A217='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A218='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A219='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A220='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A221='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A222='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A223='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A224='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A225='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A226='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A227='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A228='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A229='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A230='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A231='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A232='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A233='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A234='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A235='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A236='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A237='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A238='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A239='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A240='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A241='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A242='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A243='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A244='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A245='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A246='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A247='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A248='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A249='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A250='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A251='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A252='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A253='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A254='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A255='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A256='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A257='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A258='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A259='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A260='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A261='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A262='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A263='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A264='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A265='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A266='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A267='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A268='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A269='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A270='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A271='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A272='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A273='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A274='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A275='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A276='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A277='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A278='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A279='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A280='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A281='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A282='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A283='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A284='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A285='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A286='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A287='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A288='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A289='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A290='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A291='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A292='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A293='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A294='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A295='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A296='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A297='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A298='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A299='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A300='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A301='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A302='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A303='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A304='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A305='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A306='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A307='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A308='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A309='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A310='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A311='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A312='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A313='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A314='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A315='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A316='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A317='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A318='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A319='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A320='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A321='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A322='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A323='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A324='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A325='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A326='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A327='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A328='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A329='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A330='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A331='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A332='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A333='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A334='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A335='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A336='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A337='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A338='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A339='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A340='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A341='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A342='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A343='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A344='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A345='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A346='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A347='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A348='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A349='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A350='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A351='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A352='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A353='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A354='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A355='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A356='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A357='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A358='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A359='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A360='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A361='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A362='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A363='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A364='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A365='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A366='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A367='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A368='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A369='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A370='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A371='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A372='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A373='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A374='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A375='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A376='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A377='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A378='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A379='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A380='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A381='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A382='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A383='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A384='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A385='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A386='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A387='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A388='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A389='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A390='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A391='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A392='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A393='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A394='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A395='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A396='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A397='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A398='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A399='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A400='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A401='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A402='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A403='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A404='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A405='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A406='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A407='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A408='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A409='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A410='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A411='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A412='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A413='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A414='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A415='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A416='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A417='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A418='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A419='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A420='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A421='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A422='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A423='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A424='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A425='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A426='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A427='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A428='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A429='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A430='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A431='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A432='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A433='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A434='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A435='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A436='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A437='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A438='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A439='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A440='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A441='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A442='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A443='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A444='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A445='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A446='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A447='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A448='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A449='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A450='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A451='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A452='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A453='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A454='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A455='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A456='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A457='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A458='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A459='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A460='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A461='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A462='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A463='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A464='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A465='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A466='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A467='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A468='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A469='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A470='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A471='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A472='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A473='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A474='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A475='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A476='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A477='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A478='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A479='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A480='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A481='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A482='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A483='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A484='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A485='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A486='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A487='Novo Site - Homologação'!A2:A482)
+=FILTER('Sem filtro Site Atual'!A2:AA500;A488='Sem filtro Site Atual'!A2:A500)
+=FILTER('Novo Site - Homologação'!A2:AA482;A489='Novo Site - Homologação'!A2:A482)
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+
+/
+/agua-para-tecidos-1-litro-perfumada-nero-trussardi
+/agua-perfumada-para-tecidos-cha-branco-500ml-mels-brushes
+/agua-perfumada-para-tecidos-lavanda-500ml-mels-brushes
+/agua-perfumada-para-tecidos-tulipa-500ml-mels-brushes
+/amenities
+/caixa-260-shampoo-condicionador-2x1-frasco-30-ml-melao-com-jasmim
+/caixa-500-toucas-de-banho-realgems
+/capa-de-edredom-casal-imperial-plus-teka-profiline
+/capa-de-edredom-casal-madri-teka-profiline
+/capa-de-edredom-casal-perola-stripe-cetim-profiline-luxury
+/capa-de-edredom-casal-toronto-stripe-teka-profiline
+/capa-de-edredom-king-imperial-plus-teka-profiline
+/capa-de-edredom-king-madri-teka-profiline
+/capa-de-edredom-king-perola-stripe-cetim-profiline-luxury
+/capa-de-edredom-king-toronto-stripe-teka-profiline
+/capa-de-edredom-queen-imperial-plus-teka-profiline
+/capa-de-edredom-queen-perola-stripe-cetim-profiline-luxury
+/capa-de-edredom-queen-toronto-stripe-teka-profiline
+/capa-de-edredom-solteiro-imperial-plus-teka-profiline
+/capa-de-edredom-solteiro-madri-teka-profiline
+/cobre-leito-casal-dubai-plus-agave-altenburg
+/cobre-leito-casal-dubai-plus-veronica-altenburg
+/cobre-leito-hotel-casal-marrom-allure-teka-profiline
+/cobre-leito-hotel-king-madri-teka-profiline
+/cobre-leito-hotel-king-marrom-allure-teka-profiline
+/cobre-leito-hotel-king-perola-madri-teka-profiline
+/cobre-leito-hotel-queen-madri-teka-profiline
+/cobre-leito-hotel-queen-marrom-allure-teka-profiline
+/cobre-leito-hotel-queen-perola-madri-teka-profiline
+/cobre-leito-hotel-queen-toronto-teka-profiline
+/cobre-leito-hotel-solteiro-allure-marrom-teka-profiline
+/cobre-leito-hotel-solteiro-king-madri-teka-profiline
+/cobre-leito-hotel-solteiro-madri-teka-profiline
+/cobre-leito-hotel-solteiro-toronto-teka-profiline
+/cobre-leito-king-dubai-plus-agave-altenburg
+/cobre-leito-king-dubai-plus-veronica-altenburg
+/cobre-leito-queen-dubai-plus-agave-altenburg
+/cobre-leito-queen-dubai-plus-veronica-altenburg
+/cobre-leito-solteiro-dubai-plus-veronica-altenburg
+/colcha-de-piquet-hotel-casal-golden-teka-profiline
+/colcha-de-piquet-hotel-king-golden-teka-profiline
+/colcha-de-piquet-hotel-queen-golden-teka-profiline
+/colcha-de-piquet-hotel-solteiro-golden-teka-profiline
+/colchas
+/decoracao
+/difusor-de-ambiente-alecrim-350ml-mels-brusches
+/difusor-de-ambiente-bamboo-350ml-mels-brusches
+/difusor-de-ambiente-cha-branco-350ml-mels-brusches
+/difusor-de-ambiente-lavanda-350ml-mels-brusches
+/edredom
+/edredom-casal-plumi-gold-altenburg
+/edredom-casal-plumi-gold-veronica-altenburg
+/edredom-de-hotel-casal-imperial-plus-teka-profiline
+/edredom-de-hotel-casal-madri-teka-profiline
+/edredom-de-hotel-king-imperial-plus-teka-profiline
+/edredom-de-hotel-king-madri-teka-profiline
+/edredom-de-hotel-queen-imperial-plus-teka-profiline
+/edredom-de-hotel-solteiro-madri-teka-profiline
+/edredom-king-plumi-gold-altenburg
+/edredom-king-plumi-gold-veronica-altenburg
+/edredom-queen-plumi-gold-altenburg
+/edredom-queen-plumi-gold-veronica-altenburg
+/fragrancias
+/fronha-para-hotel-bainhas-normais-teka-profiline-180-fios-madri-bege-50x70cm
+/fronha-para-hotel-com-2-abas-profiline-luxury-300-fios-perola-50x70cm
+/fronha-para-hotel-com-2-abas-profiline-luxury-300-fios-perola-stripe-50x70cm
+/fronha-para-hotel-com-2-abas-teka-profiline-180-fios-madri-50x70cm
+/fronha-para-hotel-com-2-abas-teka-profiline-180-fios-madri-50x90cm
+/fronha-para-hotel-com-2-abas-teka-profiline-180-fios-madri-bege-50x70cm
+/fronha-para-hotel-com-2-abas-teka-profiline-200-fios-imperial-plus-50x70cm
+/fronha-para-hotel-com-2-abas-teka-profiline-200-fios-toronto-stripe-50x70cm
+/fronha-para-hotel-com-3-abas-e-festone-azul-marinho-200-fios-imperial-plus-50x70cm
+/fronha-para-hotel-com-3-abas-e-festone-bege-200-fios-imperial-plus-50x70cm
+/fronha-para-hotel-com-3-abas-e-festone-branco-profiline-luxury-200-fios-imperial-plus-50x70cm
+/fronha-para-hotel-com-3-abas-e-festone-chumbo-200-fios-imperial-plus-50x70cm
+/fronha-para-hotel-com-3-abas-teka-profiline-200-fios-imperial-plus-50x70cm
+/fronha-para-hotel-com-3-abas-teka-profiline-200-fios-toronto-stripe-50x90cm
+/fronha-para-hotel-com-abas-e-friso-azul-marinho-teka-profiline-180-fios-madri-50x70cm
+/fronha-para-hotel-com-abas-e-friso-bordo-teka-profiline-180-fios-madri-50x70cm
+/fronha-para-hotel-com-abas-e-friso-branco-teka-profiline-180-fios-madri-50x70cm
+/fronha-para-hotel-com-abas-e-friso-marrom-teka-profiline-180-fios-madri-50x70cm
+/jogo-de-banho-de-hotel-5-pecas-safira-premium-profiline-luxury
+/jogo-de-banho-de-hotel-5-pecas-toronto-teka-profiline
+/jogo-de-cama-3-pecas-solteiro-com-festone-azul-marinho-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-3-pecas-solteiro-com-festone-branco-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-3-pecas-solteiro-king-com-festone-azul-marinho-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-3-pecas-solteiro-king-com-festone-branco-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-3-pecas-solteiro-madri-180-fios-teka-profiline
+/jogo-de-cama-4-pecas-casal-180-fios-com-friso-bordo-teka-profiline
+/jogo-de-cama-4-pecas-casal-180-fios-com-friso-branco-teka-profiline
+/jogo-de-cama-4-pecas-casal-180-fios-com-friso-marrom-teka-profiline
+/jogo-de-cama-4-pecas-casal-com-festone-azul-marinho-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-casal-com-festone-bege-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-casal-com-festone-branco-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-casal-com-festone-chumbo-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-casal-madri-180-fios-com-friso-azul-marinho-teka-profiline
+/jogo-de-cama-4-pecas-casal-madri-180-fios-teka-profiline
+/jogo-de-cama-4-pecas-king-180-fios-com-friso-branco-teka-profiline
+/jogo-de-cama-4-pecas-king-com-festone-azul-marinho-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-king-com-festone-bege-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-king-com-festone-chumbo-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-king-imperial-plus-200-fios-teka-profiline
+/jogo-de-cama-4-pecas-king-madri-180-fios-com-friso-bordo-teka-profiline
+/jogo-de-cama-4-pecas-king-madri-180-fios-com-friso-marrom-teka-profiline
+/jogo-de-cama-4-pecas-queen-180-fios-com-friso-azul-marinho-teka-profiline
+/jogo-de-cama-4-pecas-queen-180-fios-com-friso-bordo-teka-profiline
+/jogo-de-cama-4-pecas-queen-180-fios-com-friso-branco-teka-profiline
+/jogo-de-cama-4-pecas-queen-180-fios-com-friso-marrom-teka-profiline
+/jogo-de-cama-4-pecas-queen-com-festone-bege-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-queen-com-festone-chumbo-200-fios-imperial-plus-teka-profiline
+/jogo-de-cama-4-pecas-queen-madri-180-fios-teka-profiline
+/jogo-de-cama-king-4-pecas-com-friso-azul-marinho-180-fios-teka-profiline
+/jogo-de-cama-solteiro-3-pecas-200-fios-imperial-plus-teka-profiline
+/kit-100-sabonetes-20-g-com-100-frascos-shampoo-2x1-30-ml-pitanga-realgems
+/kit-100-sabonetes-luxo-20-gramas-pitanga-realgems
+/kit-amenities-6-itens-elements-premium-realgems
+/kit-amenities-6-itens-florence-blanc-premium-essencia-argan-realgems
+/kit-amenities-6-itens-pitanga-realgems
+/kit-amenities-7-itens-herchcovitch-alexandre-premium-realgems
+/kit-com-6-panos-de-copa-fio-tinto-chef-teka
+/kit-com-8-panos-de-copa-fio-tinto-gourmet-teka
+/lencol-para-hotel-casal-bainhas-normais-teka-profiline-180-fios-madri-220x250cm
+/lencol-para-hotel-casal-bainhas-normais-teka-profiline-180-fios-madri-bege-220x250cm
+/lencol-para-hotel-casal-teka-profiline-180-fios-com-aba-e-friso-azul-marinho-220x243cm
+/lencol-para-hotel-casal-teka-profiline-180-fios-com-aba-e-friso-bordo-220x243cm
+/lencol-para-hotel-casal-teka-profiline-180-fios-com-aba-e-friso-marrom-220x243cm
+/lencol-para-hotel-casal-teka-profiline-200-fios-com-aba-220x243cm
+/lencol-para-hotel-casal-teka-profiline-200-fios-com-aba-e-festone-bege-220x243cm
+/lencol-para-hotel-casal-teka-profiline-200-fios-com-aba-e-festone-branco-220x243cm
+/lencol-para-hotel-casal-teka-profiline-200-fios-com-aba-e-festone-chumbo-220x243cm
+/lencol-para-hotel-com-elastico-casal-teka-profiline-180-fios-madri-138x188cm
+/lencol-para-hotel-com-elastico-casal-teka-profiline-180-fios-madri-bege-138x188cm
+/lencol-para-hotel-com-elastico-casal-teka-profiline-200-fios-imperial-plus-138x188cm
+/lencol-para-hotel-com-elastico-king-teka-profiline-180-fios-madri-198x203cm
+/lencol-para-hotel-com-elastico-king-teka-profiline-180-fios-madri-bege-198x203cm
+/lencol-para-hotel-com-elastico-king-teka-profiline-200-fios-imperial-plus-198x203cm
+/lencol-para-hotel-com-elastico-queen-teka-profiline-180-fios-madri-bege-160x203cm
+/lencol-para-hotel-com-elastico-queen-teka-profiline-200-fios-imperial-plus-160x203cm
+/lencol-para-hotel-com-elastico-solteiro-king-teka-profiline-180-fios-madri-90x203cm
+/lencol-para-hotel-com-elastico-solteiro-king-teka-profiline-200-fios-imperial-plus-100x203cm
+/lencol-para-hotel-com-elastico-solteiro-teka-profiline-180-fios-madri-88x188cm
+/lencol-para-hotel-com-elastico-solteiro-teka-profiline-180-fios-madri-bege-88x188cm
+/lencol-para-hotel-com-elastico-solteiro-teka-profiline-200-fios-imperial-plus-88x188cm
+/lencol-para-hotel-king-bainhas-normais-teka-profiline-180-fios-madri-280x280cm
+/lencol-para-hotel-king-bainhas-normais-teka-profiline-180-fios-madri-bege-280x280cm
+/lencol-para-hotel-king-teka-profiline-180-fios-com-aba-e-friso-azul-marinho-280x280cm
+/lencol-para-hotel-king-teka-profiline-180-fios-com-aba-e-friso-bordo-280x280cm
+/lencol-para-hotel-king-teka-profiline-180-fios-com-aba-e-friso-marrom-280x280cm
+/lencol-para-hotel-king-teka-profiline-200-fios-com-aba-e-festone-bege-280x280cm
+/lencol-para-hotel-king-teka-profiline-200-fios-com-aba-e-festone-branco-280x280cm
+/lencol-para-hotel-king-teka-profiline-200-fios-com-aba-e-festone-chumbo-280x280cm
+/lencol-para-hotel-king-teka-profiline-200-fios-toronto-stripe-com-aba-280x280cm
+/lencol-para-hotel-queen-bainhas-normais-teka-profiline-180-fios-madri-250x280cm
+/lencol-para-hotel-queen-teka-profiline-180-fios-com-aba-e-friso-azul-marinho-250x280cm
+/lencol-para-hotel-queen-teka-profiline-180-fios-com-aba-e-friso-bordo-250x280cm
+/lencol-para-hotel-queen-teka-profiline-180-fios-com-aba-e-friso-marrom-250x280cm
+/lencol-para-hotel-queen-teka-profiline-200-fios-com-aba-250x280m
+/lencol-para-hotel-queen-teka-profiline-200-fios-com-aba-e-festone-bege-250x280cm
+/lencol-para-hotel-queen-teka-profiline-200-fios-com-aba-e-festone-branco-250x280cm
+/lencol-para-hotel-queen-teka-profiline-200-fios-com-aba-e-festone-chumbo-250x280cm
+/lencol-para-hotel-queen-teka-profiline-200-fios-toronto-stripe-com-aba-250x280cm
+/lencol-para-hotel-solteiro-bainhas-normais-teka-profiline-180-fios-madri-160x250cm
+/lencol-para-hotel-solteiro-bainhas-normais-teka-profiline-180-fios-madri-180x280cm
+/lencol-para-hotel-solteiro-bainhas-normais-teka-profiline-180-fios-madri-bege-160x250cm
+/lencol-para-hotel-solteiro-teka-profiline-200-fios-com-aba-160x243cm
+/lencol-para-hotel-solteiro-teka-profiline-200-fios-com-aba-e-festone-branco160x243cm
+/manta-de-microfibra-premium-casal-chumbo-profitel
+/peseira-king-verona-cinza-plaza-altenburg
+/peseira-king-verona-marrom-nobre-altenburg
+/peseira-matelasse-casal-chumbo-allure-teka-profiline
+/peseira-matelasse-casal-marrom-allure-teka-profiline
+/peseira-matelasse-king-chumbo-allure-teka-profiline
+/peseira-matelasse-king-marrom-allure-teka-profiline
+/peseira-matelasse-queen-chumbo-allure-teka-profiline
+/peseira-matelasse-queen-marrom-allure-teka-profiline
+/peseira-matelasse-solteiro-chumbo-allure-teka-profiline
+/peseira-matelasse-solteiro-marrom-allure-teka-profiline
+/peseira-queen-verona-cinza-plaza-altenburg
+/peseira-queen-verona-marrom-nobre-altenburg
+/peseira-solteiro-verona-cinza-plaza-altenburg
+/peseira-solteiro-verona-marrom-nobre-altenburg
+/pillow-top
+/pillow-top-casal-lit-blanc-100-algodao-altenburg
+/pillow-top-king-lit-blanc-100-algodao-altenburg
+/pillow-top-queen-lit-blanc-100-algodao-altenburg
+/porta-travesseiro-dubai-plus-agave-altenburg
+/porta-travesseiro-dubai-plus-veronica-altenburg
+/porta-travesseiro-hotel-allure-chumbo-teka-profiline
+/porta-travesseiro-hotel-allure-marrom-teka-profiline
+/porta-travesseiro-verona-cinza-plaza-altenburg
+/porta-travesseiro-verona-marrom-nobre-altenburg
+/protetor-de-colchao-casal-impermeavel-altenburg
+/protetor-de-colchao-king-impermeavel-altenburg
+/protetor-de-colchao-queen-impermeavel-altenburg
+/protetor-de-colchao-solteiro-impermeavel-altenburg
+/protetor-de-travesseiro-50x70cm-essence-teka-profiline
+/protetor-de-travesseiro-com-ziper-50x70cm-comfort-dry-tecido-repelente-a-agua-teka-profiline
+/protetor-de-travesseiro-com-ziper-50x90cm-comfort-dry-tecido-repelente-a-agua-teka-profiline
+/protetor-de-travesseiro-comfort-dry-tecido-repelente-a-agua-50x70cm-teka-profiline
+/protetor-de-travesseiro-malha-slim-com-ziper-60x100cm-altenburg
+/roupa-de-cama
+/roupao-aveludado-hotel-unissex-gg-imperial-profiline-luxury
+/roupao-aveludado-hotel-unissex-p-imperial-profiline-luxury
+/roupao-felpudo-hotel-unissex-p-classica-teka-profiline
+/roupao-piquet-hotel-unissex-g-friso-branco-teka-profiline
+/roupao-piquet-hotel-unissex-gg-friso-azul-teka-profiline
+/roupao-piquet-hotel-unissex-gg-friso-branco-teka-profiline
+/roupao-piquet-hotel-unissex-m-friso-branco-teka-profiline
+/roupoes
+/saia-para-box-queen-hotel-design-profitel
+/toalha-de-banhao-hotel-milao-teka-profiline
+/toalha-de-banhao-hotel-premium-perola-teka-profiline
+/toalha-de-banhao-hotel-premium-topazio-profiline-luxury
+/toalha-de-banho-hotel-brisa-profitel
+/toalha-de-banho-hotel-golden-teka-profiline
+/toalha-de-banho-hotel-madri-teka-profiline
+/toalha-de-banho-hotel-milao-teka-profiline
+/toalha-de-banho-hotel-monaco-teka-profiline
+/toalha-de-banho-hotel-roma-teka-profiline
+/toalha-de-banho-hotel-toronto-teka-profiline
+/toalha-de-piscina-azul-hotel-ibiza-teka-profiline
+/toalha-de-piscina-azul-marinho-hotel-ibiza-teka-profiline
+/toalha-de-piscina-bege-hotel-ibiza-teka-profiline
+/toalha-de-piscina-cinza-hotel-ibiza-teka-profiline
+/toalha-de-piscina-hotel-cancun-cinza-teka-profiline
+/toalha-de-rosto-hotel-brisa-profitel
+/toalha-de-rosto-hotel-golden-teka-profiline
+/toalha-de-rosto-hotel-madri-teka-profiline
+/toalha-de-rosto-hotel-milao-teka-profiline
+/toalha-de-rosto-hotel-monaco-teka-profiline
+/toalha-de-rosto-hotel-premium-perola-teka-profiline
+/toalha-de-rosto-hotel-premium-safira-profiline-luxury
+/toalha-de-rosto-hotel-roma-bege-teka-profiline
+/toalha-de-rosto-hotel-toronto-teka-profiline
+/toalha-para-pes-hotel-golden-teka-profiline
+/toalha-para-pes-hotel-madri-teka-profiline
+/toalha-para-pes-hotel-premium-safira-profiline-luxury
+/toalha-para-pes-hotel-premium-topazio-teka-profiline
+/toalha-para-pes-hotel-roma-bege-teka-profiline
+/toalha-para-pes-hotel-roma-teka-profiline
+/travesseiro-50x70cm-oasis-percal-200-fios-teka-profiline
+/travesseiro-50x70cm-percal-sublime-lavavel-em-maquina-fibrasca
+/travesseiro-50x70cm-plumax-lavavel-em-maquina-fibrasca
+
+=FILTER('Sem filtro Site Atual'!A2:D500;A2='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A3='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A4='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A5='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A6='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A7='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A8='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A9='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A10='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A11='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A12='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A13='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A14='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A15='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A16='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A17='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A18='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A19='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A20='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A21='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A22='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A23='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A24='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A25='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A26='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A27='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A28='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A29='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A30='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A31='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A32='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A33='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A34='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A35='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A36='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A37='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A38='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A39='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A40='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A41='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A42='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A43='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A44='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A45='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A46='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A47='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A48='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A49='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A50='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A51='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A52='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A53='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A54='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A55='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A56='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A57='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A58='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A59='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A60='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A61='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A62='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A63='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A64='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A65='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A66='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A67='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A68='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A69='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A70='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A71='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A72='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A73='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A74='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A75='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A76='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A77='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A78='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A79='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A80='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A81='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A82='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A83='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A84='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A85='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A86='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A87='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A88='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A89='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A90='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A91='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A92='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A93='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A94='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A95='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A96='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A97='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A98='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A99='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A100='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A101='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A102='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A103='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A104='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A105='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A106='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A107='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A108='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A109='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A110='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A111='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A112='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A113='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A114='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A115='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A116='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A117='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A118='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A119='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A120='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A121='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A122='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A123='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A124='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A125='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A126='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A127='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A128='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A129='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A130='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A131='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A132='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A133='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A134='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A135='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A136='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A137='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A138='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A139='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A140='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A141='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A142='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A143='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A144='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A145='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A146='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A147='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A148='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A149='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A150='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A151='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A152='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A153='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A154='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A155='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A156='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A157='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A158='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A159='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A160='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A161='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A162='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A163='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A164='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A165='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A166='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A167='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A168='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A169='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A170='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A171='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A172='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A173='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A174='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A175='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A176='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A177='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A178='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A179='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A180='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A181='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A182='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A183='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A184='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A185='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A186='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A187='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A188='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A189='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A190='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A191='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A192='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A193='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A194='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A195='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A196='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A197='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A198='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A199='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A200='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A201='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A202='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A203='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A204='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A205='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A206='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A207='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A208='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A209='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A210='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A211='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A212='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A213='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A214='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A215='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A216='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A217='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A218='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A219='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A220='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A221='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A222='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A223='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A224='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A225='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A226='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A227='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A228='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A229='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A230='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A231='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A232='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A233='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A234='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A235='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A236='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A237='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A238='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A239='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A240='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A241='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A242='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A243='Sem filtro Site Atual'!A2:A500)
+=FILTER('Sem filtro Site Atual'!A2:D500;A244='Sem filtro Site Atual'!A2:A500)
+
+
+
+
+
+==================================================================================
+
+
+
+
+=FILTER('Novo Site - Homologação'!A2:D482;G2='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G3='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G4='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G5='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G6='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G7='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G8='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G9='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G10='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G11='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G12='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G13='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G14='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G15='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G16='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G17='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G18='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G19='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G20='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G21='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G22='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G23='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G24='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G25='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G26='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G27='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G28='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G29='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G30='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G31='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G32='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G33='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G34='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G35='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G36='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G37='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G38='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G39='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G40='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G41='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G42='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G43='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G44='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G45='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G46='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G47='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G48='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G49='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G50='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G51='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G52='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G53='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G54='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G55='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G56='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G57='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G58='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G59='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G60='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G61='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G62='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G63='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G64='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G65='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G66='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G67='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G68='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G69='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G70='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G71='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G72='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G73='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G74='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G75='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G76='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G77='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G78='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G79='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G80='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G81='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G82='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G83='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G84='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G85='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G86='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G87='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G88='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G89='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G90='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G91='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G92='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G93='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G94='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G95='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G96='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G97='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G98='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G99='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G100='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G101='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G102='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G103='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G104='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G105='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G106='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G107='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G108='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G109='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G110='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G111='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G112='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G113='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G114='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G115='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G116='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G117='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G118='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G119='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G120='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G121='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G122='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G123='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G124='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G125='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G126='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G127='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G128='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G129='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G130='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G131='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G132='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G133='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G134='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G135='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G136='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G137='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G138='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G139='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G140='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G141='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G142='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G143='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G144='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G145='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G146='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G147='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G148='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G149='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G150='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G151='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G152='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G153='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G154='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G155='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G156='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G157='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G158='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G159='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G160='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G161='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G162='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G163='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G164='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G165='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G166='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G167='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G168='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G169='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G170='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G171='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G172='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G173='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G174='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G175='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G176='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G177='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G178='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G179='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G180='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G181='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G182='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G183='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G184='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G185='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G186='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G187='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G188='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G189='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G190='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G191='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G192='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G193='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G194='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G195='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G196='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G197='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G198='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G199='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G200='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G201='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G202='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G203='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G204='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G205='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G206='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G207='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G208='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G209='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G210='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G211='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G212='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G213='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G214='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G215='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G216='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G217='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G218='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G219='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G220='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G221='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G222='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G223='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G224='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G225='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G226='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G227='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G228='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G229='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G230='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G231='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G232='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G233='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G234='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G235='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G236='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G237='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G238='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G239='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G240='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G241='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G242='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G243='Novo Site - Homologação'!A2:A482)
+=FILTER('Novo Site - Homologação'!A2:D482;G244='Novo Site - Homologação'!A2:A482)
